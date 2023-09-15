@@ -9,7 +9,7 @@ Repositório de projeto da disciplina de REQ-T4.
 
 ## 📒 Documentação
 
-A documentação do projeto está disponivel no [Pages](https://mdsreq-fga-unb.github.io/2023.2-AngelaCabeleireira/).
+A documentação do projeto está disponivel no <a href="https://mdsreq-fga-unb.github.io/2023.2-AngelaCabeleireira/" target="_blank"> Pages </a>.
 
 ## 👥 Colaboradores
 
@@ -20,3 +20,23 @@ A documentação do projeto está disponivel no [Pages](https://mdsreq-fga-unb.g
 | 180066161 | Luis Henrique Luz Costa                   | [luishenrrique](https://github.com/luishenrrique)       | <img src="https://avatars.githubusercontent.com/u/40144816?v=4" width=50> |
 | 180028847 | Vinícius Gabriel Rodrigues da Silva Brito | [vini051](https://github.com/vini051)                   | <img src="https://avatars.githubusercontent.com/u/60819460?v=4" width=50> |
 | 190097043 | Yves Gustavo Ribeiro Pimenta              | [Yvestxt](https://github.com/Yvestxt)                   | <img src="https://avatars.githubusercontent.com/u/73966483?v=4" width=50> |
+
+## ⚙️ Instruções para contribuições
+
+### Para desenvolver a documentação:
+
+Instale o `python` e o `pip`; </br>
+Instale o `mkdocs-material` com o comando:
+
+```
+pip install mkdocs-material
+```
+
+Execute a documentação localmente com:
+
+```
+python -m mkdocs serve
+```
+
+Obs: As suas alterações só ficarão disponíveis na versão online após o PR para o branch main ser aceito </br>
+**Importante: Nunca mexa no branch gh-pages**
