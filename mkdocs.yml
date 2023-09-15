@@ -1,0 +1,40 @@
+#Info
+site_name: AngelaCabeleireira
+site_author: PentagonoCabeludo
+site_description: Documentação do projeto AngelaCabeleireira, por estudantes da
+  disciplina Requisitos de Software, Engenharia de Software, UnB.
+
+#Config
+theme:
+  name: material
+  language: pt-BR
+
+  # favicon: img/Icon.svg   #TODO: descomentar quando tivermos uma logo para o projeto
+  # logo: img/Logo.svg
+
+  features:
+    - search.suggest
+    - search.highlight
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-3
+        name: Modo escuro
+      primary: white
+      accent: red
+
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Modo claro
+      primary: black
+
+#Repo and extra
+repo_url: https://github.com/mdsreq-fga-unb/2023.2-AngelaCabeleireira/tree/main
+repo_name: AngelaCabeleireira
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mdsreq-fga-unb/2023.2-AngelaCabeleireira/tree/main

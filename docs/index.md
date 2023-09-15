@@ -1,15 +1,15 @@
-<h1 align="center"> AngelaCabeleireira </h1>
+---
+hide:
+  - navigation
+  - toc
+---
+
+<h1 align="center"> Angela Cabeleireira </h1>
 <h3 align="center"> 2023.2 </h3>
 
 ## 💡 Sobre
 
-<!-- TODO: adicionar infos sobre o projeto, qual problema o projeto resolve etc -->
-
-Repositório de projeto da disciplina de REQ-T4.
-
-## 📒 Documentação
-
-A documentação do projeto está disponivel no [Pages](https://mdsreq-fga-unb.github.io/2023.2-AngelaCabeleireira/).
+Projeto criado por estudantes da disciplina Requisitos de Software, Engenharia de Software, UnB.
 
 ## 👥 Colaboradores
 
