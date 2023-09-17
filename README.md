@@ -9,7 +9,7 @@ Repositório de projeto da disciplina de REQ-T4.
 
 ## 📒 Documentação
 
-A documentação do projeto está disponivel no <a href="https://mdsreq-fga-unb.github.io/2023.2-AngelaCabeleireira/" target="_blank"> Pages </a>.
+A documentação do projeto está disponivel no <a target="_blank" href="https://mdsreq-fga-unb.github.io/2023.2-AngelaCabeleireira/"> Pages </a>.
 
 ## 👥 Colaboradores
 
