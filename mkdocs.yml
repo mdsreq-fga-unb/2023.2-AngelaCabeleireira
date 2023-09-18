@@ -6,10 +6,12 @@ site_description: Documentação do projeto AngelaCabeleireira, por estudantes d
 
 #PageTree
 nav: 
-  - Sobre: index.html
+  - Sobre: index.md
   - Visão do Produto e Projeto:
     - Visão do Produto: VisaoProdutoEProjeto/visaoProduto.md
     - Visão do Projeto: VisaoProdutoEProjeto/visaoProjeto.md
+  - Processo de Desenvolvimento de Software: ProcessoDesenv.md
+  - Lições Aprendidas: LicoesAprendidas.md
 
 #Config
 docs_dir: docs
@@ -52,3 +54,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/mdsreq-fga-unb/2023.2-AngelaCabeleireira/tree/main
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
