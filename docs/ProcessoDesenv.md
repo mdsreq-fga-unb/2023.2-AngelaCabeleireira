@@ -1,6 +1,9 @@
 # Processo de Desenvolvimento de Software
 
-Após análise em equipe, guiados pelo Framework de Gupta, escolhemos, à priori, utilizar o **RAD** como framework de gerenciamento de projeto, juntamente aos seguintes artefatos do **Scrum**: **Organização do time, Sprints e Backlog da Sprint**. 
+Após análise em equipe, guiados pelo Framework de Gupta, escolhemos, à priori: </br>
+Abordagem de desenvolvimento **Ágil**. </br>
+Ciclo de Vida **Iterativo e Incremental**. </br>
+Utilizaremos o **RAD** como framework de gerenciamento de projeto, juntamente aos seguintes artefatos do **Scrum**: **Organização do time, Sprints e Backlog da Sprint**. </br> 
 
 ## Análise pelo Framework de Gupta
 
