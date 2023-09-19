@@ -28,7 +28,7 @@ Os objetivos secundários incluem aumentar a satisfação do cliente, melhorar a
 - Testes e CI: Github Actions <img src="./img/github-actions.svg" alt="GitHub Actions" width="24px">
 - Documentação: Gitpages, Github, mkdocs material <img src="./img/github.svg" alt="GitHub" width="24px"> 
 - Ferramenta IDE: VSCode, CodePen <img src="./img/vscode.svg" alt="VSCode" width="24px"> <img src="./img/codepen.svg" alt="CodePen" width="24px">
-- APIs: API Street View Static <figure markdown> ![Google Street View](./img/street-view.png){ width="24" }</figure>
+- APIs: API Street View Static <img src="./img/street-view.png" alt="Google Street View" width="24px">
 - Comunicação da equipe: Whatsapp e Discord <img src="./img/whatsapp.svg" alt="WhatsApp" width="24px" > <img src="./img/discord.svg" alt="Discord" width="24px">
 
 <!-- TODO: logo svg do mkdocs:  <svg><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg> -->
