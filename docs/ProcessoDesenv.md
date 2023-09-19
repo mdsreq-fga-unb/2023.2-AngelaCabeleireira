@@ -1,6 +1,6 @@
 # Processo de Desenvolvimento de Software
 
-Após análise em equipe, guiados pelo Framework do Gupta e pelo gráfico das Facetas do Processo de ER, escolhemos, à priori, utilizar RAD como framework de gerenciamento de projeto.
+Após análise em equipe, guiados pelo Framework de Gupta, escolhemos, à priori, utilizar o **RAD** como framework de gerenciamento de projeto, juntamente aos seguintes artefatos do **Scrum**: **Organização do time, Sprints e Backlog da Sprint**. 
 
 ## Análise pelo Framework de Gupta
 
@@ -18,4 +18,13 @@ A partir dos pontos marcados:
 </ul>
 
 ## Facetas do Processo de ER
+
+Identificamos nosso processo de Engenharia de Requisitos como pertencente ao campo **Orientado a Produto**:
+
 ![Facetas do Processo de ER](./img/FacetasProcessoER.png)
+
+## Histórico de Revisão
+
+| Data       | Versão |                                                          Descrição                                                            |    Autor     |
+| :--------: | :----: | ----------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 17/09/2023 | 1.0    | Definição da Abordagem, do Ciclo de Vida e do Processo a ser utilizado. Documentação no pages.                                | Todos        |

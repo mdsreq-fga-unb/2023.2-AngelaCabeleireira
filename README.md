@@ -3,9 +3,7 @@
 
 ## 💡 Sobre
 
-<!-- TODO: adicionar infos sobre o projeto, qual problema o projeto resolve etc -->
-
-Repositório de projeto da disciplina de REQ-T4.
+O Ângela Cabeleireira é a solução para a dificuldade em gerenciar o aumento na demanda e na expansão do salão de beleza Ângela Cabeleireira, criado por estudantes da disciplina Requisitos de Software, Engenharia de Software, UnB
 
 ## 📒 Documentação
 
