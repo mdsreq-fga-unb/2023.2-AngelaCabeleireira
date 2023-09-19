@@ -2,7 +2,7 @@
 
 ## O Problema
 O problema do negócio está na dificuldade em gerenciar o aumento na demanda e na expansão do salão de beleza. A seguir, o diagrama de espinha de peixe (Ishikawa) identificado pela equipe:
-![Diagrama_de_Ishikawa](../img/ishikawa-Model.png)
+![Diagrama_de_Ishikawa](../img/ishikawa-alt.png)
 
 ## Declaração de Posição do Produto
 
@@ -20,23 +20,16 @@ O problema do negócio está na dificuldade em gerenciar o aumento na demanda e 
 O principal objetivo do projeto  Ângela Cabeleireira é melhorar significativamente a experiência dos clientes do salão, proporcionando conveniência, eficiência e qualidade. 
 Os objetivos secundários incluem aumentar a satisfação do cliente, melhorar a gestão do salão, expandir o negócio, promover a fidelização de clientes e destacar o salão de beleza no mercado.
 
-<!-- TODO: imagens não carregando no site, warning do mkdocs WARNING -  [02:51:41] "GET /VisaoProdutoEProjeto/visaoProduto/img/css.svg HTTP/1.1" code 404 -->
 ## Tecnologias a serem utilizadas
-- Frontend: HTML e CSS <img src="img/html.svg" alt="HTML5" width="24px"> <img src="./img/css.svg" alt="CSS3" width="24px">
-- Backend: Javascript <img src="./img/js.svg" alt="JS" width="24px" >
+- Frontend: HTML e CSS ![HTML5](https://www.svgrepo.com/show/452228/html-5.svg){ width="24" } ![CSS3](https://www.svgrepo.com/show/373535/css.svg){ width="24" }
+- Backend: Javascript ![JS](https://www.svgrepo.com/show/303206/javascript-logo.svg){ width="24" }
 - Persistência de dados: N/A
-- Testes e CI: Github Actions <img src="./img/github-actions.svg" alt="GitHub Actions" width="24px">
-- Documentação: Gitpages, Github, mkdocs material <img src="./img/github.svg" alt="GitHub" width="24px"> 
-- Ferramenta IDE: VSCode, CodePen <img src="./img/vscode.svg" alt="VSCode" width="24px"> <img src="./img/codepen.svg" alt="CodePen" width="24px">
-- APIs: API Street View Static <img src="./img/street-view.png" alt="Google Street View" width="24px">
-- Comunicação da equipe: Whatsapp e Discord <img src="./img/whatsapp.svg" alt="WhatsApp" width="24px" > <img src="./img/discord.svg" alt="Discord" width="24px">
-
-<!-- TODO: logo svg do mkdocs:  <svg><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg> -->
-<!-- ALTERNATIVAS DE IMAGEM #ONLYLIGHT #ONLYDARK DE ACORDO MODO ESCURO MODO CLARO -->
-<!-- ![Image title](https://dummyimage.com/600x400/f5f5f5/aaaaaa#only-light)
-![Image title](https://dummyimage.com/600x400/21222c/d5d7e2#only-dark) -->
-
-
+- Testes e CI: GitHub Actions ![GitHub Actions light](https://www.svgrepo.com/show/330509/githubactions.svg#only-light){ width="24" } ![Github Actions dark](https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png#only-dark){ width="24" }
+- Documentação: GitHub Pages, Github, mkdocs material ![GitHub light](https://www.svgrepo.com/show/493677/github-repo-git-octocat.svg#only-light){ width="24" } ![GitHub dark](https://www.svgrepo.com/show/325237/github-outline.svg#only-dark){ width="24" } ![mkdocs-material dark](https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/src/assets/images/favicon.png#only-dark){ width="24" } ![mkdocs-material light](https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/docs/assets/favicon.png#only-light){ width="24" }
+- Ferramentas de IDE: VSCode, CodePen ![VSCode](https://www.svgrepo.com/show/374171/vscode.svg){ width="24" } ![CodePen light](https://seeklogo.com/images/C/codepen-logo-FDEB3664F1-seeklogo.com.png){ width="24" }
+- APIs: API Street View Static ![Google StreetView](https://upload.wikimedia.org/wikipedia/commons/f/f6/Street_View_logo.png
+){ width="24" }
+- Comunicação da equipe: WhatsApp e Discord ![WhatsApp](https://www.svgrepo.com/show/475692/whatsapp-color.svg){ width="24" } ![Discord](https://www.svgrepo.com/show/331368/discord-v2.svg){ width="24" }
 
 ## Histórico de Revisão
 
