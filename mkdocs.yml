@@ -4,17 +4,33 @@ site_author: PentagonoCabeludo
 site_description: Documentação do projeto AngelaCabeleireira, por estudantes da
   disciplina Requisitos de Software, Engenharia de Software, UnB.
 
+#PageTree
+nav: 
+  - Sobre: index.md
+  - Visão do Produto e Projeto:
+    - Visão do Produto: VisaoProdutoEProjeto/visaoProduto.md
+    - Visão do Projeto: VisaoProdutoEProjeto/visaoProjeto.md
+  - Processo de Desenvolvimento de Software: ProcessoDesenv.md
+  - Lições Aprendidas: LicoesAprendidas.md
+
 #Config
+docs_dir: docs
 theme:
   name: material
   language: pt-BR
 
-  # favicon: img/Icon.svg   #TODO: descomentar quando tivermos uma logo para o projeto
+  # favicon: img/Icon.svg                 #TODO: descomentar e referenciar o caminho da logo, quando tivermos uma logo para o projeto
   # logo: img/Logo.svg
 
   features:
-    - search.suggest
+    - content.tooltips
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
     - search.highlight
+    - search.suggest
+    - toc.integrate
 
   palette:
     - scheme: default
@@ -38,3 +54,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/mdsreq-fga-unb/2023.2-AngelaCabeleireira/tree/main
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
