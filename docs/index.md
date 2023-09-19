@@ -9,7 +9,7 @@ hide:
 
 ## 💡 Sobre
 
-Projeto criado por estudantes da disciplina Requisitos de Software, Engenharia de Software, UnB.
+O Ângela Cabeleireira é a solução para a dificuldade em gerenciar o aumento na demanda e na expansão do salão de beleza Ângela Cabeleireira, criado por estudantes da disciplina Requisitos de Software, Engenharia de Software, UnB
 
 ## 👥 Colaboradores
 
