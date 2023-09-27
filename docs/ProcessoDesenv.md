@@ -5,6 +5,8 @@ Abordagem de desenvolvimento **Ágil**. </br>
 Ciclo de Vida **Iterativo e Incremental**. </br>
 Utilizaremos o **RAD** como framework de gerenciamento de projeto, juntamente aos seguintes artefatos do **Scrum**: **Organização do time, Sprints e Backlog da Sprint**. </br> 
 
+![SCRAD](./img/SCRAD.png)
+
 ## Análise pelo Framework de Gupta
 
 ![Gupta1](./img/gupta1.png)
