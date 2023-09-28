@@ -37,19 +37,19 @@ O time irá utilizar uma mistura do método RAD com a estrutura e organização 
 
 ## Gerenciamento de Riscos
 
-Os riscos identificados, ?bem como as medidas a serem tomadas?, são:
+Identificamos os seguintes riscos e possíveis medidas a serem tomadas:
 
 <ul>
     <li> Não conseguir entregar o Backlog da sprint </li>
         Buscar justificativas do responsável pelas partes não entregues e fornecer a ele o apoio necessário para que consiga realizar suas obrigações na próxima sprint.
     <li> Membro da equipe trancar a matéria </li>
-        Comunicação constante entre os membros da equipe para que os outros membros sejam informados com antecedência
+        Comunicação constante entre os membros da equipe para que os outros membros sejam informados com antecedência.
     <li> Baixa Produtividade em semana de prova </li>
-        Aumentar a produtividade na semana posterior
+        Aumentar a produtividade na semana posterior.
     <li> Dificuldade de gerenciamento de tempo de um ou mais membros da equipe </li>
-        Gravar as reuniões feitas para que o integrante que não pôde comparecer, conseguir ser atualizado sobre o que foi passado
+        Gravar as reuniões feitas para que o integrante que não pôde comparecer, conseguir ser atualizado sobre o que foi passado.
     <li> Dificuldade para realizar encontro com cliente </li>
-        Propor reuniões online em plataformas mais fáceis e intuitivas de se usar
+        Propor reuniões online em plataformas mais fáceis e intuitivas de se usar.
 </ul>
 
 
@@ -59,7 +59,6 @@ Os riscos identificados, ?bem como as medidas a serem tomadas?, são:
 O projeto poderá ser replanejado caso haja:
 
 <ul>
-    <li> Desistência de cliente </li>
     <li> Abandono de membros da equipe </li>
     <li> Constante ausência de determinados membros da equipe </li>
     <li> Dificuldade de uso das ferramentas de desenvolvimento predefinidas </li>

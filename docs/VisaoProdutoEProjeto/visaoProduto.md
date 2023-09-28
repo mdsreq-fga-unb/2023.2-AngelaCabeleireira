@@ -17,8 +17,9 @@ O problema do negócio está na dificuldade em gerenciar o aumento na demanda e 
 
 ## Objetivos do Produto
 
-O principal objetivo do projeto  Ângela Cabeleireira é melhorar significativamente a experiência dos clientes do salão, proporcionando conveniência, eficiência e qualidade. 
-Os objetivos secundários incluem aumentar a satisfação do cliente, melhorar a gestão do salão, expandir o negócio, promover a fidelização de clientes e destacar o salão de beleza no mercado.
+O principal objetivo do projeto  ngela Cabeleireira é melhorar significativamente a gestão do salão, proporcionando conveniência, eficiência e qualidade. 
+Os objetivos secundários incluem aumentar a satisfação do cliente, expandir o negócio, promover a fidelização de clientes e destacar o salão de beleza no mercado.
+
 
 ## Tecnologias a serem utilizadas
 - Frontend: HTML e CSS ![HTML5](https://www.svgrepo.com/show/452228/html-5.svg){ width="24" } ![CSS3](https://www.svgrepo.com/show/373535/css.svg){ width="24" }
