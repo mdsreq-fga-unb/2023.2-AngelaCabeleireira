@@ -2,7 +2,7 @@
 
 ## Organização do Projeto
 
-O time irá utilizar uma mistura dos métodos RAD e Scrum XP, com estrutura e organização do time Scrum.
+O time irá utilizar uma mistura do método RAD com a estrutura e organização do time Scrum.
 
 |           Papel          | Atribuições                                                            | Responsável | Participantes |
 | :----------------------: | :--------------------------------------------------------------------: | ----------------------------------------------- | ------------ |
@@ -13,12 +13,17 @@ O time irá utilizar uma mistura dos métodos RAD e Scrum XP, com estrutura e or
 
 ## Planejamento das Fases/Iterações
 
-| Iteração | Produto (Entrega)                            | Data Início | Data Fim |
-| :------- | :------------------------------------------- | :---------- | :------- |
-| Sprint 1 | Definição do Problema                        | 05/09/23    | 11/09/23 |
-| Sprint 2 | Definir abordagem, Ciclo de Vida, e Processo | 12/09/23    | 18/09/23 |
-| Sprint 3 | Backlog Inicial do Produto                   | 19/09/23    | 25/09/23 |
-| Sprint 4 | ...                                          | 26/09/23    | 02/10/23 |
+| Iteração | Produto (Entrega)                                                                    | Data Início | Data Fim |
+| :------- | :----------------------------------------------------------------------------------- | :---------- | :------- |
+| Sprint 1 | Definição do Problema.                                                               | 05/09/23    | 11/09/23 |
+| Sprint 2 | Definir abordagem, Ciclo de Vida, e Processo.                                        | 12/09/23    | 18/09/23 |
+| Sprint 3 | Definição do Processo de Engenharia de Requisitos, atrelado ao Processo de Software. | 19/09/23    | 25/09/23 |
+| Sprint 4 | Backlog Inicial do Produto.                                                          | 26/09/23    | 02/10/23 |
+| Sprint 5 | Desenvolvimento das funcionalidades referentes a página inicial: Sobre,  Serviços, Contato | 03/10/23    | 17/10/23 |
+| Sprint 6 | Desenvolvimento das funcionalidades referentes a página inicial II:  Aplicação das cores da Logomarca, Banners | 18/10/23    | 31/10/23 |
+| Sprint 7 | Desenvolvimento das funcionalidades referentes a integração com as API: Google, Mapa e Instagram | 01/11/23    | 14/11/23 |
+| Sprint 8 | Desenvolvimento das funcionalidades referentes ao agendamento: Questionário dos clientes e bloqueio da agenda | 15/11/23    | 28/11/23 |
+| Sprint 9 | ...                                                                                  | 29/11/23    | 12/12/23 |
 
 ## Matriz de Comunicação
 
@@ -64,4 +69,4 @@ O projeto poderá ser replanejado caso haja:
 
 | Data       | Versão |                                                          Descrição                                                               |    Autor     |
 | :--------: | :----: | -------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| 27/09/2023 | 1.0    | Definição da organização, planejamento, matriz de comunicação, gerenciamento de riscos e critérios de replanejamento do projeto. |              |
+| 27/09/2023 | 1.0    | Definição da organização, planejamento das sprints, matriz de comunicação, gerenciamento de riscos e critérios de replanejamento do projeto. | Todos |
