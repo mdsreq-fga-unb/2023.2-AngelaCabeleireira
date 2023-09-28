@@ -20,8 +20,8 @@ theme:
   name: material
   language: pt-BR
 
-  # favicon: img/Icon.svg                 #TODO: descomentar e referenciar o caminho da logo, quando tivermos uma logo para o projeto
-  # logo: img/Logo.svg
+  favicon: img/icon.svg
+  logo: img/logo.png
 
   features:
     - content.tooltips
