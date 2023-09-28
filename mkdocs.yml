@@ -10,8 +10,9 @@ nav:
   - Visão do Produto e Projeto:
     - Visão do Produto: VisaoProdutoEProjeto/visaoProduto.md
     - Visão do Projeto: VisaoProdutoEProjeto/visaoProjeto.md
-  - Processo de Desenvolvimento de Software: ProcessoDesenv.md
-  - Lições Aprendidas: LicoesAprendidas.md
+  - Processo de Desenvolvimento de Software: processoDesenv.md
+  - Lições Aprendidas: licoesAprendidas.md
+  - Entregas: entregas.md
 
 #Config
 docs_dir: docs
