@@ -4,12 +4,14 @@ hide:
   - toc
 ---
 
-<h1 align="center"> Angela Cabeleireira </h1>
+<div style="display: flex; justify-content: center;"> <img src="./img/logo.png" alt="Logo Pentágono Cabeludo" width="150"> </div>
+<h1 align="center" style="font-family: cursive;"> <strong> Pentágono Cabeludo </strong> </h1>
+<h1 align="center"> Ângela Cabeleireira </h1>
 <h3 align="center"> 2023.2 </h3>
 
 ## 💡 Sobre
 
-O Ângela Cabeleireira é a solução para a dificuldade em gerenciar o aumento na demanda e na expansão do salão de beleza Ângela Cabeleireira, criado por estudantes da disciplina Requisitos de Software, Engenharia de Software, UnB
+O Ângela Cabeleireira é a solução para a dificuldade em gerenciar o aumento na demanda e na expansão do salão de beleza Ângela Cabeleireira, criado pela equipe Pentágono Cabeludo da disciplina Requisitos de Software, Engenharia de Software, UnB.
 
 ## 👥 Colaboradores
 
