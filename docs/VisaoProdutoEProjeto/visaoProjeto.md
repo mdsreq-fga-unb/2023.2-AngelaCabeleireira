@@ -25,7 +25,7 @@ O time irá utilizar uma mistura dos métodos RAD e Scrum XP, com estrutura e or
 | Descrição | Área/Envolvidos | Periodicidade | Produtos Gerados |
 | :-------- | :-------------- | :------------ | :--------------- |
 | - Definição dos próximos objetivos, como o Sprint Backlog </br> - Acompanhamento do progresso do produto | Time de Desenvolvimento | Quinzenal | Relatório de situação do projeto |
-| Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores | Time de Desenvolvimento | Quinzenal |  |
+| Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores | Time de Desenvolvimento | Quinzenal | Relatório de riscos e pendência |
 | Comunicar situação do projeto | - Time de Desenvolvimento </br> - Professor | Semanal | Planilha do que foi feito pelo grupo semanalmente |
 | Comunicação assíncrona dos membros pelo WhatsApp e Discord | Time de Desenvolvimento | Conforme necessidade | N/A |
 | Reunião com Cliente para validação e entregas via WhatsApp | - Time de Desenvolvimento </br> - Cliente | Quinzenal | Relatório de FeedBacks |
@@ -62,8 +62,6 @@ O projeto poderá ser replanejado caso haja:
 
 ## Histórico de Revisão
 
-| Data       | Versão |                                                          Descrição                                                            |    Autor     |
-| :--------: | :----: | ----------------------------------------------------------------------------------------------------------------------------- | ------------ |
-|            | 1.0    |                                                                                                                               |              |
-|            | 1.1    |                                                                                                                               |              |
-|            | 1.2    |                                                                                                                               |              |
+| Data       | Versão |                                                          Descrição                                                               |    Autor     |
+| :--------: | :----: | -------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 27/09/2023 | 1.0    | Definição da organização, planejamento, matriz de comunicação, gerenciamento de riscos e critérios de replanejamento do projeto. |              |
