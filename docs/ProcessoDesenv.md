@@ -24,6 +24,10 @@ A partir dos pontos marcados:
 
 ## Fluxo de trabalho
 
+Neste processo, as ferramentas de comunicação serão o Discord e o Whatsapp para reuniões e mensagens rápidas e e-mail para mensagens mais formais, por exemplo, com o professor responsável pela matéria de requisitos de software.
+O ambiente de programação é à preferência do desenvolvedor, portanto que apsse nos testes de forma autêntica e legítima.
+Outras ferramentas a serem utilizadas podem incluir o diagrams.net para o desenvolvimento de diagramas, o GitHub para atividades de desenvolvimento e o Codepen, para o desenvolvimento Web.
+
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=5,IE=9" ><![endif]-->
 <!DOCTYPE html>
 <html>
@@ -39,7 +43,13 @@ A partir dos pontos marcados:
 
 ## Facetas do Processo de ER
 
-Identificamos nosso processo de Engenharia de Requisitos como pertencente ao campo **Orientado a Produto**:
+Identificamos nosso processo de Engenharia de Requisitos como pertencente ao campo **Processo Participativo**.
+O modelo Participativo é ideal para:
+<ul>
+    <li> Quando o Cliente e o Fornecedor colaboram estreitamente, forte envolvimento das partes envolvidas; </li>
+    <li> Backlog do produto com histórias de usuário e protótipos; </li>
+    <li> Interação contínua entre as partes. </li>
+</ul>
 
 ![Facetas do Processo de ER](./img/FacetasProcessoER.png)
 
