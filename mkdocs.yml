@@ -10,11 +10,12 @@ nav:
   - Visão do Produto e Projeto:
     - Visão do Produto: VisaoProdutoEProjeto/visaoProduto.md
     - Visão do Projeto: VisaoProdutoEProjeto/visaoProjeto.md
+    - Backlog do Produto: VisaoProdutoEProjeto/backlog.md
   - Processo de Desenvolvimento de Software: ProcessoDesenv.md
   - Lições Aprendidas: LicoesAprendidas.md
-  - Entregas:
-    - Unidade 1: Entregas/EntregasU1.md
-    - Unidade 2: Entregas/EntregasU2.md
+  - Entregas: 
+    - Entregas da Unidade 01: Entregas/unidade01.md
+    - Entregas da Unidade 02: Entregas/unidade02.md
 
 #Config
 docs_dir: docs
