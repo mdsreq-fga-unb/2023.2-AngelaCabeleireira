@@ -12,7 +12,9 @@ nav:
     - Visão do Projeto: VisaoProdutoEProjeto/visaoProjeto.md
   - Processo de Desenvolvimento de Software: ProcessoDesenv.md
   - Lições Aprendidas: LicoesAprendidas.md
-  - Entregas: entregas.md
+  - Entregas:
+    - Unidade 1: Entregas/EntregasU1.md
+    - Unidade 2: Entregas/EntregasU2.md
 
 #Config
 docs_dir: docs
