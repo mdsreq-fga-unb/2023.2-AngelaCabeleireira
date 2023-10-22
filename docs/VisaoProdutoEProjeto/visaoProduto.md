@@ -26,7 +26,7 @@ Os objetivos secundários incluem aumentar a satisfação do cliente, expandir o
 - Backend: Javascript ![JS](https://www.svgrepo.com/show/303206/javascript-logo.svg){ width="24" }
 - Persistência de dados: N/A
 - Testes e CI: GitHub Actions ![GitHub Actions light](https://www.svgrepo.com/show/330509/githubactions.svg#only-light){ width="24" } ![Github Actions dark](https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png#only-dark){ width="24" }
-- Documentação: GitHub Pages, Github, mkdocs material ![GitHub light](https://www.svgrepo.com/show/493677/github-repo-git-octocat.svg#only-light){ width="24" } ![GitHub dark](https://www.svgrepo.com/show/325237/github-outline.svg#only-dark){ width="24" } ![mkdocs-material dark](https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/src/assets/images/favicon.png#only-dark){ width="24" } ![mkdocs-material light](https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/docs/assets/favicon.png#only-light){ width="24" }
+- Documentação: GitHub Pages, Github, mkdocs material ![GitHub light](https://www.svgrepo.com/show/493677/github-repo-git-octocat.svg#only-light){ width="24" } ![GitHub dark](https://www.svgrepo.com/show/325237/github-outline.svg#only-dark){ width="24" } ![mkdocs-material light](https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/docs/assets/favicon.png){ width="24" }
 - Ferramentas de IDE: VSCode, CodePen ![VSCode](https://www.svgrepo.com/show/374171/vscode.svg){ width="24" } ![CodePen light](https://seeklogo.com/images/C/codepen-logo-FDEB3664F1-seeklogo.com.png){ width="24" }
 - APIs: API Street View Static ![Google StreetView](https://upload.wikimedia.org/wikipedia/commons/f/f6/Street_View_logo.png
 ){ width="24" }
