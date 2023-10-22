@@ -58,4 +58,5 @@ O modelo Participativo é ideal para:
 | Data       | Versão |                                                          Descrição                                                            |    Autor     |
 | :--------: | :----: | ----------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | 17/09/2023 | 1.0    | Definição da Abordagem, do Ciclo de Vida e do Processo a ser utilizado. Documentação no pages.                                | Todos        |
-| 27/09/2023 | 1.1    | Atualização da faceta do processo de engenharia de requisitos e adição do fluxo de trabalho do processo de desenvolvimento.   | Guilherme    |
+| 27/09/2023 | 1.1    | Atualização da faceta do processo de engenharia de requisitos e adição do fluxo de trabalho do processo de desenvolvimento.   | Guilherme de Sá |
+| 22/10/2023 | 1.2    | Atualização da imagem do modelo do processo.   | Guilherme de Sá |
