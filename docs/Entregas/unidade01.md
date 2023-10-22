@@ -4,15 +4,15 @@
 
 ## Slide apresentado sobre o processo ScrumXP
 
-<iframe src="https://mdsreq-fga-unb.github.io/2023.2-AngelaCabeleireira/Entregas/Apresentacao_de_prototipo.pdf" width="700" height="394" style="border: none;"></iframe>
+<iframe src="https://mdsreq-fga-unb.github.io/2023.2-AngelaCabeleireira/pdf/Apresentacao_de_prototipo.pdf" width="700" height="394" style="border: none;"></iframe>
 
-Caso não carregue, o slide está disponível no [link](Apresentacao_de_prototipo.pdf)
+Caso não carregue, o slide está disponível no [link](../pdf/Apresentacao_de_prototipo.pdf)
 
 ## Slide apresentado sobre a abordagem, ciclo de vida e processo de desenvolvimento do projeto
 
-<iframe src="https://mdsreq-fga-unb.github.io/2023.2-AngelaCabeleireira/Entregas/Analise_do_Produto.pdf" width="700" height="394" style="border: none;"></iframe>
+<iframe src="https://mdsreq-fga-unb.github.io/2023.2-AngelaCabeleireira/pdf/Analise_do_Produto.pdf" width="700" height="394" style="border: none;"></iframe>
 
-Caso não carregue, o slide está disponível no [link](Analise_do_Produto.pdf)
+Caso não carregue, o slide está disponível no [link](../pdf/Analise_do_Produto.pdf)
 
 ## Vídeo de entrega da Unidade 01
 
