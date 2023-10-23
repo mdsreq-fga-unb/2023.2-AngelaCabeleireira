@@ -2,88 +2,107 @@
 
 ## Requisitos Funcionais
 
-<table border=1>
-    <col span=3>
-    <thead>
-        <th colspan="3" align="center">TM01 - Website Ângela Cabeleireira</th>
-    </thead>
-    <thead>
-        <th>Épicos</th>
-        <th>Features</th>
-        <th>User Stories</th>
-    </thead>
-    <!-- ÉPICO 01 -->
-    <tr>
-        <td rowspan=5>EP01 - Agendamentos</td>
-        <td rowspan=5>FE01 - Controlar Agenda</td>
-        <td>US01 - Criar agendamento de horário</td>
-    </tr>
-    <tr>
-        <td>US02 - Editar agendamento</td>
-    </tr>
-    <tr>
-        <td>US03 - Cancelar agendamento</td>
-    </tr>
-    <tr>
-        <td>US04 - Visualizar atendimento</td>
-    </tr>
-    <tr>
-        <td>US05 - Bloquear agenda em datas específicas</td>
-    </tr>
-    <!-- ÉPICO 02 -->
-    <tr>
-        <td rowspan=7>EP02 - Informações</td>
-        <td rowspan=5>FE02 - Disponibilizar informações</td>
-        <td>US06 - Visualizar Localização</td>
-    </tr>
-    <tr>
-        <td>US07 - Visualizar informações de contato</td>
-    </tr>
-    <tr>
-        <td>US08 - Visualizar Serviços</td>
-    </tr>
-    <tr>
-        <td>US09 - Visualizar Postagens do Instagram</td>
-    </tr>
-    <tr>
-        <td>US10 - Visualizar Horários Disponíveis</td>
-    </tr>
-    <tr>
-        <td rowspan=2>FE03 - Mostrar FeedBacks</td>
-        <td>US11 - Visualizar Avaliações</td>
-    </tr>
-    <tr>
-        <td>US12 - Realizar Avaliação</td>
-    </tr>
-    <!-- ÉPICO 03 -->
-    <tr>
-        <td rowspan=2>EP03 - Contatos</td>
-        <td rowspan=2>FE04 - Entrar em contato</td>
-        <td>US13 - Enviar mensagem no WhatsApp</td>
-    </tr>
-    <tr>
-        <td>US14 - Enviar e-mail</td>
-    </tr>
+<table border=1 style='border-collapse:collapse;table-layout:fixed;'>
+ <col>
+ <col>
+ <col>
+ <col>
+ <tr>
+  <th colspan=4 align="center">TM01 - WebSite Ângela Cabeleireira</th>
+ </tr>
+ <tr>
+  <th align="center" style='vertical-align:middle;'>ÉPICOS</th>
+  <th align="center" style='vertical-align:middle;'>CAPACIDADES</th>
+  <th align="center" style='vertical-align:middle;'>FEATURES</th>
+  <th align="center" style='vertical-align:middle;'>USER STORIES</th>
+ </tr>
+ <tr>
+  <td rowspan=5 style="vertical-align: middle;">EP01 Agendamento de Horários</td>
+  <td rowspan=4 style="vertical-align: middle;">CP01 Controle da Agenda</td>
+  <td rowspan=4 style="vertical-align: middle;">FE01 Gerenciar detalhes do agendamento</td>
+  <td>US01 - TÍTULO</td>
+ </tr>
+ <tr>
+  <td>US02</td>
+ </tr>
+ <tr>
+  <td>US03</td>
+ </tr>
+ <tr>
+  <td>US04</td>
+ </tr>
+ <tr>
+  <td style="vertical-align: middle;">CP02 - Bloqueio de Agenda</td>
+  <td style="vertical-align: middle;">FE02 - Indisponibilizar dias específicos para agendamento</td>
+  <td>US05</td>
+ </tr>
+ <tr>
+  <td rowspan=7 style="vertical-align: middle;">EP02 Informações do Salão</td>
+  <td rowspan=6 style="vertical-align: middle;">CP03 Visualização das informações do Salão</td>
+  <td style="vertical-align: middle;">FE03 - Visualizar localização do estabelecimento</td>
+  <td>US06</td>
+ </tr>
+ <tr>
+  <td style="vertical-align: middle;">FE04 - Visualizar serviços do estabelecimento</td>
+  <td>US07</td>
+ </tr>
+ <tr>
+  <td style="vertical-align: middle;">FE05 - Visualizar informações de contato</td>
+  <td>US08</td>
+ </tr>
+ <tr>
+  <td style="vertical-align: middle;">FE06 - Visualizar postagens da página do Instagram</td>
+  <td>US09</td>
+ </tr>
+ <tr>
+  <td style="vertical-align: middle;">FE07 - Visualizar horários de agendamento disponíveis</td>
+  <td>US10</td>
+ </tr>
+ <tr>
+  <td style="vertical-align: middle;">FE08 - Visualizar avaliações do estabelecimento</td>
+  <td>US11</td>
+ </tr>
+ <tr>
+  <td style="vertical-align: middle;">CP04 - FeedBack do Cliente</td>
+  <td style="vertical-align: middle;">FE09 - Realizar avaliação do estabelecimento</td>
+  <td>US12</td>
+ </tr>
+ <tr>
+  <td rowspan=2 style="vertical-align: middle;">EP03 - Contato com o Salão</td>
+  <td rowspan=2 style="vertical-align: middle;">CP05 - Envio de Mensagens do Cliente</td>
+  <td style="vertical-align: middle;">FE10 - Enviar mensagem via WhatsApp</td>
+  <td>US13</td>
+ </tr>
+ <tr>
+  <td style="vertical-align: middle;">FE11 - Enviar mensagem via Email</td>
+  <td>US14</td>
+ </tr>
 </table>
 
-<!-- ## Declarações de Histórias de Usuário (US) e critérios de aceitação
+## Declarações de Histórias de Usuário (US) e critérios de aceitação
 
-TODO: Quando tivermos CA's definidos, adicionar nova coluna para declará-los aqui
+<!-- TODO: Quando tivermos CA's definidos, adicionar nova coluna para declará-los aqui -->
 
-| Número | Título | Declaração | 
-| :----: | ------ | ---------- |
-| US01 | Agendar horários de atendimento | Como cliente do salão, quero agendar horários de atendimento no site |
-| US02 | Escolher datas e horários | Como cliente do salão, quero poder escolher datas e horários de agendamento |
-| US03 | Confirmação do agendamento | Como cliente, quero receber confirmação do agendamento por e-mail |
-| US04 | Gerenciar horários disponíveis | Como dona do salão, quero poder gerenciar quais horários estarão disponíveis |
-| US05 | Cancelar agendamentos | Como dona do salão, quero poder cancelar agendamentos reservados |
-| US06 | Visualizar localização | Como cliente do salão, quero encontrar a localização e endereço do salão a partir do Google Maps |
-| US07 | Visualizar informações de contato | Como cliente, quero encontrar informações de contato (telefone, e-mail etc.) do salão no site |
-| US08 | Ligar/enviar e-mail | Como cliente, quero conseguir clicar/tocar no número ou no e-mail e ser redirecionado para o serviço equivalente (telefone ou app de e-mail) |
-| US09 | Visualizar serviços | Como cliente, quero que seja mostrado que tipo de serviços o salão oferece |
-| US10 | Visualizar avaliações | Como cliente, quero poder ver as avaliações que o salão tem no Google, para ter um indicativo de satisfação de outros clientes |
-| US11 | Visualizar fotos dos serviços | Como cliente, quero conseguir ver no site imagens de serviços realizados pelo salão |
-| US12 | Atualizar fotos dos serviços | Como dona do salão, quero que as imagens dos serviços realizados pelo salão sejam atualizadas automaticamente conforme postadas no instagram do salão | -->
+| Título | Declaração | 
+| :----- | ---------- |
+| US01 - DAR TITULO ÀS US'S | Eu como Usuário** quero poder agendar um horário, para que eu possa usufruir de um serviço do salão |
+| US02 -  | Eu como Usuário quero poder editar um agendamento prévio, para que eu possa mudar a data ou o serviço |
+| US03 -  | Eu como Usuário quero poder cancelar um agendamento, para que eu possa liberar um espaço na agenda do salão |
+| US04 -  | Eu como Usuário quero poder verificar os meus agendamentos para que eu possa acompanhar os dias e horários marcados |
+| US05 -  | Eu como Administradora quero poder bloquear certos dias da agenda, para que eu possa impossibilitar qualquer agendamento naquele dia |
+| US06 -  | Eu como Cliente quero poder visualizar a localização do salão para que eu possa encontrar rotas para o salão |
+| US07 -  | Eu como Cliente quero poder visualizar os serviços que o salão fornece para que eu possa escolher quando for fazer o agendamento |
+| US08 -  | Eu como Cliente quero poder visualizar as informações de contato do salão, para que eu possa contatar o salão posteriormente |
+| US09 -  | Eu como Cliente quero poder visualizar as postagens do Instagram, para eu eu possa ter uma referência do serviço fornecido |
+| US10 -  | Eu como Usuário quero poder visualizar todos os agendamentos para que eu possa ver quantos tem por dia, e quais dias estão livres |
+| US11 -  | Eu como Usuário quero poder visualizar as avaliações feitas por clientes, para que eu possa ter um retorno do salão |
+| US12 -  | Eu como Cliente quero poder dar minha própria avaliação, para que eu possa contribuir para a reputação do salão | 
+| US13 -  | Eu como Cliente quero poder enviar uma mensagem via WhatsApp para o salão, para que eu possa me comunicar com a responsável | 
+| US14 -  | Eu como Cliente quero poder enviar uma mensagem via Email para o salão, para que eu possa me comunicar com a responsável |
+
+****Usuário = Administradora e Clientes**
+
+<!-- TODO: definir estratégia de priorização e aplicar no backlog; Definir MVP1 e MVP2 com base na priorização. -->
 
 ## Requisitos Não Funcionais
 
@@ -100,4 +119,4 @@ TODO: Quando tivermos CA's definidos, adicionar nova coluna para declará-los aq
 | Data       | Versão |                                                          Descrição                                                            |    Autor     |
 | :--------: | :----: | ----------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | 16/10/2023 | 1.0    | Declaração dos Requisitos Funcionais (de acordo com o framework SAFe) e dos RNF's                                             | Todos        |
-<!-- | 27/09/2023 | 1.1    | Atualização da faceta do processo de engenharia de requisitos e adição do fluxo de trabalho do processo de desenvolvimento.   |     | -->
+| 22/10/2023 | 1.1    | Correção e Atualização do backlog de acordo com o SAFe   | Guilherme, Vinícius e Yves |
