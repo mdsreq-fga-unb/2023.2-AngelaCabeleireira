@@ -6,25 +6,26 @@ O time irá utilizar uma mistura do método RAD com a estrutura e organização 
 
 |           Papel          | Atribuições                                                            | Responsável | Participantes |
 | :----------------------: | :--------------------------------------------------------------------: | ----------------------------------------------- | ------------ |
-| Time de Desenvolvimento  | Codificar o produto, codificar testes unitários, realizar refatoração  | Luis | Arthur, Guilherme, Luis, Vinicius, Yves |
-| Dono do Produto          | Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas |          Yves                    | Yves |
-| Scrum Master             | Gerir o time, no que diz respeito aos rituais presentes no framework, tais como planejamento do backlog da sprint, retrospectiva, review | Guilherme |  Guilherme |
-| Cliente                  | Dar Feedback quanto ao protótipo e avaliação do produto |  Ângela |  Ângela |
+| Time de Desenvolvimento  | Codificar o produto, codificar testes unitários, realizar refatoração e realizar a atividade de representação, e de organização e atualização de requisitos.  | Luis | Arthur, Guilherme, Luis, Vinicius, Yves |
+| Dono do Produto          | Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas, realizando as seguintes atividades de requisitos: elicitação e descoberta, e de declaração dos requisitos. |          Yves                    | Ângela, Yves |
+| Scrum Master             | Gerir o time, no que diz respeito aos rituais presentes no framework, tais como planejamento do backlog da sprint, retrospectiva, review, além de realizar as seguintes atividades de requisitos: Análise e consenso, e verificação e validação dos requisitos. | Guilherme |  Arthur, Guilherme, Luis, Vinicius, Yves |
+| Cliente                  | Dar feedback quanto ao protótipo e avaliação do produto. |  Ângela |  Ângela |
 
 ## Planejamento das Fases/Iterações
 
 | Iteração | Produto (Entrega)                                                                    | Data Início | Data Fim |
 | :------- | :----------------------------------------------------------------------------------- | :---------- | :------- |
-| Sprint 1 | Definição do Problema.                                                               | 05/09/23    | 11/09/23 |
-| Sprint 2 | Definir abordagem, Ciclo de Vida, e Processo.                                        | 12/09/23    | 18/09/23 |
-| Sprint 3 | Definição do Processo de Engenharia de Requisitos, atrelado ao Processo de Software. | 19/09/23    | 25/09/23 |
-| Sprint 4 | Backlog Inicial do Produto.                                                          | 26/09/23    | 02/10/23 |
-| Sprint 5 | Desenvolvimento das funcionalidades referentes a página inicial: Sobre,  Serviços, Contato | 03/10/23    | 17/10/23 |
-| Sprint 6 | Desenvolvimento das funcionalidades referentes a página inicial II:  Aplicação das cores da Logomarca, Banners | 18/10/23    | 31/10/23 |
-| Sprint 7 | Desenvolvimento das funcionalidades referentes a integração com as API: Google, Mapa e Instagram | 01/11/23    | 14/11/23 |
-| Sprint 8 | Desenvolvimento das funcionalidades referentes ao agendamento: Questionário dos clientes e bloqueio da agenda | 15/11/23    | 28/11/23 |
-| Sprint 9 | ...                                                                                  | 29/11/23    | 12/12/23 |
+| Sprint 1 | Definição do problema e possível solução                                                               | 05/09/2023    | 18/09/2023 |
+| Sprint 2 | Definição de abordagem, ciclo de Vida, e processo                                        | 19/09/2023    | 02/10/2023 |
+| Sprint 3 | Definição do Processo de Engenharia de Requisitos, atrelado ao Processo de Software | 03/10/2023    | 09/10/2023 |
+| Sprint 4 | Proposta de solução e feedback do cliente, além da lista inicial de requisitos                                                          | 10/10/2023    | 23/10/2023 |
+| Sprint 5 | Definição dos MVPs do projeto | 24/10/2023    | 06/11/2023 |
+| Sprint 6 | Desenvolvimento do primeiro MVP | 07/11/2023    | 20/11/2023 |
+| Sprint 7 | Desenvolvimento do segundo MVP | 21/11/2023    | 04/12/2023 |
+| Sprint 8 | Revisão do projeto e integração do sistema | 05/12/2023    | 18/12/2023 |
+| Sprint 9 | Finalização do projeto                                                                                 | 19/12/2023    | 01/01/2023 |
 
+<!-- TODO: corrigir o restante a partir daqui (versão corrigida se encontra no docs) -->
 ## Matriz de Comunicação
 
 | Descrição | Área/Envolvidos | Periodicidade | Produtos Gerados |
