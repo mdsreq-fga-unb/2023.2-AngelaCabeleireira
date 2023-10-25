@@ -30,11 +30,11 @@ O time irá utilizar uma mistura do método RAD com a estrutura e organização 
 
 | Descrição | Área/Envolvidos | Periodicidade | Produtos Gerados |
 | :-------- | :-------------- | :------------ | :--------------- |
-| -Definição dos próximos objetivos, como o Sprint Backlog </br> -Acompanhamento do progresso do produto | Time de Desenvolvimento | Quinzenal | Relatório de situação do projeto |
+| Definição dos próximos objetivos, como o Sprint Backlog </br> Acompanhamento do progresso do produto | Time de Desenvolvimento | Quinzenal | Relatório de situação do projeto |
 | Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores | Time de Desenvolvimento | Quinzenal | Relatório de riscos e pendência |
 | Comunicação da situação do projeto | Time de Desenvolvimento </br> Professor | Semanal | Planilha do que foi feito pelo grupo semanalmente |
 | Comunicação assíncrona dos membros pelo WhatsApp e Discord | Time de Desenvolvimento | Conforme necessidade | N/A |
-| Reunião com Cliente para validação e entregas via WhatsApp | Dono do Produto </br> Cliente | Quinzenal | Relatório de FeedBacks |
+| Reunião com Cliente para validação via whatsapp e entrega de protótipo via e-mail e via whatsapp | Dono do Produto </br> Cliente | Quinzenal | Relatório de FeedBacks |
 
 ## Gerenciamento de Riscos
 
