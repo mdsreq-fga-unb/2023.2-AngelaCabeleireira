@@ -42,7 +42,7 @@ O time identificou os seguintes riscos:
 
 | Risco | Nível de Impacto | Prevenção de Risco | Gerenciamento de Risco |
 | :-------- | :-------------- | :------------ | :--------------- |
-| Trancamento de algum membro da equipe | Alto | Comunicação constante entre os membros, procurando saber se há alguma dificuldade que algum membro esteja passando, e caso esteja apoiá-lo para que permaneça na matéria | Procurar distribuir as atividades do membro para os demais, para que alguma delas fique sem conclusão |
+| Trancamento de algum membro da equipe | Alto | Comunicação constante entre os membros, buscando saber se existe alguma dificuldade relacionada ao membro. Caso haja, incentivá-lo a permanecer na matéria | Procurar distribuir as atividades do membro, para que nenhuma atividade fique sem conclusão |
 | Não Entrega do Backlog da Sprint | Alto | Planejar bem as USs que serão feitas na Sprint, e caso um membro já tenha terminado seu trabalho, auxiliar no cumprimento das USs restantes | Procurar replanejar a Sprint seguinte para que caiba a US’s não entregue, de forma que não atrapalhe o andamento da Sprint |
 | Baixa Produtividade em semana de prova | Médio | Sabendo a data das provas, cada membro irá antecipar a equipe sobre seu menor esforço | As atividades do membro naquela semana serão reduzidas, mas assim que acabar esse período aumentará sua produtividade |
 | Dificuldade de gerenciamento de tempo de um ou mais membros da equipe | Baixo | Elaborar uma planilha de disponibilidade, que será usada como base para a marcação de reuniões | Gravar as reuniões feitas para que o integrante que não pôde comparecer, conseguir ser atualizado sobre o que foi passado |
