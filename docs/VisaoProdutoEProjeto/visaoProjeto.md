@@ -30,22 +30,22 @@ O time irá utilizar uma mistura do método RAD com a estrutura e organização 
 
 | Descrição | Área/Envolvidos | Periodicidade | Produtos Gerados |
 | :-------- | :-------------- | :------------ | :--------------- |
-| Definição dos próximos objetivos, como o Sprint Backlog </br> Acompanhamento do progresso do produto | Time de Desenvolvimento | Quinzenal | Relatório de situação do projeto |
+| -Definição dos próximos objetivos, como o Sprint Backlog </br> -Acompanhamento do progresso do produto | Time de Desenvolvimento | Quinzenal | Relatório de situação do projeto |
 | Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores | Time de Desenvolvimento | Quinzenal | Relatório de riscos e pendência |
-| Comunicar situação do projeto | Time de Desenvolvimento </br> Professor | Semanal | Planilha do que foi feito pelo grupo semanalmente |
+| Comunicação da situação do projeto | Time de Desenvolvimento </br> Professor | Semanal | Planilha do que foi feito pelo grupo semanalmente |
 | Comunicação assíncrona dos membros pelo WhatsApp e Discord | Time de Desenvolvimento | Conforme necessidade | N/A |
-| Reunião com Cliente para validação e entregas via WhatsApp | Time de Desenvolvimento </br> Cliente | Quinzenal | Relatório de FeedBacks |
+| Reunião com Cliente para validação e entregas via WhatsApp | Dono do Produto </br> Cliente | Quinzenal | Relatório de FeedBacks |
 
 ## Gerenciamento de Riscos
 
-Identificamos os seguintes riscos, com nível de impacto, forma de prevenção e medidas de gerenciamento:
+O time identificou os seguintes riscos:
 
 | Risco | Nível de Impacto | Prevenção de Risco | Gerenciamento de Risco |
 | :-------- | :-------------- | :------------ | :--------------- |
 | Trancamento de algum membro da equipe | Alto | Comunicação constante entre os membros, procurando saber se há alguma dificuldade que algum membro esteja passando, e caso esteja apoiá-lo para que permaneça na matéria | Procurar distribuir as atividades do membro para os demais, para que alguma delas fique sem conclusão |
-| Não Entrega do Backlog da Sprint | Alto | Planejar bem as USs que serão feitas na Sprint, e caso um membro já tenha terminado seu trabalho, auxiliar no cumprimento das USs restantes | Procurar replanejar a Sprint seguinte para que caiba a USs não entregue, de forma que não atrapalhe o andamento da Sprint |
+| Não Entrega do Backlog da Sprint | Alto | Planejar bem as USs que serão feitas na Sprint, e caso um membro já tenha terminado seu trabalho, auxiliar no cumprimento das USs restantes | Procurar replanejar a Sprint seguinte para que caiba a US’s não entregue, de forma que não atrapalhe o andamento da Sprint |
 | Baixa Produtividade em semana de prova | Médio | Sabendo a data das provas, cada membro irá antecipar a equipe sobre seu menor esforço | As atividades do membro naquela semana serão reduzidas, mas assim que acabar esse período aumentará sua produtividade |
-| Dificuldade de gerenciamento de tempo de um ou mais membros da equipe | Baixo | Elaborar uma planilha de disponibilidade, que será usada como base para a marcação de reuniões | Gravar as reuniões feitas para que o integrante que não pôde comparecer, consiga ser atualizado sobre o que foi passado |
+| Dificuldade de gerenciamento de tempo de um ou mais membros da equipe | Baixo | Elaborar uma planilha de disponibilidade, que será usada como base para a marcação de reuniões | Gravar as reuniões feitas para que o integrante que não pôde comparecer, conseguir ser atualizado sobre o que foi passado |
 
 Os riscos foram avaliados de acordo com seu nível de impacto:
 
