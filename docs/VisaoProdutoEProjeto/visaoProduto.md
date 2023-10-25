@@ -17,7 +17,7 @@ O problema está associado a um salão de beleza. A dona do salão é  ngela, um
 
 ## Objetivos do Produto
 
-**Objetivo Principal:** Implementar com sucesso uma agenda virtual no salão  ngela Cabeleireira, otimizando a gestão do salão para garantir uma operação de negócio mais eficiente e organizada. </br></br>
+**Objetivo Principal:** Implementar uma agenda virtual no salão  Ângela Cabeleireira, para melhorar a gestão no quesito agendamento. </br></br>
 **Objetivos Secundários:** 
 <ul>
     <li>Aumentar a satisfação dos clientes do salão em 30% nos próximos seis meses após a implementação. Será verificada a partir do acompanhamento de métricas de uso.</li>
