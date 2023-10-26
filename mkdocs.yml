@@ -7,12 +7,14 @@ site_description: Documentação do projeto AngelaCabeleireira, por estudantes d
 #PageTree
 nav: 
   - Sobre: index.md
-  - Visão do Produto e Projeto:
-    - Visão do Produto: VisaoProdutoEProjeto/visaoProduto.md
-    - Visão do Projeto: VisaoProdutoEProjeto/visaoProjeto.md
+  - Visão do Produto: VisaoProdutoEProjeto/visaoProduto.md
+  - Visão do Projeto: VisaoProdutoEProjeto/visaoProjeto.md
+  - Backlog do Produto: VisaoProdutoEProjeto/backlog.md
   - Processo de Desenvolvimento de Software: ProcessoDesenv.md
   - Lições Aprendidas: LicoesAprendidas.md
-  - Entregas: entregas.md
+  - Entregas: 
+    - Unidade 01: Entregas/unidade01.md
+    - Unidade 02: Entregas/unidade02.md
 
 #Config
 docs_dir: docs
