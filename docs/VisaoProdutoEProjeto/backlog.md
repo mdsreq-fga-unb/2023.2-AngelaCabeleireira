@@ -21,64 +21,64 @@ Estrutura do Backlog:
  </tr>
  <!-- ÉPICO 01 -->
  <tr>
-  <td rowspan=5 style="vertical-align: middle;">EP01 - Agendamento de Horários</td>
+  <td rowspan=5 style="vertical-align: middle;">EP01</td>
   <td rowspan=4 style="vertical-align: middle;">CP01 - Controle da Agenda</td>
   <td rowspan=4 style="vertical-align: middle;">FE01 - Gerenciar detalhes do agendamento</td>
-  <td>US01</td>
+  <td>US01 - Eu como Usuário** quero poder agendar um horário, para que eu possa usufruir de um serviço do salão</td>
  </tr>
  <tr>
-  <td>US02</td>
+  <td>US02 - Eu como Usuário quero poder editar um agendamento prévio, para que eu possa mudar a data ou o serviço</td>
  </tr>
  <tr>
-  <td>US03</td>
+  <td>US03 - Eu como Usuário quero poder cancelar um agendamento, para que eu possa liberar um espaço na agenda do salão</td>
  </tr>
  <tr>
-  <td>US04</td>
+  <td>US04 - Eu como Usuário quero poder verificar os meus agendamentos para que eu possa acompanhar os dias e horários marcados</td>
  </tr>
  <tr>
   <td style="vertical-align: middle;">CP02 - Bloqueio de Agenda</td>
   <td style="vertical-align: middle;">FE02 - Indisponibilizar dias específicos para agendamento</td>
-  <td>US05</td>
+  <td>US05 - Eu como Administradora quero poder bloquear certos dias da agenda, para que eu possa impossibilitar qualquer agendamento naquele dia</td>
  </tr>
  <!-- ÉPICO 02 -->
  <tr>
-  <td rowspan=7 style="vertical-align: middle;">EP02 - Informações do Salão</td>
+  <td rowspan=7 style="vertical-align: middle;">EP02</td>
   <td rowspan=6 style="vertical-align: middle;">CP03 - Consulta das informações do Salão</td>
   <td style="vertical-align: middle;">FE03 - Consultar localização do estabelecimento</td>
-  <td>US06</td>
+  <td>US06 - Eu como Cliente quero poder calcular a rota da minha localização atual até o salão, para que eu possa ser atendido</td>
  </tr>
  <tr>
   <td rowspan=3 style="vertical-align: middle;">FE04 - Gerir serviços do estabelecimento</td>
-  <td>US07</td>
+  <td>US07 - Eu como Administradora quero poder adicionar um novo serviço, para que eu possa disponibilizar aos clientes</td>
  </tr>
  <tr>
-  <td>US08</td>
+  <td>US08 - Eu como Administradora quero poder editar um serviço já existente, para que eu possa atualizar suas infomações</td>
  </tr>
  <tr>
-  <td>US09</td>
+  <td>US09 - Eu como Administradora quero poder deletar um serviço já existente, para que deixe de ser uma opção para o cliente</td>
  </tr>
  <tr>
   <td style="vertical-align: middle;">FE05 - Editar informações de contato</td>
-  <td>US10</td>
+  <td>US10 - Eu como Administradora quero poder editar as informações de contato do salão, para que eu possa atualizá-las para os clientes</td>
  </tr>
  <tr>
   <td style="vertical-align: middle;">FE06 - Consultar horários de agendamento disponíveis</td>
-  <td>US11</td>
+  <td>US11 - Eu como Usuário quero poder consultar os agendamentos para que eu possa ver atendimentos marcados, e quais dias estão livres</td>
  </tr>
  <tr>
   <td style="vertical-align: middle;">CP04 - FeedBack do Cliente</td>
   <td style="vertical-align: middle;">FE07 - Realizar avaliação do estabelecimento</td>
-  <td>US12</td>
+  <td>US12 - Eu como Cliente quero poder dar minha própria avaliação, para que eu possa contribuir para a reputação do salão</td>
  </tr>
  <!-- ÉPICO 03 -->
  <tr>
-  <td rowspan=2 style="vertical-align: middle;">EP03 - Contato com o Salão</td>
+  <td rowspan=2 style="vertical-align: middle;">EP03</td>
   <td rowspan=2 style="vertical-align: middle;">CP05 - Mensagens do Cliente</td>
   <td rowspan=2 style="vertical-align: middle;">FE08 - Enviar mensagem</td>
-  <td>US13</td>
+  <td>US13 - Eu como Cliente quero poder enviar uma mensagem via WhatsApp para o salão, para que eu possa me comunicar com a responsável</td>
  </tr>
  <tr>
-   <td>US14</td>
+   <td>US14 - Eu como Cliente quero poder enviar uma mensagem via Email para o salão, para que eu possa me comunicar com a responsável</td>
  </tr>
 </table>
 
@@ -288,13 +288,10 @@ O mesmo método será aplicado para cada US: </br>
 </table>
 
 
-<!-- TODO: priorização das US's individualmente -->
-
-
-
-## MVP's
+## Minimum Viable Products (MVP's)
 
 ### MVP1
+
 <table border=0 style='border-collapse:collapse;'>
  <col span=5>
  <tr>
@@ -355,7 +352,9 @@ O mesmo método será aplicado para cada US: </br>
  </tr>
 </table>
 
+
 ### MVP2
+
 <table border=0 style='border-collapse:collapse;'>
  <col span=5>
  <tr>
