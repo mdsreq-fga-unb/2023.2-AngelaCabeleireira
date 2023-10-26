@@ -42,3 +42,5 @@ python -m mkdocs serve
 
 Obs: As suas alterações só ficarão disponíveis na versão online após o PR para o branch main ser aceito </br>
 **Importante: Nunca mexa no branch gh-pages**
+
+Link Video Entrega 2 : https://youtu.be/cYT3A0UYG4w
