@@ -2,14 +2,8 @@
 
 ## Requisitos Funcionais
 
-<head>
-    <style>
-        li::before {
-            font-weight: bold;
-            margin-right: 0.5em;
-        }
-    </style>
-</head>
+Estrutura do Backlog:
+![Estrutura_Backlog](../img/Estrutura_Backlog.png)
 
 <table border=1 style='border-collapse:collapse;table-layout:fixed;'>
  <col>
@@ -111,6 +105,17 @@
 
 ****Usuário = Administradora e Clientes**
 
+## Requisitos Não Funcionais
+
+| Número | Tipo            | Declaração |
+| :----: | --------------- | ---------- |
+| RNF01  | Design          | O produto deverá seguir a identidade visual do salão (paleta de cores, logomarca, banners) |
+| RNF02  | Suportabilidade | Deve ser compatível com os principais navegadores Web em suas versões mais recentes (Chrome, Edge, Opera, Safari, FireFox) |
+| RNF03  | Usabilidade     | O site deve ser responsivo a diferentes tamanhos de tela e dispositivos |
+| RNF04  | Acessibilidade  | Deve ser acessível para usuários com dificuldades visuais, seguindo as diretrizes de acessibilidade da web (WCAG) |
+| RNF05  | Navegabilidade  | Seguir o plano de navegação de telas estabelecido |
+| RNF06  | Informações     | O site deve conter as informações de contato, localização, postagens do Instagram e avaliações |
+
 <!-- TODO: definir estratégia de priorização e aplicar no backlog; Definir MVP1 e MVP2 com base na priorização. -->
 ## Critérios de priorização
 
@@ -171,18 +176,275 @@ A pontuação final dos critérios de priorização, será uma simples soma de c
  </tr>
 </table>
 
+O mesmo método será aplicado para cada US: </br>
+`vn + d = p`
+<table border=0 style='border-collapse:collapse;'>
+ <col span=5>
+ <tr>
+  <td></td>
+  <td></td>
+  <td>Valor de Negócio</td>
+  <td>Dificuldade</td>
+  <td>Pontuação</td>
+ </tr>
+ <tr>
+  <td>US01</td>
+  <td>Agendar Horário</td>
+  <td align=center>4</td>
+  <td align=center>1</td>
+  <td align=center>5</td>
+ </tr>
+ <tr>
+  <td>US02</td>
+  <td>Editar Agendamento</td>
+  <td align=center>3</td>
+  <td align=center>1</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US03</td>
+  <td>Cancelar Agendamento</span></td>
+  <td align=center>3</td>
+  <td align=center>1</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US04</td>
+  <td>Verificar Agendamento</span></td>
+  <td align=center>3</td>
+  <td align=center>1</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US05</td>
+  <td>Bloquear Agenda</span></td>
+  <td align=center>3</td>
+  <td align=center>1</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US06</td>
+  <td>Calcular Rota</span></td>
+  <td align=center>2</td>
+  <td align=center>2</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US07</td>
+  <td>Adicionar Serviços</span></td>
+  <td align=center>3</td>
+  <td align=center>3</td>
+  <td align=center>6</td>
+ </tr>
+ <tr>
+  <td>US08</td>
+  <td>Editar Serviço</span></td>
+  <td align=center>3</td>
+  <td align=center>3</td>
+  <td align=center>6</td>
+ </tr>
+ <tr>
+  <td>US09</td>
+  <td>Deletar Serviço</span></td>
+  <td align=center>3</td>
+  <td align=center>3</td>
+  <td align=center>6</td>
+ </tr>
+ <tr>
+  <td>US10</td>
+  <td>Editar Contato</span></td>
+  <td align=center>3</td>
+  <td align=center>3</td>
+  <td align=center>6</td>
+ </tr>
+ <tr>
+  <td>US11</td>
+  <td>Consultar Agendamentos</span></td>
+  <td align=center>4</td>
+  <td align=center>1</td>
+  <td align=center>5</td>
+ </tr>
+ <tr>
+  <td>US12</td>
+  <td>Realizar Avaliação</span></td>
+  <td align=center>2</td>
+  <td align=center>1</td>
+  <td align=center>3</td>
+ </tr>
+ <tr>
+  <td>US13</td>
+  <td>Enviar WhatsApp</span></td>
+  <td align=center>1</td>
+  <td align=center>3</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US14</td>
+  <td>Enviar Email</span></td>
+  <td align=center>1</td>
+  <td align=center>3</td>
+  <td align=center>4</td>
+ </tr>
+</table>
+
+
 <!-- TODO: priorização das US's individualmente -->
 
-## Requisitos Não Funcionais
 
-| Número | Tipo            | Declaração |
+
+## MVP's
+
+### MVP1
+<table border=0 style='border-collapse:collapse;'>
+ <col span=5>
+ <tr>
+  <td></td>
+  <td></td>
+  <td>Valor de Negócio</td>
+  <td>Dificuldade</td>
+  <td>Pontuação</td>
+ </tr>
+ <tr>
+  <td>US01</td>
+  <td>Agendar Horário</td>
+  <td align=center>4</td>
+  <td align=center>1</td>
+  <td align=center>5</td>
+ </tr>
+ <tr>
+  <td>US02</td>
+  <td>Editar Agendamento</td>
+  <td align=center>3</td>
+  <td align=center>1</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US03</td>
+  <td>Cancelar Agendamento</span></td>
+  <td align=center>3</td>
+  <td align=center>1</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US04</td>
+  <td>Verificar Agendamento</span></td>
+  <td align=center>3</td>
+  <td align=center>1</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US05</td>
+  <td>Bloquear Agenda</span></td>
+  <td align=center>3</td>
+  <td align=center>1</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US13</td>
+  <td>Enviar WhatsApp</span></td>
+  <td align=center>1</td>
+  <td align=center>3</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US14</td>
+  <td>Enviar Email</span></td>
+  <td align=center>1</td>
+  <td align=center>3</td>
+  <td align=center>4</td>
+ </tr>
+</table>
+
+### MVP2
+<table border=0 style='border-collapse:collapse;'>
+ <col span=5>
+ <tr>
+  <td></td>
+  <td></td>
+  <td>Valor de Negócio</td>
+  <td>Dificuldade</td>
+  <td>Pontuação</td>
+ </tr>
+ <tr>
+  <td>US07</td>
+  <td>Adicionar Serviços</span></td>
+  <td align=center>3</td>
+  <td align=center>3</td>
+  <td align=center>6</td>
+ </tr>
+ <tr>
+  <td>US08</td>
+  <td>Editar Serviço</span></td>
+  <td align=center>3</td>
+  <td align=center>3</td>
+  <td align=center>6</td>
+ </tr>
+ <tr>
+  <td>US09</td>
+  <td>Deletar Serviço</span></td>
+  <td align=center>3</td>
+  <td align=center>3</td>
+  <td align=center>6</td>
+ </tr>
+ <tr>
+  <td>US10</td>
+  <td>Editar Contato</span></td>
+  <td align=center>3</td>
+  <td align=center>3</td>
+  <td align=center>6</td>
+ </tr>
+ <tr>
+  <td>US11</td>
+  <td>Consultar Agendamentos</span></td>
+  <td align=center>4</td>
+  <td align=center>1</td>
+  <td align=center>5</td>
+ </tr>
+ <tr>
+  <td>US06</td>
+  <td>Calcular Rota</span></td>
+  <td align=center>2</td>
+  <td align=center>2</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US12</td>
+  <td>Realizar Avaliação</span></td>
+  <td align=center>2</td>
+  <td align=center>1</td>
+  <td align=center>3</td>
+ </tr>
+</table>
+
+## Alinhamento com os Objetivos do Projeto
+
+Os objetivos indentificados do projeto são:</br></br>
+Objetivo Principal:
+<li>OP1 - Melhorar a gestão no quesito agendamento com a implementação
+de uma agenda virtual</li>
+Objetivos Secundários:
+<li>OS1 - Aumentar a satisfação dos clientes do salão em 30% nos próximos
+seis meses após a implementação</li>
+<li>OS2 - Aumentar a base de clientes em 20% nos próximos seis meses após
+a implementação</li>
+<li>OS3 - Aumentar a taxa de retorno de clientes regulares em 25% nos
+próximos seis meses após a implantação</li>
+<li>OS4 - Diferenciar o salão de beleza no mercado</li>
+<li>OS5 - Melhorar a gestão no quesito na disponibilização das informações
+do salão</li>
+
+Na tabela a seguir é apresentado quais USs de cada MVP estão alinhadas
+com os objetivos do projeto
+
+| Objetivo | Nome         | US's |
 | :----: | --------------- | ---------- |
-| RNF01  | Design          | O produto deverá seguir a identidade visual do salão (paleta de cores, logomarca, banners) |
-| RNF02  | Suportabilidade | Deve ser compatível com os principais navegadores Web em suas versões mais recentes (Chrome, Edge, Opera, Safari, FireFox) |
-| RNF03  | Usabilidade     | O site deve ser responsivo a diferentes tamanhos de tela e dispositivos |
-| RNF04  | Acessibilidade  | Deve ser acessível para usuários com dificuldades visuais, seguindo as diretrizes de acessibilidade da web (WCAG) |
-| RNF05  | Navegabilidade  | Seguir o plano de navegação de telas estabelecido |
-| RNF06  | Informações     | O site deve conter as informações de contato, localização, postagens do Instagram e avaliações |
+| OP01  | Melhorar Gestão dos Agendamentos  | MVP1 - US01, US02, US03, US04 e US05 |
+| OS01  | Aumentar Satisfação dos Clientes | Todo o MVP1 e MVP2 - US11 |
+| OS02  | Aumentar Base de Clientes    | MVP2 - US06, US12 |
+| OS03 | Aumentar Taxa do Retorno   | MVP2 - US12 |
+| OS04  | Destacar o Salão no Mercado  | Todo o MVP1 |
+| OS05 | Melhorar Gestão das Informações  | MVP2 - US07, US08, US09 e US10 |
+
 
 ## Histórico de Revisão
 
@@ -191,3 +453,4 @@ A pontuação final dos critérios de priorização, será uma simples soma de c
 | 16/10/2023 | 1.0    | Declaração dos Requisitos Funcionais (de acordo com o framework SAFe) e dos RNF's                                             | Todos        |
 | 22/10/2023 | 1.1    | Correção e Atualização do backlog de acordo com o SAFe   | Guilherme, Vinícius e Yves |
 | 24/10/2023 | 1.2    | Correção do backlog de acordo feedbacks do professor   | Todos |
+| 25/10/2023 | 1.3    | Atualização com os Critérios de Priorização, MVP's e Alinhamento   | Todos |
