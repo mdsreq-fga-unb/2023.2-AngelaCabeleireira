@@ -11,3 +11,7 @@ Caso não carregue, o slide está disponível no [link](../pdf/Backlog_Projeto.p
 <iframe src="https://mdsreq-fga-unb.github.io/2023.2-AngelaCabeleireira/pdf/Validacao_e_Verificacao_do_ArteNaMao.pdf" width="700" height="394" style="border: none;"></iframe>
 
 Caso não carregue, o slide está disponível no [link](../pdf/Validacao_e_Verificacao_do_ArteNaMao.pdf)
+
+## Vídeo de entrega da Unidade 02
+
+<iframe width="711" height="400" src="https://www.youtube.com/embed/cYT3A0UYG4w" title="Entrega Unidade 2 - Pentágono Cabeludo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
