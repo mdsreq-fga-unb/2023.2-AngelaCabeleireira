@@ -107,14 +107,16 @@ Estrutura do Backlog:
 
 ## Requisitos Não Funcionais
 
+Os requisitos não funcionais foram identificados de acordo com o modelo URPS+.
+
 | Número | Tipo            | Declaração |
 | :----: | --------------- | ---------- |
-| RNF01  | Design          | O produto deverá seguir a identidade visual do salão (paleta de cores, logomarca, banners) |
-| RNF02  | Suportabilidade | Deve ser compatível com os principais navegadores Web em suas versões mais recentes (Chrome, Edge, Opera, Safari, FireFox) |
-| RNF03  | Usabilidade     | O site deve ser responsivo a diferentes tamanhos de tela e dispositivos |
-| RNF04  | Acessibilidade  | Deve ser acessível para usuários com dificuldades visuais, seguindo as diretrizes de acessibilidade da web (WCAG) |
-| RNF05  | Navegabilidade  | Seguir o plano de navegação de telas estabelecido |
-| RNF06  | Informações     | O site deve conter as informações de contato, localização, postagens do Instagram e avaliações |
+| RNF01  | Usabilidade     | O produto deverá seguir a identidade visual do salão (paleta de cores, logomarca, banners). |
+| RNF02  | Suportabilidade | Deve ser compatível com os principais navegadores Web em suas versões a partir de 2023: Chrome 109, Edge 109, Opera 94, Safari 16.3, FireFox 108 |
+| RNF03  | Usabilidade     | O site deve ser responsivo a tamanhos de tela de dispositivos desktop e mobile |
+| RNF04  | Usabilidade     | Deve ser acessível para usuários com dificuldades visuais, seguindo as diretrizes de acessibilidade da web (WCAG) |
+| RNF05  | Usabilidade     | Seguir o plano de navegação de telas estabelecido |
+| RNF06  | Usabilidade     | O site deve conter as informações de contato, localização, postagens do Instagram e avaliações |
 
 <!-- TODO: definir estratégia de priorização e aplicar no backlog; Definir MVP1 e MVP2 com base na priorização. -->
 ## Critérios de priorização
@@ -453,3 +455,4 @@ com os objetivos do projeto
 | 22/10/2023 | 1.1    | Correção e Atualização do backlog de acordo com o SAFe   | Guilherme, Vinícius e Yves |
 | 24/10/2023 | 1.2    | Correção do backlog de acordo feedbacks do professor   | Todos |
 | 25/10/2023 | 1.3    | Atualização com os Critérios de Priorização, MVP's e Alinhamento   | Todos |
+| 26/10/2023 | 1.4    | Correção da estrutura da tabela de declaração do Backlog e das categorias dos RNFs | Vinícius |
