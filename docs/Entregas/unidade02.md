@@ -14,4 +14,4 @@ Caso não carregue, o slide está disponível no [link](../pdf/Validacao_e_Verif
 
 ## Vídeo de entrega da Unidade 02
 
-<iframe width="711" height="400" src="https://youtu.be/cYT3A0UYG4w" title="Entrega Unidade 1 - Pentágono Cabeludo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="711" height="400" src="https://www.youtube.com/embed/cYT3A0UYG4w" title="Entrega Unidade 2 - Pentágono Cabeludo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
