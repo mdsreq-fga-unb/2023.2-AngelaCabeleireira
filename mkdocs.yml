@@ -9,8 +9,9 @@ nav:
   - Sobre: index.md
   - Visão do Produto: VisaoProdutoEProjeto/visaoProduto.md
   - Visão do Projeto: VisaoProdutoEProjeto/visaoProjeto.md
-  - Backlog do Produto: VisaoProdutoEProjeto/backlog.md
   - Processo de Desenvolvimento de Software: ProcessoDesenv.md
+  - Backlog do Produto: VisaoProdutoEProjeto/backlog.md
+  - Relatórios: Relatorios/relatorios.md
   - Lições Aprendidas: LicoesAprendidas.md
   - Entregas: 
     - Unidade 01: Entregas/unidade01.md
