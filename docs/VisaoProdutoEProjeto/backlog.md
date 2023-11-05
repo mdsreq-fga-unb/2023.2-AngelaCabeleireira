@@ -42,7 +42,7 @@ Estrutura do Backlog:
  </tr>
  <!-- ÉPICO 02 -->
  <tr>
-  <td rowspan=7 style="vertical-align: middle;">EP02</td>
+  <td rowspan=9 style="vertical-align: middle;">EP02</td>
   <td rowspan=6 style="vertical-align: middle;">CP03 - Consulta das informações do Salão</td>
   <td style="vertical-align: middle;">FE03 - Consultar localização do estabelecimento</td>
   <td>US06 - Eu como Cliente quero poder calcular a rota da minha localização atual até o salão, para que eu possa ser atendido</td>
@@ -66,14 +66,11 @@ Estrutura do Backlog:
   <td>US11 - Eu como Usuário quero poder consultar os agendamentos para que eu possa ver atendimentos marcados, e quais dias estão livres</td>
  </tr>
  <tr>
-  <td style="vertical-align: middle;">CP04 - FeedBack do Cliente</td>
+  <td rowspan = 4 style="vertical-align: middle;">CP04 - FeedBack do Cliente</td>
   <td style="vertical-align: middle;">FE07 - Realizar avaliação do estabelecimento</td>
   <td>US12 - Eu como Cliente quero poder dar minha própria avaliação, para que eu possa contribuir para a reputação do salão</td>
  </tr>
- <!-- ÉPICO 03 -->
  <tr>
-  <td rowspan=2 style="vertical-align: middle;">EP03</td>
-  <td rowspan=2 style="vertical-align: middle;">CP05 - Mensagens do Cliente</td>
   <td rowspan=2 style="vertical-align: middle;">FE08 - Enviar mensagem</td>
   <td>US13 - Eu como Cliente quero poder enviar uma mensagem via WhatsApp para o salão, para que eu possa me comunicar com a responsável</td>
  </tr>
@@ -82,9 +79,10 @@ Estrutura do Backlog:
  </tr>
 </table>
 
+<!--
 ## Declarações de Histórias de Usuário (US) e critérios de aceitação
 
-<!-- TODO: Quando tivermos CA's definidos, adicionar nova coluna para declará-los aqui -->
+<!-- TODO: Quando tivermos CA's definidos, adicionar nova coluna para declará-los aqui 
 
 | Título | Declaração | 
 | :----- | ---------- |
@@ -102,8 +100,9 @@ Estrutura do Backlog:
 | **[US12]** | Eu como Cliente quero poder dar minha própria avaliação, para que eu possa contribuir para a reputação do salão | 
 | **[US13]** | Eu como Cliente quero poder enviar uma mensagem via WhatsApp para o salão, para que eu possa me comunicar com a responsável | 
 | **[US14]** | Eu como Cliente quero poder enviar uma mensagem via Email para o salão, para que eu possa me comunicar com a responsável |
+-->
 
-****Usuário = Administradora e Clientes**
+****Usuário = Administradora e Cliente**
 
 ## Requisitos Não Funcionais
 
@@ -111,8 +110,8 @@ Os requisitos não funcionais foram identificados de acordo com o modelo URPS+.
 
 | Número | Tipo            | Declaração |
 | :----: | --------------- | ---------- |
-| RNF01  | Usabilidade     | O produto deverá seguir a identidade visual do salão (paleta de cores, logomarca, banners). |
-| RNF02  | Suportabilidade | Deve ser compatível com os principais navegadores Web em suas versões a partir de 2023: Chrome 109, Edge 109, Opera 94, Safari 16.3, FireFox 108 |
+| RNF01  | Suportabilidade | Deve ser compatível com os principais navegadores Web em suas versões a partir de 2023: Chrome 109, Edge 109, Opera 94, Safari 16.3, FireFox 108 |
+| RNF02  | Usabilidade     | O produto deverá seguir a identidade visual do salão (paleta de cores, logomarca, banners). |
 | RNF03  | Usabilidade     | O site deve ser responsivo a tamanhos de tela de dispositivos desktop e mobile |
 | RNF04  | Usabilidade     | Deve ser acessível para usuários com dificuldades visuais, seguindo as diretrizes de acessibilidade da web (WCAG) |
 | RNF05  | Usabilidade     | Seguir o plano de navegação de telas estabelecido |
@@ -168,13 +167,6 @@ A pontuação final dos critérios de priorização, será uma simples soma de c
   <td align=center>2</td>
   <td align=center>3</td>
   <td align=center>5</td>
- </tr>
- <tr>
-  <td>EP03</td>
-  <td>Contato com o Salão</span></td>
-  <td align=center>2</td>
-  <td align=center>2</td>
-  <td align=center>4</td>
  </tr>
 </table>
 
@@ -339,18 +331,11 @@ O mesmo método será aplicado para cada US: </br>
   <td align=center>4</td>
  </tr>
  <tr>
-  <td>US13</td>
-  <td>Enviar WhatsApp</span></td>
-  <td align=center>1</td>
-  <td align=center>3</td>
+  <td>US11</td>
+  <td>Consultar Agendamentos</span></td>
   <td align=center>4</td>
- </tr>
- <tr>
-  <td>US14</td>
-  <td>Enviar Email</span></td>
   <td align=center>1</td>
-  <td align=center>3</td>
-  <td align=center>4</td>
+  <td align=center>5</td>
  </tr>
 </table>
 
@@ -395,17 +380,24 @@ O mesmo método será aplicado para cada US: </br>
   <td align=center>6</td>
  </tr>
  <tr>
-  <td>US11</td>
-  <td>Consultar Agendamentos</span></td>
-  <td align=center>4</td>
-  <td align=center>1</td>
-  <td align=center>5</td>
- </tr>
- <tr>
   <td>US06</td>
   <td>Calcular Rota</span></td>
   <td align=center>2</td>
   <td align=center>2</td>
+  <td align=center>4</td>
+ </tr>
+  <tr>
+  <td>US13</td>
+  <td>Enviar WhatsApp</span></td>
+  <td align=center>1</td>
+  <td align=center>3</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US14</td>
+  <td>Enviar Email</span></td>
+  <td align=center>1</td>
+  <td align=center>3</td>
   <td align=center>4</td>
  </tr>
  <tr>
@@ -421,38 +413,47 @@ O mesmo método será aplicado para cada US: </br>
 
 Os objetivos indentificados do projeto são:</br></br>
 Objetivo Principal:
-<li>OP1 - Melhorar a gestão no quesito agendamento com a implementação
+<li>OP01 - Melhorar a gestão no quesito agendamento com a implementação
 de uma agenda virtual</li>
+Objetivos Específicos:
+<li>OE01 - Ser possível realizar e gerir os agendamentos via web para otimizar
+o tempo perdido nessa tarefa pela Ângela</li>
+<li>OE02 - Ser possível gerir as informações do salão para facilitar a
+atualização delas pelo próprio site</li>
+<li>OE03 - Ser possível consultar as informações do salão em um só lugar,
+(Contatos, localização, postagens do Instagram, serviços disponíveis,
+avaliações)</li>
 Objetivos Secundários:
-<li>OS1 - Aumentar a satisfação dos clientes do salão em 30% nos próximos
+<li>OS01 - Aumentar a satisfação dos clientes do salão em 30% nos próximos
 seis meses após a implementação</li>
-<li>OS2 - Aumentar a base de clientes em 20% nos próximos seis meses após
+<li>OS02 - Aumentar a base de clientes em 20% nos próximos seis meses após
 a implementação</li>
-<li>OS3 - Aumentar a taxa de retorno de clientes regulares em 25% nos
+<li>OS03 - Aumentar a taxa de retorno de clientes regulares em 25% nos
 próximos seis meses após a implantação</li>
-<li>OS4 - Diferenciar o salão de beleza no mercado</li>
-<li>OS5 - Melhorar a gestão no quesito na disponibilização das informações
-do salão</li>
+<li>OS04 - Ser possível avaliar, entrar em contato com o salão e calcular a
+rota por meio do site</li>
 
 Na tabela a seguir é apresentado quais USs de cada MVP estão alinhadas
 com os objetivos do projeto
 
 | Objetivo | Nome         | US's |
 | :----: | --------------- | ---------- |
-| OP01  | Melhorar Gestão dos Agendamentos  | MVP1 - US01, US02, US03, US04 e US05 |
-| OS01  | Aumentar Satisfação dos Clientes | Todo o MVP1 e MVP2 - US11 |
-| OS02  | Aumentar Base de Clientes    | MVP2 - US06, US12 |
-| OS03 | Aumentar Taxa do Retorno   | MVP2 - US12 |
-| OS04  | Destacar o Salão no Mercado  | Todo o MVP1 |
-| OS05 | Melhorar Gestão das Informações  | MVP2 - US07, US08, US09 e US10 |
+| OE01  | Realizar e Gerir Agendamentos pelo site  | US01, US02, US03, US04, US05 e US11 |
+| OE02  | Gerir Informações do Salão  | US07, US08, US09, US10 |
+| OE03  | Consultar Informações  | RNF06 |
+| OS01  | Aumentar Satisfação dos Clientes | US01, US02, US03, US04, US05 e US11 |
+| OS02  | Aumentar Base de Clientes    | US06, US12 |
+| OS03 | Aumentar Taxa do Retorno   | US12 |
+| OS04 | Realizar avaliações, contato e calcular rota  | US06, US12, US13 e US14 |
 
 
 ## Histórico de Revisão
 
-| Data       | Versão |                                                          Descrição                                                            |    Autor     |
+| Data       | Versão |                                                      Descrição                                                            |    Autor     |
 | :--------: | :----: | ----------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | 16/10/2023 | 1.0    | Declaração dos Requisitos Funcionais (de acordo com o framework SAFe) e dos RNF's                                             | Todos        |
 | 22/10/2023 | 1.1    | Correção e Atualização do backlog de acordo com o SAFe   | Guilherme, Vinícius e Yves |
 | 24/10/2023 | 1.2    | Correção do backlog de acordo feedbacks do professor   | Todos |
 | 25/10/2023 | 1.3    | Atualização com os Critérios de Priorização, MVP's e Alinhamento   | Todos |
 | 26/10/2023 | 1.4    | Correção da estrutura da tabela de declaração do Backlog e das categorias dos RNFs | Vinícius |
+| 05/11/2023 | 1.5    | Reestruturação do Backlog, Adição dos objetivos Específicos e Alteração nos MVPs  | Guilherme |
