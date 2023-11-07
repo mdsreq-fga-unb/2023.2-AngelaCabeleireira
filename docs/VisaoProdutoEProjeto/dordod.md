@@ -1,4 +1,4 @@
-# Definition of Ready
+## Definition of Ready
 
 Definition of Ready (DoR) é uma técnica da atividade de Verificação e Validação da Engenharia de Requisitos que basicamente são pré-requisitos de um backlog, para saber se ele está pronto para se iniciar o desenvolvimento. </br>
 Tal definição auxilia a equipe, garantindo que os requisitos escolhidos para iteração estejam preparados e assim possibilitar um desenvolvimento mais organizado e eficiente. </br>
@@ -14,9 +14,9 @@ Para definir esses critérios, levamos em consideração o material disponibiliz
     <li> Revisão do PO: O requisito foi avaliado pelo nosso PO, aquele que está mais próximo do Cliente, garantindo um alinhamento do que foi planejado por ambas as partes. </li>
     <li> Recursos Disponíveis: Caso os recursos, englobando time, ferramentas, tempo estão todos em ordem, ou podem ser garantidos até o começo da implementação. </li>
     <li> Teste de Aceitação: Foi feito um teste de aceitação com a Cliente a respeito do protótipo da funcionalidade, para garantir que era o que ela esperava. </li>
-</ul>
+</ul> </br>
 
-# Definition of Done
+## Definition of Done
 
 Definition of Done (DoD) é uma técnica da atividade de Verificação e Validação da Engenharia de Requisitos que basicamente diz se uma tarefa, ou requisito está concluída. É um conjunto mínimo de critérios que precisam ser cumpridos antes da entrega. </br>
 Para definir esses critérios, levamos em consideração o material disponibilizado pelo professor no Aprender 3.
@@ -28,3 +28,9 @@ Para definir esses critérios, levamos em consideração o material disponibiliz
     <li> Revisão de Código: O código de uma funcionalidade precisa ser revisado por outro desenvolvedor, que não trabalhou de forma efetiva na implementação. </li>
     <li> Padrões de Codificação Seguidos: O código está de acordo com os padrões estabelecidos pela equipe. </li>
 </ul>
+
+## Histórico de Revisão
+
+|    Data    | Versão | Descrição                                                                          | Autor                      |
+| :--------: | :----: | ---------------------------------------------------------------------------------- | -------------------------- |
+| 06/11/2023 |  1.0   | Adicionados Definição de Preparado e Definição de Pronto                           | Todos                      |
