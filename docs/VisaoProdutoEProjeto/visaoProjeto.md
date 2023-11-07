@@ -6,9 +6,9 @@ O time irá utilizar uma mistura do método RAD com a estrutura e organização 
 
 |           Papel          | Atribuições                                                            | Responsável | Participantes |
 | :----------------------: | :--------------------------------------------------------------------: | ----------------------------------------------- | ------------ |
-| Time de Desenvolvimento  | Codificar o produto, codificar testes unitários, realizar refatoração e realizar a atividade de representação, e de organização e atualização de requisitos.  | Luis | Arthur, Guilherme, Luis, Vinicius, Yves |
+| Time de Desenvolvimento  | Codificar o produto, codificar testes unitários, realizar refatoração e realizar a atividade de representação, e de organização e atualização de requisitos.  | Luis | Arthur, Daniel, Guilherme, Luis, Vinicius, Yves |
 | Dono do Produto          | Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas, realizando as seguintes atividades de requisitos: elicitação e descoberta, e de declaração dos requisitos. |          Yves                    | Ângela, Yves |
-| Scrum Master             | Gerir o time, no que diz respeito aos rituais presentes no framework, tais como planejamento do backlog da sprint, retrospectiva, review, além de realizar as seguintes atividades de requisitos: Análise e consenso, e verificação e validação dos requisitos. | Guilherme |  Arthur, Guilherme, Luis, Vinicius, Yves |
+| Scrum Master             | Gerir o time, no que diz respeito aos rituais presentes no framework, tais como planejamento do backlog da sprint, retrospectiva, review, além de realizar as seguintes atividades de requisitos: Análise e consenso, e verificação e validação dos requisitos. | Guilherme |  Arthur, Daniel, Guilherme, Luis, Vinicius, Yves |
 | Cliente                  | Dar feedback quanto ao protótipo e avaliação do produto. |  Ângela |  Ângela |
 
 ## Planejamento das Fases/Iterações
@@ -81,3 +81,4 @@ A seguir uma tabela mostrando quando exatamente ocorre e o passo a passo do que 
 | 27/09/2023 | 1.0    | Definição da organização, planejamento das sprints, matriz de comunicação, gerenciamento de riscos e critérios de replanejamento do projeto. | Todos |
 | 22/10/2023 | 1.1    | Alteração na parte do Gerenciamento de Riscos e Critérios de Replanejamento. | Guilherme de Sá |
 | 26/10/2023 | 1.2    | Revisão e alteração na data das sprints finais de acordo com o calendário da disciplina. | Vinícius |
+| 06/11/2023 | 1.3    | Adicionado novo membro da equipe nos planejamentos | Vinícius |

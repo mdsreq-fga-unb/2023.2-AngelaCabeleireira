@@ -455,3 +455,4 @@ com os objetivos do projeto
 | 25/10/2023 |  1.3   | Atualização com os Critérios de Priorização, MVP's e Alinhamento                   | Todos                      |
 | 26/10/2023 |  1.4   | Correção da estrutura da tabela de declaração do Backlog e das categorias dos RNFs | Vinícius                   |
 | 05/11/2023 |  1.5   | Reestruturação do Backlog, Adição dos objetivos Específicos e Alteração nos MVPs   | Guilherme                  |
+| 06/11/2023 |  1.6   | Adicionados Critérios de Aceitação do MVP1 em versão preliminar                    | Vinícius                   |
