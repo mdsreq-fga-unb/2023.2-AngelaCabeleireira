@@ -22,8 +22,7 @@ O time irá utilizar uma mistura do método RAD com a estrutura e organização 
 | Sprint 5 | Definição dos MVPs do projeto | 24/10/2023    | 06/11/2023 |
 | Sprint 6 | Desenvolvimento do primeiro MVP | 07/11/2023    | 20/11/2023 |
 | Sprint 7 | Desenvolvimento do segundo MVP | 21/11/2023    | 04/12/2023 |
-| Sprint 8 | Revisão do projeto e integração do sistema | 05/12/2023    | 18/12/2023 |
-| Sprint 9 | Finalização do projeto                                                                                 | 19/12/2023    | 01/01/2023 |
+| Sprint 8 | Revisão do projeto, integração do sistema e finalização | 05/12/2023    | 13/12/2023 |
 
 <!-- TODO: corrigir o restante a partir daqui (versão corrigida se encontra no docs) -->
 ## Matriz de Comunicação
@@ -81,3 +80,4 @@ A seguir uma tabela mostrando quando exatamente ocorre e o passo a passo do que 
 | :--------: | :----: | -------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | 27/09/2023 | 1.0    | Definição da organização, planejamento das sprints, matriz de comunicação, gerenciamento de riscos e critérios de replanejamento do projeto. | Todos |
 | 22/10/2023 | 1.1    | Alteração na parte do Gerenciamento de Riscos e Critérios de Replanejamento. | Guilherme de Sá |
+| 26/10/2023 | 1.2    | Revisão e alteração na data das sprints finais de acordo com o calendário da disciplina. | Vinícius |

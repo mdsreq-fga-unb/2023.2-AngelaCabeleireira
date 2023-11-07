@@ -21,102 +21,79 @@ Estrutura do Backlog:
  </tr>
  <!-- ÉPICO 01 -->
  <tr>
-  <td rowspan=5 style="vertical-align: middle;">EP01 - Agendamento de Horários</td>
+  <td rowspan=5 style="vertical-align: middle;">EP01</td>
   <td rowspan=4 style="vertical-align: middle;">CP01 - Controle da Agenda</td>
   <td rowspan=4 style="vertical-align: middle;">FE01 - Gerenciar detalhes do agendamento</td>
-  <td>US01</td>
+  <td>US01 - Eu como Usuário** quero poder agendar um horário, para que eu possa usufruir de um serviço do salão</td>
  </tr>
  <tr>
-  <td>US02</td>
+  <td>US02 - Eu como Usuário quero poder editar um agendamento prévio, para que eu possa mudar a data ou o serviço</td>
  </tr>
  <tr>
-  <td>US03</td>
+  <td>US03 - Eu como Usuário quero poder cancelar um agendamento, para que eu possa liberar um espaço na agenda do salão</td>
  </tr>
  <tr>
-  <td>US04</td>
+  <td>US04 - Eu como Usuário quero poder verificar os meus agendamentos para que eu possa acompanhar os dias e horários marcados</td>
  </tr>
  <tr>
   <td style="vertical-align: middle;">CP02 - Bloqueio de Agenda</td>
   <td style="vertical-align: middle;">FE02 - Indisponibilizar dias específicos para agendamento</td>
-  <td>US05</td>
+  <td>US05 - Eu como Administradora quero poder bloquear certos dias da agenda, para que eu possa impossibilitar qualquer agendamento naquele dia</td>
  </tr>
  <!-- ÉPICO 02 -->
  <tr>
-  <td rowspan=7 style="vertical-align: middle;">EP02 - Informações do Salão</td>
+  <td rowspan=9 style="vertical-align: middle;">EP02</td>
   <td rowspan=6 style="vertical-align: middle;">CP03 - Consulta das informações do Salão</td>
   <td style="vertical-align: middle;">FE03 - Consultar localização do estabelecimento</td>
-  <td>US06</td>
+  <td>US06 - Eu como Cliente quero poder calcular a rota da minha localização atual até o salão, para que eu possa ser atendido</td>
  </tr>
  <tr>
   <td rowspan=3 style="vertical-align: middle;">FE04 - Gerir serviços do estabelecimento</td>
-  <td>US07</td>
+  <td>US07 - Eu como Administradora quero poder adicionar um novo serviço, para que eu possa disponibilizar aos clientes</td>
  </tr>
  <tr>
-  <td>US08</td>
+  <td>US08 - Eu como Administradora quero poder editar um serviço já existente, para que eu possa atualizar suas infomações</td>
  </tr>
  <tr>
-  <td>US09</td>
+  <td>US09 - Eu como Administradora quero poder deletar um serviço já existente, para que deixe de ser uma opção para o cliente</td>
  </tr>
  <tr>
   <td style="vertical-align: middle;">FE05 - Editar informações de contato</td>
-  <td>US10</td>
+  <td>US10 - Eu como Administradora quero poder editar as informações de contato do salão, para que eu possa atualizá-las para os clientes</td>
  </tr>
  <tr>
   <td style="vertical-align: middle;">FE06 - Consultar horários de agendamento disponíveis</td>
-  <td>US11</td>
+  <td>US11 - Eu como Usuário quero poder consultar os agendamentos para que eu possa ver atendimentos marcados, e quais dias estão livres</td>
  </tr>
  <tr>
-  <td style="vertical-align: middle;">CP04 - FeedBack do Cliente</td>
+  <td rowspan = 4 style="vertical-align: middle;">CP04 - FeedBack do Cliente</td>
   <td style="vertical-align: middle;">FE07 - Realizar avaliação do estabelecimento</td>
-  <td>US12</td>
+  <td>US12 - Eu como Cliente quero poder dar minha própria avaliação, para que eu possa contribuir para a reputação do salão</td>
  </tr>
- <!-- ÉPICO 03 -->
  <tr>
-  <td rowspan=2 style="vertical-align: middle;">EP03 - Contato com o Salão</td>
-  <td rowspan=2 style="vertical-align: middle;">CP05 - Mensagens do Cliente</td>
   <td rowspan=2 style="vertical-align: middle;">FE08 - Enviar mensagem</td>
-  <td>US13</td>
+  <td>US13 - Eu como Cliente quero poder enviar uma mensagem via WhatsApp para o salão, para que eu possa me comunicar com a responsável</td>
  </tr>
  <tr>
-   <td>US14</td>
+   <td>US14 - Eu como Cliente quero poder enviar uma mensagem via Email para o salão, para que eu possa me comunicar com a responsável</td>
  </tr>
 </table>
 
-## Declarações de Histórias de Usuário (US) e critérios de aceitação
-
-<!-- TODO: Quando tivermos CA's definidos, adicionar nova coluna para declará-los aqui -->
-
-| Título | Declaração | 
-| :----- | ---------- |
-| **[US01]** | Eu como Usuário** quero poder agendar um horário, para que eu possa usufruir de um serviço do salão |
-| **[US02]** | Eu como Usuário quero poder editar um agendamento prévio, para que eu possa mudar a data ou o serviço |
-| **[US03]** | Eu como Usuário quero poder cancelar um agendamento, para que eu possa liberar um espaço na agenda do salão |
-| **[US04]** | Eu como Usuário quero poder verificar os meus agendamentos para que eu possa acompanhar os dias e horários marcados |
-| **[US05]** | Eu como Administradora quero poder bloquear certos dias da agenda, para que eu possa impossibilitar qualquer agendamento naquele dia |
-| **[US06]** | Eu como Cliente quero poder calcular a rota da minha localização atual até o salão, para que eu possa ser atendido |
-| **[US07]** | Eu como Administradora quero poder adicionar um novo serviço, para que eu possa disponibilizar aos clientes |
-| **[US08]** | Eu como Administradora quero poder editar um serviço já existente, para que eu possa atualizar suas infomações |
-| **[US09]** | Eu como Administradora quero poder deletar um serviço já existente, para que deixe de ser uma opção para o cliente |
-| **[US10]** | Eu como Administradora quero poder editar as informações de contato do salão, para que eu possa atualizá-las para os clientes |
-| **[US11]** | Eu como Usuário quero poder consultar os agendamentos para que eu possa ver atendimentos marcados, e quais dias estão livres |
-| **[US12]** | Eu como Cliente quero poder dar minha própria avaliação, para que eu possa contribuir para a reputação do salão | 
-| **[US13]** | Eu como Cliente quero poder enviar uma mensagem via WhatsApp para o salão, para que eu possa me comunicar com a responsável | 
-| **[US14]** | Eu como Cliente quero poder enviar uma mensagem via Email para o salão, para que eu possa me comunicar com a responsável |
-
-****Usuário = Administradora e Clientes**
+\***\*Usuário = Administradora e Cliente**
 
 ## Requisitos Não Funcionais
 
-| Número | Tipo            | Declaração |
-| :----: | --------------- | ---------- |
-| RNF01  | Design          | O produto deverá seguir a identidade visual do salão (paleta de cores, logomarca, banners) |
-| RNF02  | Suportabilidade | Deve ser compatível com os principais navegadores Web em suas versões mais recentes (Chrome, Edge, Opera, Safari, FireFox) |
-| RNF03  | Usabilidade     | O site deve ser responsivo a diferentes tamanhos de tela e dispositivos |
-| RNF04  | Acessibilidade  | Deve ser acessível para usuários com dificuldades visuais, seguindo as diretrizes de acessibilidade da web (WCAG) |
-| RNF05  | Navegabilidade  | Seguir o plano de navegação de telas estabelecido |
-| RNF06  | Informações     | O site deve conter as informações de contato, localização, postagens do Instagram e avaliações |
+Os requisitos não funcionais foram identificados de acordo com o modelo `URPS+`.
 
-<!-- TODO: definir estratégia de priorização e aplicar no backlog; Definir MVP1 e MVP2 com base na priorização. -->
+| Número | Tipo            | Declaração                                                                                                                                       |
+| :----: | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| RNF01  | Suportabilidade | Deve ser compatível com os principais navegadores Web em suas versões a partir de 2023: Chrome 109, Edge 109, Opera 94, Safari 16.3, FireFox 108 |
+| RNF02  | Usabilidade     | O produto deverá seguir a identidade visual do salão (paleta de cores, logomarca, banners).                                                      |
+| RNF03  | Usabilidade     | O site deve ser responsivo a tamanhos de tela de dispositivos desktop e mobile                                                                   |
+| RNF04  | Usabilidade     | Deve ser acessível para usuários com dificuldades visuais, seguindo as diretrizes de acessibilidade da web (WCAG)                                |
+| RNF05  | Usabilidade     | Seguir o plano de navegação de telas estabelecido                                                                                                |
+| RNF06  | Usabilidade     | O site deve conter as informações de contato, localização, postagens do Instagram e avaliações                                                   |
+
 ## Critérios de priorização
 
 Utilizaremos os seguintes critérios de priorização:
@@ -144,6 +121,7 @@ Utilizaremos os seguintes critérios de priorização:
 
 A pontuação final dos critérios de priorização, será uma simples soma de cada resultado por épico: </br>
 `vn + d = p`
+
 <table border=0 style='border-collapse:collapse;'>
  <col span=5>
  <tr>
@@ -167,17 +145,11 @@ A pontuação final dos critérios de priorização, será uma simples soma de c
   <td align=center>3</td>
   <td align=center>5</td>
  </tr>
- <tr>
-  <td>EP03</td>
-  <td>Contato com o Salão</span></td>
-  <td align=center>2</td>
-  <td align=center>2</td>
-  <td align=center>4</td>
- </tr>
 </table>
 
 O mesmo método será aplicado para cada US: </br>
 `vn + d = p`
+
 <table border=0 style='border-collapse:collapse;'>
  <col span=5>
  <tr>
@@ -287,14 +259,10 @@ O mesmo método será aplicado para cada US: </br>
  </tr>
 </table>
 
-
-<!-- TODO: priorização das US's individualmente -->
-
-
-
-## MVP's
+## Minimum Viable Products (MVP's)
 
 ### MVP1
+
 <table border=0 style='border-collapse:collapse;'>
  <col span=5>
  <tr>
@@ -307,6 +275,13 @@ O mesmo método será aplicado para cada US: </br>
  <tr>
   <td>US01</td>
   <td>Agendar Horário</td>
+  <td align=center>4</td>
+  <td align=center>1</td>
+  <td align=center>5</td>
+ </tr>
+ <tr>
+  <td>US11</td>
+  <td>Consultar Agendamentos</span></td>
   <td align=center>4</td>
   <td align=center>1</td>
   <td align=center>5</td>
@@ -339,23 +314,21 @@ O mesmo método será aplicado para cada US: </br>
   <td align=center>1</td>
   <td align=center>4</td>
  </tr>
- <tr>
-  <td>US13</td>
-  <td>Enviar WhatsApp</span></td>
-  <td align=center>1</td>
-  <td align=center>3</td>
-  <td align=center>4</td>
- </tr>
- <tr>
-  <td>US14</td>
-  <td>Enviar Email</span></td>
-  <td align=center>1</td>
-  <td align=center>3</td>
-  <td align=center>4</td>
- </tr>
 </table>
 
+### Critérios de Aceitação do MVP1
+
+| US     | Critérios de Aceite |
+| :--------- | ---------------------------------------------------------------------------------------------- |
+| **[US01]** Eu como Usuário\*\* quero poder agendar um horário, para que eu possa usufruir de um serviço do salão | - Deve ser possível selecionar um horário livre </br> - Deve ser possível realizar o agendamento de um serviço no horário selecionado |
+| **[US02]** Eu como Usuário quero poder editar um agendamento prévio, para que eu possa mudar a data ou o serviço | - Deve ser possível alterar a data e o horário de um agendamento, de acordo com a disponibilidade </br> - Deve ser possível editar o serviço agendado |
+| **[US03]** Eu como Usuário quero poder cancelar um agendamento, para que eu possa liberar um espaço na agenda do salão | - Deve ser possível realizar o cancelamento de um agendamento, tornando o horário disponível |
+| **[US04]** Eu como Usuário quero poder verificar os meus agendamentos para que eu possa acompanhar os dias e horários marcados | - O Cliente deve ser capaz de verificar quais horários e serviços ele tem marcados </br> - A Administradora deve ser capaz de verificar horários, serviços e clientes agendados |
+| **[US05]** Eu como Administradora quero poder bloquear certos dias da agenda, para que eu possa impossibilitar qualquer agendamento naquele dia | - A Administradora deve ser capaz de selecionar um horário vago e bloquear agendamentos no mesmo </br> - O Cliente não deve ser capaz de realizar um agendamento no horário bloqueado |
+| **[US11]** Eu como Usuário quero poder consultar os agendamentos para que eu possa ver atendimentos marcados, e quais dias estão livres | - O Cliente deve ser capaz de consultar quais horários estão disponíveis para agendamento </br> - O Cliente deve ser capaz de consultar quais horários **não** estão disponíveis para agendamento |
+
 ### MVP2
+
 <table border=0 style='border-collapse:collapse;'>
  <col span=5>
  <tr>
@@ -394,17 +367,24 @@ O mesmo método será aplicado para cada US: </br>
   <td align=center>6</td>
  </tr>
  <tr>
-  <td>US11</td>
-  <td>Consultar Agendamentos</span></td>
-  <td align=center>4</td>
-  <td align=center>1</td>
-  <td align=center>5</td>
- </tr>
- <tr>
   <td>US06</td>
   <td>Calcular Rota</span></td>
   <td align=center>2</td>
   <td align=center>2</td>
+  <td align=center>4</td>
+ </tr>
+  <tr>
+  <td>US13</td>
+  <td>Enviar WhatsApp</span></td>
+  <td align=center>1</td>
+  <td align=center>3</td>
+  <td align=center>4</td>
+ </tr>
+ <tr>
+  <td>US14</td>
+  <td>Enviar Email</span></td>
+  <td align=center>1</td>
+  <td align=center>3</td>
   <td align=center>4</td>
  </tr>
  <tr>
@@ -415,42 +395,63 @@ O mesmo método será aplicado para cada US: </br>
   <td align=center>3</td>
  </tr>
 </table>
+
+<!-- ### Critérios de Aceitação do MVP2
+
+| **[US06]** | Eu como Cliente quero poder calcular a rota da minha localização atual até o salão, para que eu possa ser atendido |
+| **[US07]** | Eu como Administradora quero poder adicionar um novo serviço, para que eu possa disponibilizar aos clientes |
+| **[US08]** | Eu como Administradora quero poder editar um serviço já existente, para que eu possa atualizar suas infomações |
+| **[US09]** | Eu como Administradora quero poder deletar um serviço já existente, para que deixe de ser uma opção para o cliente |
+| **[US10]** | Eu como Administradora quero poder editar as informações de contato do salão, para que eu possa atualizá-las para os clientes |
+| **[US12]** | Eu como Cliente quero poder dar minha própria avaliação, para que eu possa contribuir para a reputação do salão |
+| **[US13]** | Eu como Cliente quero poder enviar uma mensagem via WhatsApp para o salão, para que eu possa me comunicar com a responsável |
+| **[US14]** | Eu como Cliente quero poder enviar uma mensagem via Email para o salão, para que eu possa me comunicar com a responsável | -->
 
 ## Alinhamento com os Objetivos do Projeto
 
 Os objetivos indentificados do projeto são:</br></br>
 Objetivo Principal:
-<li>OP1 - Melhorar a gestão no quesito agendamento com a implementação
+
+<li>OP01 - Melhorar a gestão no quesito agendamento com a implementação
 de uma agenda virtual</li>
+Objetivos Específicos:
+<li>OE01 - Ser possível realizar e gerir os agendamentos via web para otimizar
+o tempo perdido nessa tarefa pela Ângela</li>
+<li>OE02 - Ser possível gerir as informações do salão para facilitar a
+atualização delas pelo próprio site</li>
+<li>OE03 - Ser possível consultar as informações do salão em um só lugar,
+(Contatos, localização, postagens do Instagram, serviços disponíveis,
+avaliações)</li>
 Objetivos Secundários:
-<li>OS1 - Aumentar a satisfação dos clientes do salão em 30% nos próximos
+<li>OS01 - Aumentar a satisfação dos clientes do salão em 30% nos próximos
 seis meses após a implementação</li>
-<li>OS2 - Aumentar a base de clientes em 20% nos próximos seis meses após
+<li>OS02 - Aumentar a base de clientes em 20% nos próximos seis meses após
 a implementação</li>
-<li>OS3 - Aumentar a taxa de retorno de clientes regulares em 25% nos
+<li>OS03 - Aumentar a taxa de retorno de clientes regulares em 25% nos
 próximos seis meses após a implantação</li>
-<li>OS4 - Diferenciar o salão de beleza no mercado</li>
-<li>OS5 - Melhorar a gestão no quesito na disponibilização das informações
-do salão</li>
+<li>OS04 - Ser possível avaliar, entrar em contato com o salão e calcular a
+rota por meio do site</li>
 
 Na tabela a seguir é apresentado quais USs de cada MVP estão alinhadas
 com os objetivos do projeto
 
-| Objetivo | Nome         | US's |
-| :----: | --------------- | ---------- |
-| OP01  | Melhorar Gestão dos Agendamentos  | MVP1 - US01, US02, US03, US04 e US05 |
-| OS01  | Aumentar Satisfação dos Clientes | Todo o MVP1 e MVP2 - US11 |
-| OS02  | Aumentar Base de Clientes    | MVP2 - US06, US12 |
-| OS03 | Aumentar Taxa do Retorno   | MVP2 - US12 |
-| OS04  | Destacar o Salão no Mercado  | Todo o MVP1 |
-| OS05 | Melhorar Gestão das Informações  | MVP2 - US07, US08, US09 e US10 |
-
+| Objetivo | Nome                                         | US's                                |
+| :------: | -------------------------------------------- | ----------------------------------- |
+|   OE01   | Realizar e Gerir Agendamentos pelo site      | US01, US02, US03, US04, US05 e US11 |
+|   OE02   | Gerir Informações do Salão                   | US07, US08, US09, US10              |
+|   OE03   | Consultar Informações                        | RNF06                               |
+|   OS01   | Aumentar Satisfação dos Clientes             | US01, US02, US03, US04, US05 e US11 |
+|   OS02   | Aumentar Base de Clientes                    | US06, US12                          |
+|   OS03   | Aumentar Taxa do Retorno                     | US12                                |
+|   OS04   | Realizar avaliações, contato e calcular rota | US06, US12, US13 e US14             |
 
 ## Histórico de Revisão
 
-| Data       | Versão |                                                          Descrição                                                            |    Autor     |
-| :--------: | :----: | ----------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| 16/10/2023 | 1.0    | Declaração dos Requisitos Funcionais (de acordo com o framework SAFe) e dos RNF's                                             | Todos        |
-| 22/10/2023 | 1.1    | Correção e Atualização do backlog de acordo com o SAFe   | Guilherme, Vinícius e Yves |
-| 24/10/2023 | 1.2    | Correção do backlog de acordo feedbacks do professor   | Todos |
-| 25/10/2023 | 1.3    | Atualização com os Critérios de Priorização, MVP's e Alinhamento   | Todos |
+|    Data    | Versão | Descrição                                                                          | Autor                      |
+| :--------: | :----: | ---------------------------------------------------------------------------------- | -------------------------- |
+| 16/10/2023 |  1.0   | Declaração dos Requisitos Funcionais (de acordo com o framework SAFe) e dos RNF's  | Todos                      |
+| 22/10/2023 |  1.1   | Correção e Atualização do backlog de acordo com o SAFe                             | Guilherme, Vinícius e Yves |
+| 24/10/2023 |  1.2   | Correção do backlog de acordo feedbacks do professor                               | Todos                      |
+| 25/10/2023 |  1.3   | Atualização com os Critérios de Priorização, MVP's e Alinhamento                   | Todos                      |
+| 26/10/2023 |  1.4   | Correção da estrutura da tabela de declaração do Backlog e das categorias dos RNFs | Vinícius                   |
+| 05/11/2023 |  1.5   | Reestruturação do Backlog, Adição dos objetivos Específicos e Alteração nos MVPs   | Guilherme                  |
