@@ -15,6 +15,7 @@ nav:
   - Entregas: 
     - Unidade 01: Entregas/unidade01.md
     - Unidade 02: Entregas/unidade02.md
+    - Unidade 03: Entregas/unidade03.md
 
 #Config
 docs_dir: docs
