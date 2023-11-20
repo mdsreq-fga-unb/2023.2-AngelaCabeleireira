@@ -74,6 +74,73 @@ A seguir uma tabela mostrando quando exatamente ocorre e o passo a passo do que 
 | Constante ausência de determinado membro da equipe | Quando um ou mais membro deixa de participar das discussões, ir às aulas, não conseguirmos mais contato | 1 - Avisar o professor imediatamente <br>2 - Refazer o planejamento das Sprints em relação às entregas<br>3 - Atribuir as USs do membro em questão para outro<br>4 - Caso o grupo notar que haverá um atraso em uma entrega, avisar o Cliente |
 | Dificuldade de uso das ferramentas de desenvolvimento predefinidas | Quando no meio do desenvolvimento na Sprint, um ou mais membros não conseguir avançar na evolução da USs por conta de alguma ferramenta específica | 1 - O membro em questão deverá procurar auxílio dos outros membros <br>2 -Caso mesmo com ajuda, não conseguirem avançar, procurar uma outra forma de resolver o problema com o uso de uma outra tecnologia<br>3 - Caso o grupo notar que haverá um atraso em uma entrega, avisar o Cliente |
 
+## Padrões de codificação
+
+Os padrões a serem seguidos serão algumas convenções já utilizadas nas tecnologias e linguagens de programação definidas pela equipe (clique no item para ver a fonte): </br>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML" target="_blank"> **HTML** </a>: </br>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML#attributes" target="_blank">- Atributos entre aspas duplas</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML#case" target="blank">- Lowercase (tudo minúsculo) para nomes de elementos e atributos.</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML#class_and_id_names" target="blank">- Nomes de classes/ID com múltiplas palavras em kebab-case (separação por hífen).</a>
+
+Exemplo: `<img src="images/image.png" alt="exemplo-SS-em-requisitos" class="exemplo-kebab-case">`
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS" target="_blank"> **CSS** </a>: </br>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#css_comments" target="blank">- Comentários para explicar o que/onde está sendo aplicada a estilização, em português.</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#double_quotes_around_values" target="blank">- Aspas duplas para valores (semelhante ao definido para HTML).</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#longhand_vs._shorthand_rules" target="blank">- Separar propriedades por linha ao invés de juntá-las em uma linha só.</a>
+
+Exemplo:
+```
+/* Formato dos comentários */
+background-image: url("../valores/entre-aspas-duplas.png");
+
+/* Fonte sans-serif em negrito tamanho 18 */
+h2 {
+font-weight: bold;
+font-size: 18pt;
+font-family: sans-serif;
+}
+```
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript" target="_blank"> **JavaScript** </a>: </br>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript#comments" target="blank">- Comentários single line, explicativos e em português para partes não-óbvias do código (funções cujos nomes não são significativos, funções complicadas e/ou grandes).</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript#functions" target="blank">- Nomear funções em camelCase de forma descritiva.</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript#objects" target="blank">- Definir Classes em PascalCase (camelCase porém com a primeira letra maiúscula) e Objetos em camelCase.</a>
+
+Exemplo:
+```
+// Comentário single line descritivo:
+// Retorna status code 200:
+function status(request, response) {
+  response.status(200).send({ requisitos: "SS Pentágono Cabeludo" });
+}
+
+// Nome em camelCase:
+function agendaHorario() {
+  console.log("Horario agendado!");
+}
+
+// Classes e objetos: 
+const pentagonoCabeludo = new Equipe(5, "Requisitos", "SS");
+
+const pentagonoCabeludo = {
+  membros: 5,
+  disciplina: "Requisitos",
+  mencao: "SS",
+};
+
+```
+
 ## Histórico de Revisão
 
 | Data       | Versão |                                                          Descrição                                                               |    Autor     |
