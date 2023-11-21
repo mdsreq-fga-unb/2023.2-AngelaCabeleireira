@@ -1,0 +1,9 @@
+td {
+  border-radius: 15px;
+  border-spacing: 20px;
+}
+
+.selected {
+  background-color:#D4538B;
+}
+
