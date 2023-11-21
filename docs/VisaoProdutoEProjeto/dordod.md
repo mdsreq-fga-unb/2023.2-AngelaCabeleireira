@@ -5,7 +5,7 @@ Tal definição auxilia a equipe, garantindo que os requisitos escolhidos para i
 Para definir esses critérios, levamos em consideração o material disponibilizado pelo professor no Aprender 3:
 
 <ul>
-    <li> Informações Suficientes: Todas as informações necessárias para o desenvolvimento do requisito estão disponíveis: regras de negócio, protótipos validados pela Cliente e plano de navegação de telas. </li>
+    <li> Informações Suficientes: Todas as informações necessárias para o desenvolvimento do requisito estão disponíveis: regras de negócio e protótipos validados pela Cliente. </li>
     <li> Estruturado em História de Usuário: Se o requisito segue a estrutura básica das USs, contendo uma persona, uma ação e um valor de negócio. </li>
     <li> Ser o INVEST: As USs precisam seguir os princípios do INVEST, garantindo que as histórias sejam devidamente estruturadas. </li>
     <li> Critérios de Aceitação: Se os requisitos estão com os critérios de aceitação detalhadamente documentados, com a especificação do que é esperado em cada um deles e devidamente validados. </li>
