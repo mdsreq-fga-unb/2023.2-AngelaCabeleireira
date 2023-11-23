@@ -512,7 +512,7 @@ O mesmo método será aplicado para cada US: </br>
       <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">- Teste de agendamento dentro do período disponível (Critério 1).<br><br>- Teste de restrição de agendamento fora do período (Critério 3).</td>
     </tr>
     <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">1. O sistema deve permitir que o gerente especifique datas de início e término para o período de agendamento.</td>
+      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema deve permitir que o gerente especifique datas de início e término para o período de agendamento.</td>
     </tr>
     <tr>
       <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. O sistema deve permitir o agendamento dos clientes apenas para o período de agendamento disponível.</td>
@@ -559,7 +559,7 @@ O mesmo método será aplicado para cada US: </br>
       <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">- Teste de opção de confirmação (Critério 2).<br><br>- Teste de registro na agenda (Critério 3).</td>
     </tr>
     <tr>
-      <td style="border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O cliente deve ter a opção de confirmar agendamento,</td>
+      <td style="border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O cliente deve ter a opção de confirmar agendamento.</td>
     </tr>
     <tr>
       <td style="border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. Ao confirmar, o sistema deve registrar o agendamento na agenda do salão.</td>
@@ -694,7 +694,7 @@ com os objetivos do projeto
 | :------: | -------------------------------------------- | ---------------------------------------- |
 |   OE01   | Gerência dos agendamentos via web            | US01, US02, US03, US04, US05, US06, US07 |
 |   OE02   | Gerência das informações do salão            | US08, US09, US10, US11, US12             |
-|   OE03   | Consulta das informações                     | RNF06, US13, US14                        |
+|   OE03   | Consulta das informações                     | US13, US14                               |
 |   OS01   | Aumentar satisfação dos clientes             | US01, US02, US03, US04, US05, US19, US20 |
 |   OS02   | Aumentar base de clientes                    | US13, US14, US15, US16, US17             |
 |   OS03   | Aumentar taxa do retorno                     | US15, US16, US17                         |

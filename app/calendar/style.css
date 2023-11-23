@@ -1,0 +1,104 @@
+td {
+  border-radius: 15px;
+  border-spacing: 20px;
+}
+
+.my-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-height: 400px 
+}
+
+.selected {
+  background-color:#D4538B;
+}
+
+.calendar-div {
+  background-color: #FFCC00;
+  min-width: 400px;
+  min-height: 300px;
+}
+
+.calendar-cell {
+  width: 50px;
+  height: 52.513px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #D9D9D9;
+}
+
+.calendar-text {
+
+}
+
+.services-div {
+  background-color:#D4538B;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  border-right: 50px;
+  gap: 10px;
+}
+
+.service-button {
+  /* color: green; */
+  background-color: #CCCCCC;
+  max-height: 30px;
+  max-width: 200px;
+  align-items: center;
+}
+
+.service-button-text {
+  /* background-color: #777; */
+  align-self: center;
+  margin: 10px;
+}
+
+.time-box-div {
+  background-color: #00FFFF;
+  display: flex;
+  flex-wrap: nowrap;
+  /* gap: 4px; */
+  flex-direction: column;
+  width: 100px;
+  max-width: 300px;
+  overflow-y: scroll;
+  
+}
+
+.time-box-button {
+  background-color: #bbb;
+  max-height: 20px;
+  max-width: 100px;
+  width: 100%;
+  /* height: 1; */
+  margin-top: 2px;
+  padding-bottom: 25px;
+}
+
+.time-box-button:hover {
+  background-color: #777;
+}
+
+.time-button-text {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.transition {
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+}
+
+.unselect {
+  user-select: none;
+  cursor: pointer;
+}
+
+.hidden {
+
+}
