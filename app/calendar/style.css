@@ -136,7 +136,7 @@
 }
 
 .time-box-button:hover {
-  background-color: #777;
+  background-color:#D4538B;
 }
 
 .time-button-text {
@@ -175,4 +175,11 @@ tr {
   width: 100%;
   margin-top: 10px;
   margin: 0 auto;
+}
+
+.confirm {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
 }

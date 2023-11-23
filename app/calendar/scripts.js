@@ -6,7 +6,7 @@ let selectMonth = document.getElementById("month");
 
 let months = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 
-let servicesList = ['Progressiva', 'Selante/Botox','Luzes','Guanid/amônia','Nutrição a laser','Hidratação a laser','Cauterização a laser', 'Cronograma', 'Amongus']
+let servicesList = ['Progressiva', 'Selante/Botox','Luzes','Guanid/amônia','Nutrição a laser','Hidratação a laser','Cauterização a laser', 'Cronograma']
 
 let timeBoxList = ['08 : 00', '08 : 30', '09 : 00', '09 : 30', '10 : 00','10 : 30', '11 : 00', '11 : 30', '12 : 00', '12 : 30', '13 : 00', '13 : 30', '14 : 00','14 : 30', '15 : 00', '15 : 30', '16 : 00', '16 : 30', '17 : 00', '17 : 30', '18 : 00']
 
@@ -14,7 +14,7 @@ let monthAndYear = document.getElementById("monthAndYear");
 showCalendar(currentMonth, currentYear);
 showService();
 showTimeBox();
-var cellSelected, serviceSelected, daySelected;
+var cellSelected, serviceSelected, daySelected, monthSelected, yearSelected;
 
 function next() {
     if (currentYear === 2024 && currentMonth === 11) return;
@@ -37,30 +37,14 @@ function jump() {
 }
 
 function clickDay(evt) {
-    // console.log(evt)
-
-    
-
-    let dayOfMonth = evt.currentTarget.innerHTML
-    let month = monthAndYear.innerHTML.slice(0,3)
-    let year = monthAndYear.innerHTML.slice(-4)
-
-    // console.log(cellSelected);// = 
-    // console.log(dayOfMonth)
-    // console.log(month)
-    // console.log(year)
+    daySelected = evt.currentTarget.innerText;
+    monthSelected = monthAndYear.innerHTML.slice(0,3)
+    yearSelected = monthAndYear.innerHTML.slice(-4)
     cellSelected.classList.remove("selected")
     cellSelected = evt.currentTarget;
     cellSelected.classList.add("selected")
-    // console.log(`\n\n${cellSelected}`)
-    // console.log(evt.currentTarget.parentNode)
-    // console.log(evt.currentTarget.tagName)
-    // window.alert('teste')
-
+    // toggleHideTime();
 }
-
-
-
 
 
 function showCalendar(month, year) {
@@ -108,7 +92,9 @@ function showCalendar(month, year) {
                     clickDay(e)
                 });
                 let cellText = document.createElement("p");
-                cellText.innerHTML = date;
+                cellText.innerText = date;
+                cellText.value = date;
+                
                 cellText.classList.add("unselect")
                 cellText.classList.add("calendar-text")
                 if (date === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
@@ -147,22 +133,36 @@ function showService () {
     });
 }
 
-function toggleHide(){
+function toggleHideCalendar(){
     var calendarDiv = document.getElementById('calendar-div');
     if (calendarDiv.classList.contains("hidden") == true){
         calendarDiv.classList.remove("hidden")
     } else {
         calendarDiv.classList.add("hidden");
     }
-
-    
     var timeBoxDiv = document.getElementById('time-body');
     if (timeBoxDiv.classList.contains("hidden") === true){
         timeBoxDiv.classList.remove("hidden")
     } else {
         timeBoxDiv.classList.add("hidden");
     }
+    var submit = document.getElementById('submit');
+    if (submit.classList.contains("hidden") === true){
+        submit.classList.remove("hidden")
+    } else {
+        submit.classList.add("hidden");
+    }
+}
+function toggleHideTime() {
+    var timeBoxDiv = document.getElementById('time-body');
+    if (timeBoxDiv.classList.contains("hidden") === true){
+        timeBoxDiv.classList.remove("hidden")
+    } else {
+        timeBoxDiv.classList.add("hidden");
+    }
+}   
 
+function toggleHideConfirm(){
     var submit = document.getElementById('submit');
     if (submit.classList.contains("hidden") === true){
         submit.classList.remove("hidden")
@@ -176,13 +176,13 @@ function clickService(evt) {
     if (evt.currentTarget === serviceSelected) {
         serviceSelected.classList.remove("selected");
         serviceSelected = null;
-        toggleHide();
+        toggleHideCalendar();
         return;
     }
 
     // console.log(serviceSelected)
     if (serviceSelected === undefined || serviceSelected === null) {
-        toggleHide();
+        toggleHideCalendar();
         serviceSelected = evt.currentTarget;
         serviceSelected.classList.add("selected");
     } else {
@@ -216,13 +216,16 @@ function showTimeBox () {
 function clickTimeBox(evt) {
     // console.log(evt.currentTarget);
     timeSelected = evt.currentTarget;
-    handleConfirm();
+    document.getElementById("c1").innerText = serviceSelected.innerText;
+    // console.log(daySelected).value.innerText;
+    document.getElementById("c2").innerText = `Dia ${daySelected}\n${monthSelected}\n${yearSelected}`;
+    document.getElementById("c3").innerText = timeSelected.innerText;
+    // toggleHideConfirm();
 }
 
 function handleConfirm() {
     div = document.getElementById("confirm")
+    window.alert(`Enviar para a API do Database: ${serviceSelected.innerText} - Dia ${daySelected} ${monthSelected} ${yearSelected} - ${timeSelected.innerText}`)
 
-    div.appendChild(document.createElement("p"))
-    div.appendChild(document.createElement("p"))
-    div.appendChild(document.createElement("p"))
+    
 }
