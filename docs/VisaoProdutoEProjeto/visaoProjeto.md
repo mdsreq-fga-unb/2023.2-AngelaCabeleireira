@@ -24,7 +24,7 @@ O time irá utilizar uma mistura do método RAD com a estrutura e organização 
       <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Dono do Produto</span></td>
       <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas, realizando as seguintes atividades de requisitos: elicitação e descoberta, e de declaração dos requisitos.</td>
       <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Yves</td>
-      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Ângela, Yves</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Angela, Yves</td>
     </tr>
     <tr>
       <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Scrum Master</span></td>
@@ -35,8 +35,8 @@ O time irá utilizar uma mistura do método RAD com a estrutura e organização 
     <tr>
       <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"><span style="font-weight:bold">Cliente</span></td>
       <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Dar feedback quanto ao protótipo e avaliação do produto.</td>
-      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Ângela</td>
-      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Ângela</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Angela</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Angela</td>
     </tr>
   </tbody>
 </table>
