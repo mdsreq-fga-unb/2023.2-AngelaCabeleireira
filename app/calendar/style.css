@@ -176,3 +176,8 @@ tr {
   margin-top: 10px;
   margin: 0 auto;
 }
+
+.confirm {
+  justify-content: center;
+  display: flex;
+}
