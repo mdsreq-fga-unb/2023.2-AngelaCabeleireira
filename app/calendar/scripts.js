@@ -6,18 +6,25 @@ let selectMonth = document.getElementById("month");
 
 let months = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 
+let servicesList = ['Progressiva', 'Selante/Botox','Luzes','Guanid/amônia','Nutrição a laser','Hidratação a laser','Cauterização a laser', 'Cronograma', 'Amongus']
+
+let timeBoxList = ['08 : 00', '08 : 30', '09 : 00', '09 : 30', '10 : 00','10 : 30', '11 : 00', '11 : 30', '12 : 00', '12 : 30', '13 : 00', '13 : 30', '14 : 00','14 : 30', '15 : 00', '15 : 30', '16 : 00', '16 : 30', '17 : 00', '17 : 30', '18 : 00']
+
 let monthAndYear = document.getElementById("monthAndYear");
 showCalendar(currentMonth, currentYear);
-
-var cell_selected;
+showService();
+showTimeBox();
+var cellSelected, serviceSelected, daySelected;
 
 function next() {
+    if (currentYear === 2024 && currentMonth === 11) return;
     currentYear = (currentMonth === 11) ? currentYear + 1 : currentYear;
     currentMonth = (currentMonth + 1) % 12;
     showCalendar(currentMonth, currentYear);
 }
 
 function previous() {
+    if (currentYear === 2023 && currentMonth === 0) return;
     currentYear = (currentMonth === 0) ? currentYear - 1 : currentYear;
     currentMonth = (currentMonth === 0) ? 11 : currentMonth - 1;
     showCalendar(currentMonth, currentYear);
@@ -30,24 +37,37 @@ function jump() {
 }
 
 function clickDay(evt) {
-    let dayOfMonth = evt.target.innerHTML
+    // console.log(evt)
+
+    
+
+    let dayOfMonth = evt.currentTarget.innerHTML
     let month = monthAndYear.innerHTML.slice(0,3)
     let year = monthAndYear.innerHTML.slice(-4)
-    console.log(dayOfMonth)
-    console.log(month)
-    console.log(year)
-    console.log(cell_selected);// = 
-    cell_selected.classList.remove("selected")
-    cell_selected = evt.target
-    cell_selected.classList.add("selected")
+
+    // console.log(cellSelected);// = 
+    // console.log(dayOfMonth)
+    // console.log(month)
+    // console.log(year)
+    cellSelected.classList.remove("selected")
+    cellSelected = evt.currentTarget;
+    cellSelected.classList.add("selected")
+    // console.log(`\n\n${cellSelected}`)
+    // console.log(evt.currentTarget.parentNode)
+    // console.log(evt.currentTarget.tagName)
     // window.alert('teste')
+
 }
+
+
+
+
 
 function showCalendar(month, year) {
 
     let firstDay = (new Date(year, month)).getDay();
     let daysInMonth = 32 - new Date(year, month, 32).getDate();
-    let selected = today;
+
     let tbl = document.getElementById("calendar-body"); // body of the calendar
 
     // clearing all previous cells
@@ -68,9 +88,9 @@ function showCalendar(month, year) {
         for (let j = 0; j < 7; j++) {
             if (i === 0 && j < firstDay) {
                 let cell = document.createElement("td");
-                cell.addEventListener('click', function (e) {
-                    clickDay(e)
-                });
+                // cell.addEventListener('click', function (e) {
+                //     clickDay(e)
+                // });
                 let cellText = document.createTextNode("");
                 cell.appendChild(cellText);
                 row.appendChild(cell);
@@ -81,13 +101,19 @@ function showCalendar(month, year) {
 
             else {
                 let cell = document.createElement("td");
+                // cell.classList.add("flexbox")
+                cell.classList.add("unselect")
+                cell.classList.add("calendar-cell")
                 cell.addEventListener('click', function (e) {
                     clickDay(e)
                 });
-                let cellText = document.createTextNode(date);
+                let cellText = document.createElement("p");
+                cellText.innerHTML = date;
+                cellText.classList.add("unselect")
+                cellText.classList.add("calendar-text")
                 if (date === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
                     cell.classList.add("selected");
-                    cell_selected = cell;
+                    cellSelected = cell;
                     
                 } // color today's date
                 cell.appendChild(cellText);
@@ -101,4 +127,102 @@ function showCalendar(month, year) {
         tbl.appendChild(row); // appending each row into calendar body.
     }
 
+}
+
+function showService () {
+    
+    let div = document.getElementById("services-body"); // body of the calendar
+    // div.classList.add('servicos')
+    servicesList.forEach(element => {
+        buttonDiv = document.createElement("div");
+        text = document.createElement("p");
+    text.classList.add("service-button-text", "unselect")
+        text.innerHTML = String(element);
+        buttonDiv.appendChild(text);
+        buttonDiv.classList.add('service-button')
+        buttonDiv.addEventListener('click', function (e) {
+            clickService(e)
+        });
+        div.appendChild(buttonDiv)
+    });
+}
+
+function toggleHide(){
+    var calendarDiv = document.getElementById('calendar-div');
+    if (calendarDiv.classList.contains("hidden") == true){
+        calendarDiv.classList.remove("hidden")
+    } else {
+        calendarDiv.classList.add("hidden");
+    }
+
+    
+    var timeBoxDiv = document.getElementById('time-body');
+    if (timeBoxDiv.classList.contains("hidden") === true){
+        timeBoxDiv.classList.remove("hidden")
+    } else {
+        timeBoxDiv.classList.add("hidden");
+    }
+
+    var submit = document.getElementById('submit');
+    if (submit.classList.contains("hidden") === true){
+        submit.classList.remove("hidden")
+    } else {
+        submit.classList.add("hidden");
+    }
+}
+
+
+function clickService(evt) {
+    if (evt.currentTarget === serviceSelected) {
+        serviceSelected.classList.remove("selected");
+        serviceSelected = null;
+        toggleHide();
+        return;
+    }
+
+    // console.log(serviceSelected)
+    if (serviceSelected === undefined || serviceSelected === null) {
+        toggleHide();
+        serviceSelected = evt.currentTarget;
+        serviceSelected.classList.add("selected");
+    } else {
+        serviceSelected.classList.remove("selected")
+        serviceSelected = evt.currentTarget;
+        serviceSelected.classList.add("selected");
+    }
+
+    
+    
+}
+
+function showTimeBox () {
+    let div = document.getElementById("time-box-body");
+    div.classList.add("unselect", "time-box-div");
+    timeBoxList.forEach(element => {
+        textDiv = document.createElement("div");
+        textDiv.classList.add("unselect", "time-text-button");
+        text = document.createElement("p");
+        text.innerHTML = String(element);
+        text.classList.add("time-button-text")
+        textDiv.appendChild(text);
+        text.classList.add('time-box-button')
+        textDiv.addEventListener('click', function (e) {
+            clickTimeBox(e)
+        });
+        div.appendChild(textDiv)
+    });
+}
+
+function clickTimeBox(evt) {
+    // console.log(evt.currentTarget);
+    timeSelected = evt.currentTarget;
+    handleConfirm();
+}
+
+function handleConfirm() {
+    div = document.getElementById("confirm")
+
+    div.appendChild(document.createElement("p"))
+    div.appendChild(document.createElement("p"))
+    div.appendChild(document.createElement("p"))
 }

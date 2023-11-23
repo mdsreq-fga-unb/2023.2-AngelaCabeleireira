@@ -12,7 +12,9 @@ nav:
   - Processo de Desenvolvimento de Software: ProcessoDesenv.md
   - Backlog do Produto: VisaoProdutoEProjeto/backlog.md
   - DoR e DoD: VisaoProdutoEProjeto/dordod.md/
-  - Relatórios: Relatorios/relatorios.md
+  - Documentos: 
+    - Relatórios: Relatorios/relatorios.md
+    - Identidade Visual: Relatorios/identidadeVisual.md
   - Lições Aprendidas: LicoesAprendidas.md
   - Entregas: 
     - Unidade 01: Entregas/unidade01.md
