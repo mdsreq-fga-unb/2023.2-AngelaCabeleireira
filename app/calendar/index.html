@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <title>Calendar</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="my-container">
     <div id="services-body" class="services-div  transition">
-        <p>SELECIONE UM SERVIÇO:</p>
+        <h2>SELECIONE UM SERVIÇO:</h2>
+        <br>
     </div>
-    <div id="calendar-div" class="calendar-div  transition">
-        <div class="">
-            <p>SELECIONE UMA DATA:</p>
-            <div>
-    
-                <button class="btn btn-outline-primary col-sm-4" id="previous" onclick="previous()">Anterior</button>
-    
-                <button class="btn btn-outline-primary col-sm-4" id="next" onclick="next()">Seguinte</button>
-            </div>
-            <div class="card" style="background-color:rgba(255,255,255,0.4)">
+    <div id="calendar-div" class="calendar-div hidden  transition">
+        <!-- <div class=""> -->
+            <h2>SELECIONE UMA DATA:</h2>
+            
+            <div class="card" style="background-color:rgba(255,255,255,0.4);">
                 <h3 class="card-header" id="monthAndYear"></h3>
-                <table class="table table-bordered table-responsive-sm" id="calendar">
+                <div>
+                    <button class="btn col-sm-4" id="previous" onclick="previous()">Anterior</button>
+        
+                    <button class="btn col-sm-4" id="next" onclick="next()">Seguinte</button>               
+                </div>
+                <table class="calendar-div" id="calendar">
                     <thead>
                     <tr>
-                        <th style="color:#D4538B" id="weekday0" value="weekday0">D</th>
+                        <th id="weekday0" value="weekday0">D</th>
                         <th id="weekday1" value="weekday1">S</th>
                         <th id="weekday2" value="weekday2">T</th>
                         <th id="weekday3" value="weekday3">Q</th>
@@ -43,9 +43,8 @@
     
                     </tbody>
                 </table>
-    
-    
-                <br/>
+            
+                <br/> <!-- dropdown de ano e mes-->                             
                 <form class="form-inline">
                     <label class="lead mr-2 ml-2" for="month">Pular para</label>
                     <select class="form-control col-sm-4" name="month" id="month" onchange="jump()">
@@ -57,7 +56,7 @@
                             <option value=5>Jun</option>
                             <option value=6>Jul</option>
                             <option value=7>Ago</option>
-                            <option value=8>Sey</option>
+                            <option value=8>Set</option>
                             <option value=9>Out</option>
                             <option value=10>Nov</option>
                             <option value=11>Dez</option>
@@ -72,10 +71,21 @@
                     </select>
                 </form>
             </div>
-        </div>
+        <!-- </div> -->
     </div>
-    <div id="time-box-body" class="time-box-div transition"></div>
+    <div id="time-body" class="hidden transition">
+        <h2>SELECIONE UMA DATA:</h2>
+        <div id="time-box-body"></div>
+    </div>
 </div>
+<div id="confirm" class="confirm">
+
+<div style="margin-top:50px" id="submit" class="submit hidden">
+    <button class="btn col-sm-4">
+        CONFIRMAR
+    </button>
+</div>
+
 <!--<button name="jump" onclick="jump()">Go</button>-->
 <script src="scripts.js"></script>
 

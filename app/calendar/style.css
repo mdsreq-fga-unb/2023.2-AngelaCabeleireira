@@ -1,71 +1,129 @@
-td {
-  border-radius: 15px;
-  border-spacing: 20px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* .calendartd {
+  border-radius: 15px;
+  border-spacing: 20px;
+  padding: 0;
+} */
+
+#weekday0 {
+  color:#D4538B
+}
+
+
+
 .my-container {
+
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 30px;
-  max-height: 400px 
+  max-height: 700px; 
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.flexbox_ {
+  display: flex;
 }
 
 .selected {
-  background-color:#D4538B;
+  background-color:#D4538B !important;
 }
 
 .calendar-div {
-  background-color: #FFCC00;
-  min-width: 400px;
+  min-width: 600px;
   min-height: 300px;
+  table-layout:fixed;
+
+  /* border: 30px; */
+}
+
+.card {
+  margin-top: 120px;
+}
+
+.header_ {
+  max-width: 165 px;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 .calendar-cell {
-  width: 50px;
-  height: 52.513px;
-  flex-shrink: 0;
+  text-align: center;
+  max-width: 60.443px;
+  max-height: 52.513px;
   border-radius: 5px;
   background: #D9D9D9;
 }
 
+.td {
+  margin: 20px;
+}
+
 .calendar-text {
+  width: 100%;
+  color: black;
 
 }
 
 .services-div {
-  background-color:#D4538B;
+  /* background-color:#D4538B; */
   display: flex;
   flex-wrap: wrap;
-  max-width: 300px;
-  border-right: 50px;
+  min-width: 500px;
+  max-width: 500px;
   gap: 10px;
 }
 
 .service-button {
   /* color: green; */
-  background-color: #CCCCCC;
-  max-height: 30px;
-  max-width: 200px;
+  width: 224px;
+  height: 115.028px;
+  display: flex;
+  flex-grow: 1; 
+  border-radius: 5px;
+  background: #D9D9D9;
+  cursor: pointer;
   align-items: center;
+  justify-content: center;
+}
+
+.service-button:hover {
+  background-color: #C6C6C6;
 }
 
 .service-button-text {
   /* background-color: #777; */
   align-self: center;
   margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: K2D;
+  color: #000;
+  text-align: center;
+  font-family: K2D;
 }
 
 .time-box-div {
-  background-color: #00FFFF;
   display: flex;
   flex-wrap: nowrap;
   /* gap: 4px; */
   flex-direction: column;
-  width: 100px;
-  max-width: 300px;
-  overflow-y: scroll;
-  
+  width: 300px;
+  max-width: 400px;
+  /* overflow-y: scroll; */
 }
+
+#time-box-body {
+  margin-top: 20px;
+}
+
 
 .time-box-button {
   background-color: #bbb;
@@ -87,11 +145,11 @@ td {
 }
 
 .transition {
-  transition: opacity 1s ease-in-out;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -ms-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
 }
 
 .unselect {
@@ -100,5 +158,21 @@ td {
 }
 
 .hidden {
+  opacity: 0 !important;
+  pointer-events: none;
 
+}
+
+tr {
+  max-width: 60px;
+  width: 60px;
+}
+
+
+.submit {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  margin: 0 auto;
 }
