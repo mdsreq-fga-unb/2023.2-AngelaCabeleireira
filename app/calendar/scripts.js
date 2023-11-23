@@ -47,7 +47,7 @@ function clickDay(evt) {
     cellSelected.classList.remove("selected")
     cellSelected = evt.currentTarget;
     cellSelected.classList.add("selected")
-    toggleHideTime();
+    // toggleHideTime();
 }
 
 
@@ -142,7 +142,18 @@ function toggleHideCalendar(){
     } else {
         calendarDiv.classList.add("hidden");
     }
-
+    var timeBoxDiv = document.getElementById('time-body');
+    if (timeBoxDiv.classList.contains("hidden") === true){
+        timeBoxDiv.classList.remove("hidden")
+    } else {
+        timeBoxDiv.classList.add("hidden");
+    }
+    var submit = document.getElementById('submit');
+    if (submit.classList.contains("hidden") === true){
+        submit.classList.remove("hidden")
+    } else {
+        submit.classList.add("hidden");
+    }
 }
 function toggleHideTime() {
     var timeBoxDiv = document.getElementById('time-body');
@@ -211,7 +222,7 @@ function clickTimeBox(evt) {
     document.getElementById("c1").innerText = serviceSelected.innerText;
     document.getElementById("c2").innerText = `${monthSelected} ${yearSelected}`;
     document.getElementById("c3").innerText = timeSelected.innerText;
-    toggleHideConfirm();
+    // toggleHideConfirm();
 
 }
 
