@@ -37,11 +37,7 @@ function jump() {
 }
 
 function clickDay(evt) {
-    // console.log(evt)
-
-    
-
-    daySelected = evt.currentTarget.innerHTML
+    daySelected = evt.currentTarget.innerText;
     monthSelected = monthAndYear.innerHTML.slice(0,3)
     yearSelected = monthAndYear.innerHTML.slice(-4)
     cellSelected.classList.remove("selected")
@@ -96,7 +92,9 @@ function showCalendar(month, year) {
                     clickDay(e)
                 });
                 let cellText = document.createElement("p");
-                cellText.innerHTML = date;
+                cellText.innerText = date;
+                cellText.value = date;
+                
                 cellText.classList.add("unselect")
                 cellText.classList.add("calendar-text")
                 if (date === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
@@ -218,17 +216,16 @@ function showTimeBox () {
 function clickTimeBox(evt) {
     // console.log(evt.currentTarget);
     timeSelected = evt.currentTarget;
-
     document.getElementById("c1").innerText = serviceSelected.innerText;
-    document.getElementById("c2").innerText = `${monthSelected} ${yearSelected}`;
+    // console.log(daySelected).value.innerText;
+    document.getElementById("c2").innerText = `Dia ${daySelected}\n${monthSelected}\n${yearSelected}`;
     document.getElementById("c3").innerText = timeSelected.innerText;
     // toggleHideConfirm();
-
 }
 
 function handleConfirm() {
     div = document.getElementById("confirm")
-    window.alert(`Enviar para a API do Database: ${serviceSelected.innerText} - ${monthSelected} ${yearSelected} - ${timeSelected.innerText}`)
+    window.alert(`Enviar para a API do Database: ${serviceSelected.innerText} - Dia ${daySelected} ${monthSelected} ${yearSelected} - ${timeSelected.innerText}`)
 
     
 }
