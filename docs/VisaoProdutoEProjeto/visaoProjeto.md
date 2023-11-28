@@ -1,58 +1,211 @@
 # Visão Geral do Projeto
 
-## Organização do Projeto
-
 O time irá utilizar uma mistura do método RAD com a estrutura e organização do time Scrum.
 
-|           Papel          | Atribuições                                                            | Responsável | Participantes |
-| :----------------------: | :--------------------------------------------------------------------: | ----------------------------------------------- | ------------ |
-| Time de Desenvolvimento  | Codificar o produto, codificar testes unitários, realizar refatoração e realizar a atividade de representação, e de organização e atualização de requisitos.  | Luis | Arthur, Daniel, Guilherme, Luis, Vinicius, Yves |
-| Dono do Produto          | Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas, realizando as seguintes atividades de requisitos: elicitação e descoberta, e de declaração dos requisitos. |          Yves                    | Ângela, Yves |
-| Scrum Master             | Gerir o time, no que diz respeito aos rituais presentes no framework, tais como planejamento do backlog da sprint, retrospectiva, review, além de realizar as seguintes atividades de requisitos: Análise e consenso, e verificação e validação dos requisitos. | Guilherme |  Arthur, Daniel, Guilherme, Luis, Vinicius, Yves |
-| Cliente                  | Dar feedback quanto ao protótipo e avaliação do produto. |  Ângela |  Ângela |
+## Papéis do projeto e suas atribuições
 
-## Planejamento das Fases/Iterações
+<table style="border-collapse:collapse;border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Papel</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Atribuições</span></th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Responsável</span></th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Participantes</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Time de desenvolvimento</span></td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Codificar o produto, codificar testes unitários, realizar refatoração e realizar a atividade de representação, e de organização e atualização de requisitos.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Luis</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Arthur, Daniel, Guilherme, Luis, Vinicius, Yves</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Dono do Produto</span></td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas, realizando as seguintes atividades de requisitos: elicitação e descoberta, e de declaração dos requisitos.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Yves</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Ângela, Yves</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Scrum Master</span></td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Gerenciar o time, no que diz respeito aos rituais presentes no framework, tais como planejamento do backlog da sprint, retrospectiva, review, além de realizar as seguintes atividades de requisitos: Análise e consenso, e verificação e validação dos requisitos.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Guilherme</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Arthur, Daniel, Guilherme, Luis, Vinicius, Yves</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"><span style="font-weight:bold">Cliente</span></td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Dar feedback quanto ao protótipo e avaliação do produto.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Ângela</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Ângela</td>
+    </tr>
+  </tbody>
+</table>
 
-| Iteração | Produto (Entrega)                                                                    | Data Início | Data Fim |
-| :------- | :----------------------------------------------------------------------------------- | :---------- | :------- |
-| Sprint 1 | Definição do problema e possível solução                                                               | 05/09/2023    | 18/09/2023 |
-| Sprint 2 | Definição de abordagem, ciclo de Vida, e processo                                        | 19/09/2023    | 02/10/2023 |
-| Sprint 3 | Definição do Processo de Engenharia de Requisitos, atrelado ao Processo de Software | 03/10/2023    | 09/10/2023 |
-| Sprint 4 | Proposta de solução e feedback do cliente, além da lista inicial de requisitos                                                          | 10/10/2023    | 23/10/2023 |
-| Sprint 5 | Definição dos MVPs do projeto | 24/10/2023    | 06/11/2023 |
-| Sprint 6 | Desenvolvimento do primeiro MVP | 07/11/2023    | 20/11/2023 |
-| Sprint 7 | Desenvolvimento do segundo MVP | 21/11/2023    | 04/12/2023 |
-| Sprint 8 | Revisão do projeto, integração do sistema e finalização | 05/12/2023    | 13/12/2023 |
+## Atividades das Sprints
 
-<!-- TODO: corrigir o restante a partir daqui (versão corrigida se encontra no docs) -->
+<table style="border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Iteração</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Produto (Entrega)</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Data Início</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Data Fim</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 1</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Definição do problema e possível solução</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">05/09/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">18/09/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 2</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Definição de abordagem, ciclo de Vida, e processo</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">19/09/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">02/10/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 3</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Definição do Processo de Engenharia de Requisitos, atrelado ao Processo de Software</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">03/10/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">09/10/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 4</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Proposta de solução e feedback do cliente, além da lista inicial de requisitos</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">10/10/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">23/10/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 5</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Definição dos MVPs do projeto</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">24/10/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">06/11/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 6</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Desenvolvimento do primeiro MVP</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">07/11/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">20/11/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 7</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Desenvolvimento do segundo MVP</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">21/11/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">04/12/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 8</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Revisão do projeto, integração do sistema e finalização</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">05/12/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">13/12/2023</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Matriz de Comunicação
 
-| Descrição | Área/Envolvidos | Periodicidade | Produtos Gerados |
-| :-------- | :-------------- | :------------ | :--------------- |
-| Definição dos próximos objetivos, como o Sprint Backlog </br> Acompanhamento do progresso do produto | Time de Desenvolvimento | Quinzenal | Relatório de situação do projeto |
-| Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores | Time de Desenvolvimento | Quinzenal | Relatório de riscos e pendência |
-| Comunicação da situação do projeto | Time de Desenvolvimento </br> Professor | Semanal | Planilha do que foi feito pelo grupo semanalmente |
-| Comunicação assíncrona dos membros pelo WhatsApp e Discord | Time de Desenvolvimento | Conforme necessidade | N/A |
-| Reunião com Cliente para validação via whatsapp e entrega de protótipo via e-mail e via whatsapp | Dono do Produto </br> Cliente | Quinzenal | Relatório de FeedBacks |
+<table style="border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Descrição</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Papéis Envolvidos</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Periodicidade</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Produtos Gerados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Definição dos próximos objetivos, Sprint Backlog e acompanhamento do progresso do produto</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Time de Desenvolvimento</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Quinzenal</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Relatório de situação de projeto</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Acompanhamento dos riscos, compromissos e ações pendentes</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Time de Desenvolvimento</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Quinzenal</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Relatório de riscos e pendências</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Comunicação assíncrona entre membros via WhatsApp e Discord</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Time de Desenvolvimento</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Conforme necessidade</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">N/A</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Reunião com cliente para validação via WhatsApp e entrega de protótipo via e-mail e via WhatsApp</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Dono do Produto e Cliente</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Quinzenal</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Relatório de Feedbacks</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Gerenciamento de Riscos
 
-O time identificou os seguintes riscos:
-
-| Risco | Nível de Impacto | Prevenção de Risco | Gerenciamento de Risco |
-| :-------- | :-------------- | :------------ | :--------------- |
-| Trancamento de algum membro da equipe | Alto | Comunicação constante entre os membros, buscando saber se existe alguma dificuldade relacionada ao membro. Caso haja, incentivá-lo a permanecer na matéria | Procurar distribuir as atividades do membro, para que nenhuma atividade fique sem conclusão |
-| Não Entrega do Backlog da Sprint | Alto | Planejar bem as USs que serão feitas na Sprint, e caso um membro já tenha terminado seu trabalho, auxiliar no cumprimento das USs restantes | Procurar replanejar a Sprint seguinte para que caiba a US’s não entregue, de forma que não atrapalhe o andamento da Sprint |
-| Baixa Produtividade em semana de prova | Médio | Sabendo a data das provas, cada membro irá antecipar a equipe sobre seu menor esforço | As atividades do membro naquela semana serão reduzidas, mas assim que acabar esse período aumentará sua produtividade |
-| Dificuldade de gerenciamento de tempo de um ou mais membros da equipe | Baixo | Elaborar uma planilha de disponibilidade, que será usada como base para a marcação de reuniões | Gravar as reuniões feitas para que o integrante que não pôde comparecer, conseguir ser atualizado sobre o que foi passado |
+<table style="border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Risco</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Nível de Impacto</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Prevenção de Risco</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Gerenciamento de Risco</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Trancamento da matéria por algum membro da equipe</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">ALTO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Manter comunicação constante entre os membros, buscando identificar dificuldades individuais.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Redistribuir as atividades do antigo membro, para que nenhuma atividade permaneça incompleta.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Não entrega do Backlog Da Sprint</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">ALTO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Realizar o bom planejamento das histórias de usuário que serão trabalhadas na Sprint. Caso algum membro já tenha finalizado sua tarefa, o mesmo deve ser direcionado pelo Scrum Master, a auxiliar nas tarefas de outro membro determinado.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Redistribuir as Histórias de Usuário não entregues para a próxima Sprint, de forma que não atrapalhe o desenvolvimento desta Sprint seguinte.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Produtividade insuficiente em semana de prova</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">MÉDIO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">O planejamento das Sprints deve considerar as responsabilidades pessoais de cada membro. O trabalho das tarefas de cada membro deve ser planejado, tendo em mente as data das provas.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">As atividades do membro daquela semana serão reduzidos, mas o trabalho deve ser compensado após o término das provas.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Não participar das reuniões</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">BAIXO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">As reuniões devem ser realizadas em datas e horários fixos, caso algum imprevisto ocorra, o membro deve avisar a equipe.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Caso um membro não possa participar, a reunião deve ser gravada. Dessa forma, o membro faltante pode acompanhar as atividades da equipe.</td>
+    </tr>
+  </tbody>
+</table>
 
 Os riscos foram avaliados de acordo com seu nível de impacto:
 
-| Risco | Nível de Impacto |
-| :-------- | :-------------- |
-| Alto | Influência significativa no projeto ou organização, exigirão atenção imediata e um grande esforço do time para obter uma resolução rápida, e assim minimizar ao máximo seu impacto, que existirá |
-| Médio | Influência moderada no projeto ou organização, exigirão um maior esforço da equipe em sua contenção, mas ainda podem ser gerenciados |
-| Baixo | Influência pequena no projeto ou organização, podendo ser facilmente resolvidos ou contornados |
+<table style="border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Risco</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Nível de Impacto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">ALTO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Influência significativa no projeto, exigirão atenção imediata e um grande esforço do time para obter uma solução rápida.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">MÉDIO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Influência moderada no projeto, exigirão um maior esforço da equipe em sua contenção, mas ainda podem ser gerenciados.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">BAIXO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Influência pequena no projeto, podendo ser facilmente resolvidos ou contornados.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Critérios de Replanejamento
 
@@ -68,11 +221,114 @@ O projeto poderá ser replanejado caso haja:
 
 A seguir uma tabela mostrando quando exatamente ocorre e o passo a passo do que fazer:
 
-| Critério de Replanejamento | Quando Ocorre | Passo a Passo |
-| :-------- | :-------- | :-------- |
-| Abandono de membros da equipe | Quando um ou mais membros trancam a matéria | 1 - Avisar o professor imediatamente <br>2 - Refazer o planejamento das Sprints em relação às entregas<br>3 - Atribuir as USs do membro em questão para outro<br>4 - Caso o grupo notar que haverá um atraso em uma entrega, avisar o Cliente |
-| Constante ausência de determinado membro da equipe | Quando um ou mais membro deixa de participar das discussões, ir às aulas, não conseguirmos mais contato | 1 - Avisar o professor imediatamente <br>2 - Refazer o planejamento das Sprints em relação às entregas<br>3 - Atribuir as USs do membro em questão para outro<br>4 - Caso o grupo notar que haverá um atraso em uma entrega, avisar o Cliente |
-| Dificuldade de uso das ferramentas de desenvolvimento predefinidas | Quando no meio do desenvolvimento na Sprint, um ou mais membros não conseguir avançar na evolução da USs por conta de alguma ferramenta específica | 1 - O membro em questão deverá procurar auxílio dos outros membros <br>2 -Caso mesmo com ajuda, não conseguirem avançar, procurar uma outra forma de resolver o problema com o uso de uma outra tecnologia<br>3 - Caso o grupo notar que haverá um atraso em uma entrega, avisar o Cliente |
+<table style="border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Critério de Replanejamento</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Quando Ocorre</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Passo a Passo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">Abandono de membros da equipe</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">Um ou mais membros trancam a matéria.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">1. Avisar ao professor imediatamente.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. Replanejar as Sprints em relação às entregas.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. Redistribuir tarefas.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">Constante ausência de determinado membro da equipe</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">Um ou mais membros deixam de participar das discussões, ir às aulas e impossibilitam contato não respondendo a mensagens privadas.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">1. Avisar ao professor imediatamente.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. Replanejar as Sprints em relação às entregas.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. Redistribuir tarefas.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="2">Dificuldade de uso das ferramentas de desenvolvimento definidas</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="2">Um ou mais membros não conseguem avançar na evolução das Histórias de Usuário, por conta da dificuldade no uso de alguma ferramenta específica.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">1. O membro deve buscar ajuda ao resto da equipe.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. Se o impacto for muito grande, as tarefas da Sprint devem ser redistribuídas.</td>
+    </tr>
+  </tbody>
+</table>
+
+## Padrões de codificação
+
+Os padrões a serem seguidos serão algumas convenções já utilizadas nas tecnologias e linguagens de programação definidas pela equipe (clique no item para ver a fonte): </br>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML" target="_blank"> **HTML** </a>: </br>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML#attributes" target="_blank">- Atributos entre aspas duplas</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML#case" target="blank">- Lowercase (tudo minúsculo) para nomes de elementos e atributos.</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML#class_and_id_names" target="blank">- Nomes de classes/ID com múltiplas palavras em kebab-case (separação por hífen).</a>
+
+Exemplo: `<img src="images/image.png" alt="exemplo-SS-em-requisitos" class="exemplo-kebab-case">`
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS" target="_blank"> **CSS** </a>: </br>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#css_comments" target="blank">- Comentários para explicar o que/onde está sendo aplicada a estilização, em português.</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#double_quotes_around_values" target="blank">- Aspas duplas para valores (semelhante ao definido para HTML).</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#longhand_vs._shorthand_rules" target="blank">- Separar propriedades por linha ao invés de juntá-las em uma linha só.</a>
+
+Exemplo:
+```
+/* Formato dos comentários */
+background-image: url("../valores/entre-aspas-duplas.png");
+
+/* Fonte sans-serif em negrito tamanho 18 */
+h2 {
+font-weight: bold;
+font-size: 18pt;
+font-family: sans-serif;
+}
+```
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript" target="_blank"> **JavaScript** </a>: </br>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript#comments" target="blank">- Comentários single line, explicativos e em português para partes não-óbvias do código (funções cujos nomes não são significativos, funções complicadas e/ou grandes).</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript#functions" target="blank">- Nomear funções em camelCase de forma descritiva.</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript#objects" target="blank">- Definir Classes em PascalCase (camelCase porém com a primeira letra maiúscula) e Objetos em camelCase.</a>
+
+Exemplo:
+```
+// Comentário single line descritivo:
+// Retorna status code 200:
+function status(request, response) {
+  response.status(200).send({ requisitos: "SS Pentágono Cabeludo" });
+}
+
+// Nome em camelCase:
+function agendaHorario() {
+  console.log("Horario agendado!");
+}
+
+// Classes e objetos: 
+const pentagonoCabeludo = new Equipe(5, "Requisitos", "SS");
+
+const pentagonoCabeludo = {
+  membros: 5,
+  disciplina: "Requisitos",
+  mencao: "SS",
+};
+
+```
 
 ## Histórico de Revisão
 
@@ -81,4 +337,6 @@ A seguir uma tabela mostrando quando exatamente ocorre e o passo a passo do que 
 | 27/09/2023 | 1.0    | Definição da organização, planejamento das sprints, matriz de comunicação, gerenciamento de riscos e critérios de replanejamento do projeto. | Todos |
 | 22/10/2023 | 1.1    | Alteração na parte do Gerenciamento de Riscos e Critérios de Replanejamento. | Guilherme de Sá |
 | 26/10/2023 | 1.2    | Revisão e alteração na data das sprints finais de acordo com o calendário da disciplina. | Vinícius |
-| 06/11/2023 | 1.3    | Adicionado novo membro da equipe nos planejamentos | Vinícius |
+| 06/11/2023 | 1.3    | Adicionado novo membro da equipe nos planejamentos.    |    Vinícius    |
+| 06/11/2023 | 1.4    | Revisão da matriz de comunicação e ajustes na estrutura de documento.    |    Yves    |
+| 20/11/2023 | 1.5    | Definição de padrões de codificação para atender à Definition of Done.    |    Vinicius    |
