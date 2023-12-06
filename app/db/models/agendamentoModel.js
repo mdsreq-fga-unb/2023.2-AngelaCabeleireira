@@ -1,16 +1,13 @@
 import { connectToDatabase } from '../database.js'
 
-// Função serverless para criar um novo documento
-export async function Agendamento(req, res){
+export async function criarAgendamento(dadosAgendamento) {
   const db = await connectToDatabase(process.env.MONGODB_URI)
   const collection = db.db('SalaoAngela').collection('Agendamentos')
 
-  const agendamento = req.body
-
   try {
-    const result = await collection.insertOne(agendamento)
-    res.status(201).send(result)
+    const result = await collection.insertOne(dadosAgendamento)
+    return result
   } catch (error) {
-    res.status(500).send(error.message)
+    throw new Error(error.message)
   }
 }

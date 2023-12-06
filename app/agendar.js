@@ -1,4 +1,4 @@
-const handleButtonClick = () => {
+function handleButtonClick(){
     const agendamento = { 
         nome: document.getElementById("nome").value,
         celular: document.getElementById("celular").value,
