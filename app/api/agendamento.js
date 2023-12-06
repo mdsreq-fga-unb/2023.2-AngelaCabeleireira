@@ -1,12 +1,14 @@
-export default (req, res) => {
+import { criarAgendamento } from "../db/controllers/agendamentoController.js"
+
+export default async (req, res) => {
     let body = ''
     req.on('data', chunk => {
         body += chunk.toString()
     })
 
-    req.on('end', () => {
+    req.on('end', async () => {
         const agendamento = JSON.parse(body)
-        console.log(agendamento)
+        await criarAgendamento(agendamento)
         res.writeHead(200, {
             'Content-Type': 'application/json; charset=utf-8',
             'Access-Control-Allow-Origin': '*',

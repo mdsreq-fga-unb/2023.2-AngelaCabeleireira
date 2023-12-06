@@ -9,8 +9,7 @@
   },
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch",
-    "start": "node serverteste.js"
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -24,5 +23,8 @@
   "homepage": "https://github.com/mdsreq-fga-unb/2023.2-AngelaCabeleireira#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0"
   }
 }

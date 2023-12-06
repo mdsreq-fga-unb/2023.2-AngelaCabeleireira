@@ -1,9 +1,13 @@
-const nome = document.getElementById("nome")
-const celular = document.getElementById("celular")
+const agendamento = { 
+    nome: document.getElementById("nome"),
+    celular: document.getElementById("celular"),
+    servico: document.getElementById("servico"),
+    data: document.getElementById("data"),
+    horario: document.getElementById("horario")
+}
 
 const handleButtonClick = () => {
-    const agendamento = { nome: nome.value, celular: celular.value }
-    // faz uma solicitação POST dos dados para o endpoint /api/agendamento 
+    // faz uma solicitação POST dos dados para o endpoint /api/agendamento
     fetch('/api/agendamento', {
         method: 'POST',
         headers: {
