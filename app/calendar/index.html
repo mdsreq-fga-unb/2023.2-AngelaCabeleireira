@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="celular" id="celular">
+    <button id="find" onclick="find()">find</button>
+
+    <script type="module">
+        import { findAgendamento } from '../db/models/agendamentoModel.js'
+        function find(){
+            console.log(findAgendamento(document.getElementById("celular").value))
+        }
+    </script>
+
+</body>
+</html>

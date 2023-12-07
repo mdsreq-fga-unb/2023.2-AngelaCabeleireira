@@ -12,12 +12,12 @@ export async function criarAgendamento(dadosAgendamento) {
   }
 }
 
-export async function findAgendamento(dadosAgendamento) {
+export async function findAgendamento(celular) {
   const db = await connectToDatabase(process.env.MONGODB_URI)
   const collection = db.db('SalaoAngela').collection('Agendamentos')
 
   try {
-    const result = await collection.findOne(dadosAgendamento)
+    const result = await collection.findOne(celular)
     return result
   } catch (error) {
     throw new Error(error.message)
