@@ -1,4 +1,4 @@
-import { criarAgendamento } from '../agendar.js'
+import { criarAgendamento } from './agendar.js'
 
 let today = new Date();
 let currentMonth = today.getMonth();
