@@ -1,9 +1,10 @@
+import { criarAgendamento } from './agendar.js'
+
 let today = new Date();
 let currentMonth = today.getMonth();
 let currentYear = today.getFullYear();
 let selectYear = document.getElementById("year");
 let selectMonth = document.getElementById("month");
-
 let months = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 
 let servicesList = ['Progressiva', 'Selante/Botox','Luzes','Guanid/amônia','Nutrição a laser','Hidratação a laser','Cauterização a laser', 'Cronograma']
@@ -11,10 +12,11 @@ let servicesList = ['Progressiva', 'Selante/Botox','Luzes','Guanid/amônia','Nut
 let timeBoxList = ['08 : 00', '08 : 30', '09 : 00', '09 : 30', '10 : 00','10 : 30', '11 : 00', '11 : 30', '12 : 00', '12 : 30', '13 : 00', '13 : 30', '14 : 00','14 : 30', '15 : 00', '15 : 30', '16 : 00', '16 : 30', '17 : 00', '17 : 30', '18 : 00']
 
 let monthAndYear = document.getElementById("monthAndYear");
+// console.log(currentMonth, currentYear)
 showCalendar(currentMonth, currentYear);
 showService();
 showTimeBox();
-var cellSelected, serviceSelected, daySelected, monthSelected, yearSelected;
+var cellSelected, serviceSelected, daySelected, monthSelected, yearSelected, timeSelected=0, date;
 
 function next() {
     if (currentYear === 2024 && currentMonth === 11) return;
@@ -120,8 +122,8 @@ function showService () {
     let div = document.getElementById("services-body"); // body of the calendar
     // div.classList.add('servicos')
     servicesList.forEach(element => {
-        buttonDiv = document.createElement("div");
-        text = document.createElement("p");
+        let buttonDiv = document.createElement("div");
+        let text = document.createElement("p");
     text.classList.add("service-button-text", "unselect")
         text.innerHTML = String(element);
         buttonDiv.appendChild(text);
@@ -146,12 +148,17 @@ function toggleHideCalendar(){
     } else {
         timeBoxDiv.classList.add("hidden");
     }
-    var submit = document.getElementById('submit');
-    if (submit.classList.contains("hidden") === true){
-        submit.classList.remove("hidden")
-    } else {
-        submit.classList.add("hidden");
-    }
+    
+    var vertical_lines = document.getElementsByClassName('vertical-line');
+    vertical_lines[0]
+        if (vertical_lines[0].classList.contains("hidden") === true && vertical_lines[1].classList.contains("hidden") === true){
+            vertical_lines[0].classList.remove("hidden");
+            vertical_lines[1].classList.remove("hidden");
+        } else {
+            vertical_lines[0].classList.add("hidden");
+            vertical_lines[1].classList.add("hidden");
+        }
+    
 }
 function toggleHideTime() {
     var timeBoxDiv = document.getElementById('time-body');
@@ -169,6 +176,21 @@ function toggleHideConfirm(){
     } else {
         submit.classList.add("hidden");
     }
+}
+
+function toggleHideModal(){
+    var modal = document.getElementById("modal");
+    if (timeSelected === 0) return;
+
+    if (modal.classList.contains("hidden_") === true){
+        modal.classList.remove("hidden_")
+    } else {}
+
+    var submit = document.getElementById('submit');
+    if (submit.classList.contains("hidden") === true){
+        submit.classList.remove("hidden")
+    } else {}
+
 }
 
 
@@ -199,13 +221,12 @@ function showTimeBox () {
     let div = document.getElementById("time-box-body");
     div.classList.add("unselect", "time-box-div");
     timeBoxList.forEach(element => {
-        textDiv = document.createElement("div");
-        textDiv.classList.add("unselect", "time-text-button");
-        text = document.createElement("p");
+        let textDiv = document.createElement("div");
+        textDiv.classList.add("unselect", "time-box-button");
+        let text = document.createElement("p");
         text.innerHTML = String(element);
-        text.classList.add("time-button-text")
+        text.classList.add("calendar-text"); // "time-button-text"
         textDiv.appendChild(text);
-        text.classList.add('time-box-button')
         textDiv.addEventListener('click', function (e) {
             clickTimeBox(e)
         });
@@ -215,17 +236,34 @@ function showTimeBox () {
 
 function clickTimeBox(evt) {
     // console.log(evt.currentTarget);
+    try {
+        timeSelected.classList.remove("selected")
+    } catch {
+        
+    }
     timeSelected = evt.currentTarget;
+    timeSelected.classList.add("selected")
     document.getElementById("c1").innerText = serviceSelected.innerText;
-    // console.log(daySelected).value.innerText;
-    document.getElementById("c2").innerText = `Dia ${daySelected}\n${monthSelected}\n${yearSelected}`;
+
+    let dt = new Date(currentYear, currentMonth, daySelected)
+    date = dt.toLocaleDateString("pt-BR", {
+        year:"numeric",
+        month:"2-digit",
+        day: "2-digit", 
+    })
+    toggleHideModal();
+    document.getElementById("c2").innerText = date;
     document.getElementById("c3").innerText = timeSelected.innerText;
     // toggleHideConfirm();
 }
 
-function handleConfirm() {
-    div = document.getElementById("confirm")
-    window.alert(`Enviar para a API do Database: ${serviceSelected.innerText} - Dia ${daySelected} ${monthSelected} ${yearSelected} - ${timeSelected.innerText}`)
-
-    
+window.handleConfirm = function() {
+    let div = document.getElementById("modal")
+    const nome = document.getElementById("name").value
+    const celular = document.getElementById("phone").value
+    criarAgendamento({ servico: serviceSelected.innerText, 
+                       data: date,
+                       horario: timeSelected.innerText,
+                       nome: nome,
+                       celular: celular })    
 }

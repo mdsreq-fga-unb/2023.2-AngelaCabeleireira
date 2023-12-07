@@ -1,5 +1,6 @@
 node_modules
 .wwebjs_cache
+.vscode
 scripts.js:Zone.Identifier
 index.html:Zone.Identifier
 scripts.js_Zone.Identifier

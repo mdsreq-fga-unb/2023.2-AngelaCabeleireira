@@ -9,9 +9,11 @@ hide:
 <h1 align="center"> Ângela Cabeleireira </h1>
 <h3 align="center"> 2023.2 </h3>
 
+Acesse o WebSite pelo link [Salão Angela Cabeleireira](https://angela-cabeleireira.vercel.app/)
+
 ## 💡 Sobre
 
-O Ângela Cabeleireira é a solução para a dificuldade em gerenciar o aumento na demanda e na expansão do salão de beleza Ângela Cabeleireira, criado pela equipe Pentágono Cabeludo da disciplina Requisitos de Software, Engenharia de Software, UnB.
+O Angela Cabeleireira é a solução para a dificuldade em gerenciar o aumento na demanda e na expansão do salão de beleza Angela Cabeleireira, criado pela equipe Pentágono Cabeludo da disciplina Requisitos de Software, Engenharia de Software, UnB.
 
 ## 👥 Colaboradores
 
