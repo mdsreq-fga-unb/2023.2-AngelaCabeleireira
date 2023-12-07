@@ -7,7 +7,7 @@ function handleButtonClick(){
         horario: document.getElementById("horario").value
     }
 
-    // faz uma solicitação POST dos dados para o endpoint /api/agendamento
+    // faz um POST dos dados para o endpoint /api/agendamento
     fetch('/api/agendamento', {
         method: 'POST',
         mode: 'same-origin',

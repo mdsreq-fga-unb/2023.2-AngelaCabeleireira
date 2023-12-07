@@ -1,5 +1,5 @@
 import { handleCriarAgendamento } from "../db/controllers/agendamentoController.js"
-
+//politicas CORS
 const cors = {
         'Content-Type': 'application/json; charset=utf-8',
         'Access-Control-Allow-Origin': '*',
