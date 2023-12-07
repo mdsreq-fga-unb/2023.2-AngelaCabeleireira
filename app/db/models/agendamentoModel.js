@@ -1,4 +1,4 @@
-import { connectToDatabase } from '../database.js'
+import connectToDatabase from '../database.js'
 
 export async function criarAgendamento(dadosAgendamento) {
   const db = await connectToDatabase(process.env.MONGODB_URI)

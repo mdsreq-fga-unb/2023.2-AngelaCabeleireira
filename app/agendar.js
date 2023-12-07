@@ -10,6 +10,7 @@ function handleButtonClick(){
     // faz uma solicitação POST dos dados para o endpoint /api/agendamento
     fetch('/api/agendamento', {
         method: 'POST',
+        mode: 'same-origin',
         headers: {
             'Content-Type': 'application/json; charset=utf-8'
         },
