@@ -1,23 +1,23 @@
 # Visão Geral do Produto
 
 ## O Problema
-O problema está associado a um salão de beleza. A dona do salão é Ângela, uma microempreendedora que enfrenta um aumento na demanda no negócio e que não possui nenhum sistema virtual ou online. Todo o serviço de gerenciamento é realizado manualmente por meio de uma agenda física. A seguir, o diagrama de espinha de peixe (Ishikawa) identificado pela equipe:
+O problema está associado a um salão de beleza. A dona do salão é Angela, uma microempreendedora que enfrenta um aumento na demanda no negócio e que não possui nenhum sistema virtual ou online. Todo o serviço de gerenciamento é realizado manualmente por meio de uma agenda física. A seguir, o diagrama de espinha de peixe (Ishikawa) identificado pela equipe:
 ![Diagrama_de_Ishikawa](../img/ishikawa-alt.png)
 
 ## Declaração de Posição do Produto
 
 |               |                                     |
 | :------------ | ----------------------------------- |
-| Para          | Salão de beleza Ângela Cabeleireira |
+| Para          | Salão de beleza Angela Cabeleireira |
 | Quem          | deseja melhorar a gestão do salão e a experiência do cliente, juntamente com a oportunidade de atender à demanda crescente e expandir o negócio. |
-| O Ângela Cabeleireira | é um website do campo de tecnologia da informação e serviços online. |
-| Que           | oferece aos clientes a capacidade de marcar horários no salão de forma rápida e fácil, a qualquer hora e em qualquer lugar. E que oferece à Ângela uma ferramenta de gestão eficaz que simplifica as operações no salão. |
+| O Angela Cabeleireira | é um website do campo de tecnologia da informação e serviços online. |
+| Que           | oferece aos clientes a capacidade de marcar horários no salão de forma rápida e fácil, a qualquer hora e em qualquer lugar. E que oferece à Angela uma ferramenta de gestão eficaz que simplifica as operações no salão. |
 | Ao contrário  | de outras plataformas de gestão de salão de beleza, como o Salon Iris e MINDBODY. |
 | Nosso produto | se diferencia na integração abrangente de recursos que busca simplificar a gestão de uma forma direta e amigável. Além do foco na experiência do cliente, o produto é projetado especificamente para atender às necessidades da microempreendedora no setor de beleza. |    
 
 ## Objetivos do Produto
 
-**Objetivo Principal:** Implementar uma agenda virtual no salão  Ângela Cabeleireira, para melhorar a gestão no quesito agendamento. </br></br>
+**Objetivo Principal:** Implementar uma agenda virtual no salão  Angela Cabeleireira, para melhorar a gestão no quesito agendamento. </br></br>
 **Objetivos Secundários:** 
 <ul>
     <li>Aumentar a satisfação dos clientes do salão em 30% nos próximos seis meses após a implementação. Será verificada a partir do acompanhamento de métricas de uso.</li>

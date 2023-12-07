@@ -8,21 +8,24 @@ let months = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Ou
 
 let servicesList = ['Progressiva', 'Selante/Botox','Luzes','Guanid/amônia','Nutrição a laser','Hidratação a laser','Cauterização a laser', 'Cronograma']
 
-let timeBoxList = ['07 : 00', '07 : 30', '08 : 00', '08 : 30', '09 : 00', '09 : 30', '10 : 00','10 : 30', '11 : 00', '11 : 30', '12 : 00', '12 : 30', '13 : 00', '13 : 30', '14 : 00','14 : 30', '15 : 00', '15 : 30', '16 : 00', '16 : 30', '17 : 00', '17 : 30', '18 : 00','18 : 30', '19 : 00', '19 : 30', '20 : 00', '20 : 30', '21 : 00', '21 : 30', '22 : 00','22 : 30', '23 : 00', '23 : 30']
+let timeBoxList = ['08 : 00', '08 : 30', '09 : 00', '09 : 30', '10 : 00','10 : 30', '11 : 00', '11 : 30', '12 : 00', '12 : 30', '13 : 00', '13 : 30', '14 : 00','14 : 30', '15 : 00', '15 : 30', '16 : 00', '16 : 30', '17 : 00', '17 : 30', '18 : 00']
 
 let monthAndYear = document.getElementById("monthAndYear");
+// console.log(currentMonth, currentYear)
 showCalendar(currentMonth, currentYear);
 showService();
 showTimeBox();
-var cellSelected;
+var cellSelected, serviceSelected, daySelected, monthSelected, yearSelected, timeSelected=0;
 
 function next() {
+    if (currentYear === 2024 && currentMonth === 11) return;
     currentYear = (currentMonth === 11) ? currentYear + 1 : currentYear;
     currentMonth = (currentMonth + 1) % 12;
     showCalendar(currentMonth, currentYear);
 }
 
 function previous() {
+    if (currentYear === 2023 && currentMonth === 0) return;
     currentYear = (currentMonth === 0) ? currentYear - 1 : currentYear;
     currentMonth = (currentMonth === 0) ? 11 : currentMonth - 1;
     showCalendar(currentMonth, currentYear);
@@ -35,43 +38,21 @@ function jump() {
 }
 
 function clickDay(evt) {
-    let dayOfMonth = evt.currentTarget.innerHTML
-    let month = monthAndYear.innerHTML.slice(0,3)
-    let year = monthAndYear.innerHTML.slice(-4)
-
-
-    console.log(cellSelected);// = 
-    console.log(dayOfMonth)
-    console.log(month)
-    console.log(year)
+    daySelected = evt.currentTarget.innerText;
+    monthSelected = monthAndYear.innerHTML.slice(0,3)
+    yearSelected = monthAndYear.innerHTML.slice(-4)
     cellSelected.classList.remove("selected")
-    if (cellSelected.tagName === 'P') {
-        cellSelected = evt.currentTarget.parentNode;
-    } else {
-        cellSelected = evt.currentTarget;
-    }
+    cellSelected = evt.currentTarget;
     cellSelected.classList.add("selected")
-    // console.log(`\n\n${cellSelected}`)
-    // console.log(evt.currentTarget.parentNode)
-    // console.log(evt.currentTarget.tagName)
-    // window.alert('teste')
+    // toggleHideTime();
 }
 
-function clickService(evt) {
-    console.log(evt.currentTarget);
-    serviceSelected = evt.currentTarget;
-}
-
-function clickTimeBox(evt) {
-    console.log(evt.currentTarget);
-    timeSelected = evt.currentTarget;
-}
 
 function showCalendar(month, year) {
 
     let firstDay = (new Date(year, month)).getDay();
     let daysInMonth = 32 - new Date(year, month, 32).getDate();
-    let selected = today;
+
     let tbl = document.getElementById("calendar-body"); // body of the calendar
 
     // clearing all previous cells
@@ -105,13 +86,18 @@ function showCalendar(month, year) {
 
             else {
                 let cell = document.createElement("td");
+                // cell.classList.add("flexbox")
                 cell.classList.add("unselect")
+                cell.classList.add("calendar-cell")
                 cell.addEventListener('click', function (e) {
                     clickDay(e)
                 });
                 let cellText = document.createElement("p");
-                cellText.innerHTML = date;
+                cellText.innerText = date;
+                cellText.value = date;
+                
                 cellText.classList.add("unselect")
+                cellText.classList.add("calendar-text")
                 if (date === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
                     cell.classList.add("selected");
                     cellSelected = cell;
@@ -148,26 +134,131 @@ function showService () {
     });
 }
 
-
-function hideCalendar () {
-    calDiv = document.getElementById("calendar-div");
+function toggleHideCalendar(){
+    var calendarDiv = document.getElementById('calendar-div');
+    if (calendarDiv.classList.contains("hidden") == true){
+        calendarDiv.classList.remove("hidden")
+    } else {
+        calendarDiv.classList.add("hidden");
+    }
+    var timeBoxDiv = document.getElementById('time-body');
+    if (timeBoxDiv.classList.contains("hidden") === true){
+        timeBoxDiv.classList.remove("hidden")
+    } else {
+        timeBoxDiv.classList.add("hidden");
+    }
     
-    calDiv.classList
+    var vertical_lines = document.getElementsByClassName('vertical-line');
+    vertical_lines[0]
+        if (vertical_lines[0].classList.contains("hidden") === true && vertical_lines[1].classList.contains("hidden") === true){
+            vertical_lines[0].classList.remove("hidden");
+            vertical_lines[1].classList.remove("hidden");
+        } else {
+            vertical_lines[0].classList.add("hidden");
+            vertical_lines[1].classList.add("hidden");
+        }
+    
+}
+function toggleHideTime() {
+    var timeBoxDiv = document.getElementById('time-body');
+    if (timeBoxDiv.classList.contains("hidden") === true){
+        timeBoxDiv.classList.remove("hidden")
+    } else {
+        timeBoxDiv.classList.add("hidden");
+    }
+}   
+
+function toggleHideConfirm(){
+    var submit = document.getElementById('submit');
+    if (submit.classList.contains("hidden") === true){
+        submit.classList.remove("hidden")
+    } else {
+        submit.classList.add("hidden");
+    }
+}
+
+function toggleHideModal(){
+    var modal = document.getElementById("modal");
+    if (timeSelected === 0) return;
+
+    if (modal.classList.contains("hidden_") === true){
+        modal.classList.remove("hidden_")
+    } else {}
+
+    var submit = document.getElementById('submit');
+    if (submit.classList.contains("hidden") === true){
+        submit.classList.remove("hidden")
+    } else {}
+
+}
+
+
+function clickService(evt) {
+    if (evt.currentTarget === serviceSelected) {
+        serviceSelected.classList.remove("selected");
+        serviceSelected = null;
+        toggleHideCalendar();
+        return;
+    }
+
+    // console.log(serviceSelected)
+    if (serviceSelected === undefined || serviceSelected === null) {
+        toggleHideCalendar();
+        serviceSelected = evt.currentTarget;
+        serviceSelected.classList.add("selected");
+    } else {
+        serviceSelected.classList.remove("selected")
+        serviceSelected = evt.currentTarget;
+        serviceSelected.classList.add("selected");
+    }
+
+    
+    
 }
 
 function showTimeBox () {
     let div = document.getElementById("time-box-body");
+    div.classList.add("unselect", "time-box-div");
     timeBoxList.forEach(element => {
-        timeBoxDiv = document.createElement("div");
-        timeBoxDiv.classList.add("unselect");
+        textDiv = document.createElement("div");
+        textDiv.classList.add("unselect", "time-box-button");
         text = document.createElement("p");
         text.innerHTML = String(element);
-        text.classList.add("time-button-text")
-        timeBoxDiv.appendChild(text);
-        timeBoxDiv.classList.add('time-box-button', "unselect")
-        timeBoxDiv.addEventListener('click', function (e) {
+        text.classList.add("calendar-text"); // "time-button-text"
+        textDiv.appendChild(text);
+        textDiv.addEventListener('click', function (e) {
             clickTimeBox(e)
         });
-        div.appendChild(timeBoxDiv)
+        div.appendChild(textDiv)
     });
+}
+
+function clickTimeBox(evt) {
+    // console.log(evt.currentTarget);
+    try {
+        timeSelected.classList.remove("selected")
+    } catch {
+        
+    }
+    timeSelected = evt.currentTarget;
+    timeSelected.classList.add("selected")
+    document.getElementById("c1").innerText = serviceSelected.innerText;
+
+    date = new Date(currentYear, currentMonth, daySelected)
+    result = date.toLocaleDateString("pt-BR", {
+        year:"numeric",
+        month:"2-digit",
+        day: "2-digit", 
+    })
+    toggleHideModal();
+    document.getElementById("c2").innerText = result;
+    document.getElementById("c3").innerText = timeSelected.innerText;
+    // toggleHideConfirm();
+}
+
+function handleConfirm() {
+    div = document.getElementById("modal")
+    window.alert(`Enviar para a API do Database: ${serviceSelected.innerText} - Dia ${daySelected} ${currentMonth} ${currentYear} - ${timeSelected.innerText}`)
+
+    
 }
