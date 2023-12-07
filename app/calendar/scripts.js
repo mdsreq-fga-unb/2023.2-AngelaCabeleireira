@@ -147,12 +147,7 @@ function toggleHideCalendar(){
     } else {
         timeBoxDiv.classList.add("hidden");
     }
-    var submit = document.getElementById('submit');
-    if (submit.classList.contains("hidden") === true){
-        submit.classList.remove("hidden")
-    } else {
-        submit.classList.add("hidden");
-    }
+    
     var vertical_lines = document.getElementsByClassName('vertical-line');
     vertical_lines[0]
         if (vertical_lines[0].classList.contains("hidden") === true && vertical_lines[1].classList.contains("hidden") === true){
@@ -189,6 +184,12 @@ function toggleHideModal(){
     if (modal.classList.contains("hidden_") === true){
         modal.classList.remove("hidden_")
     } else {}
+
+    var submit = document.getElementById('submit');
+    if (submit.classList.contains("hidden") === true){
+        submit.classList.remove("hidden")
+    } else {}
+
 }
 
 
