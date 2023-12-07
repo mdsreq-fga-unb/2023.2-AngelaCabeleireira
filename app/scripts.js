@@ -252,7 +252,7 @@ function clickTimeBox(evt) {
         day: "2-digit", 
     })
     toggleHideModal();
-    document.getElementById("c2").innerText = dt;
+    document.getElementById("c2").innerText = date;
     document.getElementById("c3").innerText = timeSelected.innerText;
     // toggleHideConfirm();
 }
