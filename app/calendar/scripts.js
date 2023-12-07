@@ -1,10 +1,10 @@
+import { criarAgendamento } from '../agendar.js'
+
 let today = new Date();
 let currentMonth = today.getMonth();
 let currentYear = today.getFullYear();
 let selectYear = document.getElementById("year");
 let selectMonth = document.getElementById("month");
-
-let months = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 
 let servicesList = ['Progressiva', 'Selante/Botox','Luzes','Guanid/amônia','Nutrição a laser','Hidratação a laser','Cauterização a laser', 'Cronograma']
 
@@ -15,7 +15,7 @@ let monthAndYear = document.getElementById("monthAndYear");
 showCalendar(currentMonth, currentYear);
 showService();
 showTimeBox();
-var cellSelected, serviceSelected, daySelected, monthSelected, yearSelected, timeSelected=0;
+var cellSelected, serviceSelected, daySelected, monthSelected, yearSelected, timeSelected=0, date;
 
 function next() {
     if (currentYear === 2024 && currentMonth === 11) return;
@@ -244,21 +244,27 @@ function clickTimeBox(evt) {
     timeSelected.classList.add("selected")
     document.getElementById("c1").innerText = serviceSelected.innerText;
 
-    date = new Date(currentYear, currentMonth, daySelected)
-    result = date.toLocaleDateString("pt-BR", {
+    dt = new Date(currentYear, currentMonth, daySelected)
+    date = dt.toLocaleDateString("pt-BR", {
         year:"numeric",
         month:"2-digit",
         day: "2-digit", 
     })
     toggleHideModal();
-    document.getElementById("c2").innerText = result;
+    document.getElementById("c2").innerText = dt;
     document.getElementById("c3").innerText = timeSelected.innerText;
     // toggleHideConfirm();
 }
 
 function handleConfirm() {
     div = document.getElementById("modal")
-    window.alert(`Enviar para a API do Database: ${serviceSelected.innerText} - Dia ${daySelected} ${currentMonth} ${currentYear} - ${timeSelected.innerText}`)
-
-    
+    const nome = document.getElementById("name").value
+    const celular = document.getElementById("phone").value
+    console.log(nome)
+    console.log(celular)
+    criarAgendamento({ servico: serviceSelected.innerText, 
+                       data: date,
+                       horario: timeSelected.innerText,
+                       nome: nome,
+                       celular: celular })    
 }
