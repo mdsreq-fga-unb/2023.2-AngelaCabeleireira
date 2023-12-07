@@ -261,9 +261,11 @@ window.handleConfirm = function() {
     let div = document.getElementById("modal")
     const nome = document.getElementById("name").value
     const celular = document.getElementById("phone").value
-    criarAgendamento({ servico: serviceSelected.innerText, 
-                       data: date,
-                       horario: timeSelected.innerText,
-                       nome: nome,
-                       celular: celular })    
+    let agendamento = { servico: serviceSelected.innerText, 
+        data: date,
+        horario: timeSelected.innerText,
+        nome: nome,
+        celular: celular }
+    criarAgendamento(agendamento) 
+    window.alert(`AGENDAMENTO RECEBIDO`)
 }
