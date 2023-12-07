@@ -1,4 +1,4 @@
-function criarAgendamento(agendamento){
+export function criarAgendamento(agendamento){
     // faz um POST dos dados para o endpoint /api/agendamento
     fetch('/api/agendamento', {
         method: 'POST',

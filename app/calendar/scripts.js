@@ -5,6 +5,7 @@ let currentMonth = today.getMonth();
 let currentYear = today.getFullYear();
 let selectYear = document.getElementById("year");
 let selectMonth = document.getElementById("month");
+let months = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 
 let servicesList = ['Progressiva', 'Selante/Botox','Luzes','Guanid/amônia','Nutrição a laser','Hidratação a laser','Cauterização a laser', 'Cronograma']
 
@@ -121,8 +122,8 @@ function showService () {
     let div = document.getElementById("services-body"); // body of the calendar
     // div.classList.add('servicos')
     servicesList.forEach(element => {
-        buttonDiv = document.createElement("div");
-        text = document.createElement("p");
+        let buttonDiv = document.createElement("div");
+        let text = document.createElement("p");
     text.classList.add("service-button-text", "unselect")
         text.innerHTML = String(element);
         buttonDiv.appendChild(text);
@@ -220,9 +221,9 @@ function showTimeBox () {
     let div = document.getElementById("time-box-body");
     div.classList.add("unselect", "time-box-div");
     timeBoxList.forEach(element => {
-        textDiv = document.createElement("div");
+        let textDiv = document.createElement("div");
         textDiv.classList.add("unselect", "time-box-button");
-        text = document.createElement("p");
+        let text = document.createElement("p");
         text.innerHTML = String(element);
         text.classList.add("calendar-text"); // "time-button-text"
         textDiv.appendChild(text);
@@ -244,7 +245,7 @@ function clickTimeBox(evt) {
     timeSelected.classList.add("selected")
     document.getElementById("c1").innerText = serviceSelected.innerText;
 
-    dt = new Date(currentYear, currentMonth, daySelected)
+    let dt = new Date(currentYear, currentMonth, daySelected)
     date = dt.toLocaleDateString("pt-BR", {
         year:"numeric",
         month:"2-digit",
@@ -256,12 +257,10 @@ function clickTimeBox(evt) {
     // toggleHideConfirm();
 }
 
-function handleConfirm() {
-    div = document.getElementById("modal")
+window.handleConfirm = function() {
+    let div = document.getElementById("modal")
     const nome = document.getElementById("name").value
     const celular = document.getElementById("phone").value
-    console.log(nome)
-    console.log(celular)
     criarAgendamento({ servico: serviceSelected.innerText, 
                        data: date,
                        horario: timeSelected.innerText,
