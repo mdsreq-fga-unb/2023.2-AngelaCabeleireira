@@ -10,32 +10,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="my-container">
+<div class="spacer">
+
+</div>
+<div class="my-container transition">
     <div id="services-body" class="services-div  transition">
-        <h2>SELECIONE UM SERVIÇO:</h2>
+        <h2  class="playfair">SELECIONE UM SERVIÇO:</h2>
         <br>
     </div>
+    <div class="vertical-line hidden"></div>
     <div id="calendar-div" class="calendar-div hidden  transition">
         <!-- <div class=""> -->
-            <h2>SELECIONE UMA DATA:</h2>
+            <h2  class="playfair">SELECIONE UMA DATA:</h2>
             
             <div class="card" style="background-color:rgba(255,255,255,0.4);">
-                <h3 class="card-header" id="monthAndYear"></h3>
-                <div>
-                    <button class="btn col-sm-4" id="previous" onclick="previous()">Anterior</button>
+                <div class="card-header flexbox_">
+                    <h3  id="monthAndYear"></h3>
+                    <button class="btn col-sm-4 calendar-button" id="previous" onclick="previous()"><p class="calendar-text">Anterior</p></button>
         
-                    <button class="btn col-sm-4" id="next" onclick="next()">Seguinte</button>               
+                    <button class="btn col-sm-4 calendar-button" id="next" onclick="next()"><p class="calendar-text">Seguinte</p></button>
+                </div>
+                <div>
+                                   
                 </div>
                 <table class="calendar-div" id="calendar">
                     <thead>
                     <tr>
-                        <th id="weekday0" value="weekday0">D</th>
-                        <th id="weekday1" value="weekday1">S</th>
-                        <th id="weekday2" value="weekday2">T</th>
-                        <th id="weekday3" value="weekday3">Q</th>
-                        <th id="weekday4" value="weekday4">Q</th>
-                        <th id="weekday5" value="weekday5">S</th>
-                        <th id="weekday6" value="weekday6">S</th>
+                        <th id="weekday0" value="weekday0"><p style="color:#D4538B " class="calendar-weekday">D</p></th>
+                        <th id="weekday1" value="weekday1"><p class="calendar-weekday">S</p></th>
+                        <th id="weekday2" value="weekday2"><p class="calendar-weekday">T</p></th>
+                        <th id="weekday3" value="weekday3"><p class="calendar-weekday">Q</p></th>
+                        <th id="weekday4" value="weekday4"><p class="calendar-weekday">Q</p></th>
+                        <th id="weekday5" value="weekday5"><p class="calendar-weekday">S</p></th>
+                        <th id="weekday6" value="weekday6"><p class="calendar-weekday">S</p></th>
                     </tr>
                     </thead>
     
@@ -44,10 +51,11 @@
                     </tbody>
                 </table>
             
-                <br/> <!-- dropdown de ano e mes-->                             
-                <form class="form-inline">
+                                             
+                <form style="display:none" class="form-inline">
                     <label class="lead mr-2 ml-2" for="month">Pular para</label>
-                    <select class="form-control col-sm-4" name="month" id="month" onchange="jump()">
+                    <select class="form-control col-sm-3" name="month" id="month" onchange="jump()">
+                        <optgroup class="optgroup">
                             <option value=0>Jan</option>
                             <option value=1>Fev</option>
                             <option value=2>Mar</option>
@@ -60,37 +68,49 @@
                             <option value=9>Out</option>
                             <option value=10>Nov</option>
                             <option value=11>Dez</option>
+                        </optgroup>
                         </select>
     
     
                         <label for="year"></label><select class="form-control col-sm-3" name="year" id="year" onchange="jump()">
-    
-                        <option value=2023>2023</option>
-                        <option value=2024>2024</option>
+                        <optgroup class="optgroup">
+                            <option value=2023>2023</option>
+                            <option value=2024>2024</option>
+                        </optgroup>
     
                     </select>
                 </form>
             </div>
         <!-- </div> -->
     </div>
+    <div class="vertical-line hidden"></div>
     <div id="time-body" class="hidden transition">
-        <h2>SELECIONE UM HORÁRIO:</h2>
+        <h2  class="playfair">SELECIONE UM HORÁRIO:</h2>
         <div id="time-box-body"></div>
     </div>
 </div>
 <br>
 <br>
 <br>
-<div id="confirm" class="confirm transition">
-    <div>
-        <p id="c1"></p>
+<div id="modal" class="modal_ transition hidden_">
+    <div class="flexbox_">
+        <div>
+            <p class="playfair">SERVIÇO:</p>
+            <p class="modal-text" id="c1"></p>
+            <p class="playfair">DATA:</p>
+            <p class="modal-text" id="c2"></p>
+            <p class="playfair">HORÁRIO:</p>
+            <p class="modal-text" id="c3"></p>
+        </div>
+        <div class="spacer_2"></div>
+        <div id="input_">
+            <p class="playfair">NOME:</p>
+            <input type="text" id="name" name="name">
+            <p class="playfair">TELEFONE:</p>
+            <input type="text" id="phone" name="phone">
+        </div>
     </div>
-    <div>
-        <p id="c2"></p>
-    </div>
-    <div>
-        <p id="c3"></p>
-    </div>
+
 </div>
 <br><br><br><br>
 <div style="margin-top:50px" id="submit" class="submit hidden transition" onclick="handleConfirm()">
