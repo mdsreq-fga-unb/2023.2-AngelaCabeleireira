@@ -1,5 +1,5 @@
 import { handleCriarAgendamento } from "../db/controllers/agendamentoController.js"
-//politicas CORS
+
 export default async (req, res) => {
     let body = ''
     req.on('data', chunk => {

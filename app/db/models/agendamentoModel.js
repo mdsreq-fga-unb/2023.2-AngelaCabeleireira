@@ -1,5 +1,6 @@
 import connectToDatabase from '../database.js'
 
+// CRIAR
 export async function criarAgendamento(dadosAgendamento) {
   const db = await connectToDatabase(process.env.MONGODB_URI) //variavel de ambiente que esta na vercel
   const collection = db.db('SalaoAngela').collection('Agendamentos')
@@ -11,7 +12,7 @@ export async function criarAgendamento(dadosAgendamento) {
     throw new Error(error.message)
   }
 }
-
+//ENCONTRAR UM
 export async function findAgendamento(numero) {
   const db = await connectToDatabase(process.env.MONGODB_URI)
   const collection = db.db('SalaoAngela').collection('Agendamentos')
@@ -23,7 +24,19 @@ export async function findAgendamento(numero) {
     throw new Error(error.message)
   }
 }
+//ENCONTRAR TODOS
+export async function indisponivel(dados) {
+  const db = await connectToDatabase(process.env.MONGODB_URI)
+  const collection = db.db('SalaoAngela').collection('Agendamentos')
 
+  try {
+    const result = await collection.find({ data: data, horario: horario})
+    return result
+  } catch (error) {
+    throw new Error(error.message)
+  }
+}
+//DELETAR
 export async function apagarAgendamento(dadosAgendamento) {
   const db = await connectToDatabase(process.env.MONGODB_URI)
   const collection = db.db('SalaoAngela').collection('Agendamentos')
