@@ -1,6 +1,7 @@
-window.encontrarAgendamento = function(celular){
+window.encontrarAgendamento = function(){
+    const celular = document.getElementById('celular').value
     // Utiliza parâmetros de consulta na URL para passar o número de celular
-    fetch(`/api/agendamento?celular=${encodeURIComponent(celular)}`, {
+    fetch(`/api/finder?celular=${encodeURIComponent(celular)}`, {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json; charset=utf-8'
