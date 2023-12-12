@@ -10,7 +10,7 @@ window.encontrarAgendamento = function(){
     .then(response => response.json())
     .then(data => {
         if (data == null)
-            window.alert('Agendamento não encontrado!\nConfira o número digitado')
+            window.alert('Agendamento não encontrado!\nConfira o número digitado.')
 
         console.log(data)
         document.write(`Agendamento encontrado:\nServiço: ${data.servico}\nData e horário: ${data.data} às ${data.horario}.`)
@@ -22,8 +22,8 @@ window.encontrarAgendamento = function(){
 
 window.indisponiveis = function(){
     const dados = {data: document.getElementById('data').value,
-                   horario: document.getElementsById('horario').value}
-    fetch(`/api/indisponiveis?=${encodeURI(dados)}`, {
+                   horario: document.getElementById('horario').value}
+    fetch(`/api/indisponiveis?data=${encodeURI(dados.data)}&horario=${dados.horario}`, {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json; charset=utf-8'
