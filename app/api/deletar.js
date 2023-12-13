@@ -6,7 +6,7 @@ export default async (req, res) => {
                           data: req.query.data,
                           horario: req.query.horario }
         const resultado = await apagarAgendamento(dados)
-        res.status(200).json({ resultado: resultado })
+        res.status(200).json( resultado )
     } catch (error) {
         res.status(500).json({ message: 'Erro', error: error.message })
     }

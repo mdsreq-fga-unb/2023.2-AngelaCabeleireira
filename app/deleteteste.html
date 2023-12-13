@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Selecione o serviço que deseja excluir:</p>
+    <select id="servico" name="servico">
+        <option value="Progressiva">Progressiva</option>
+        <option value="Selante/Botox">Selante/Botox</option>
+        <option value="Luzes">Luzes</option>
+        <option value="Guanid/amônia">Guanid/amônia</option>
+        <option value="Nutrição a laser">Nutrição a laser</option>
+        <option value="Hidratação a laser">Hidratação a laser</option>
+        <option value="Cauterização a laser">Cauterização a laser</option>
+        <option value="Cronograma">Cronograma</option>
+    </select>
+    <p>informe a data e horario agendados para este serviço que deseja desmarcar:</p>
+    <input type="date" name="data" id="data">
+    <input type="time" name="horario" id="horario">
+    <script>console.log(document.getElementById("horario").value)</script>
+    <button id="desmarcar" onclick="excluirAgendamento()">desmarcar</button>
+    <div id="deletado"></div>
+    <script src="./excluir.js" type="module"></script>
+</body>
+</html>

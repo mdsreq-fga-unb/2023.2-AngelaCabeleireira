@@ -46,7 +46,8 @@ export async function apagarAgendamento(dadosAgendamento) {
 
   try {
     const result = await collection.deleteOne(dadosAgendamento)
-    return result
+    const resultado = {r: result, d: dadosAgendamento}
+    return resultado
   } catch (error) {
     throw new Error(error.message)
   }
