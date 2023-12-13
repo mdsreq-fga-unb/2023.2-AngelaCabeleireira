@@ -1,4 +1,4 @@
-import { criarAgendamento } from './agendar.js'
+import { criarAgendamento } from './client/agendar.js'
 
 let today = new Date();
 let currentMonth = today.getMonth();
@@ -266,6 +266,5 @@ window.handleConfirm = function() {
         horario: timeSelected.innerText,
         nome: nome,
         celular: celular }
-    criarAgendamento(agendamento) 
-    window.alert(`AGENDAMENTO RECEBIDO`)
+    criarAgendamento(agendamento)
 }

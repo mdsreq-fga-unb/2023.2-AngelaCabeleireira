@@ -1,4 +1,4 @@
-import { handleCriarAgendamento } from "../db/controllers/agendamentoController.js"
+import { criarAgendamento } from '../db/models/agendamentoModel.js'
 
 export default async (req, res) => {
     let body = ''
@@ -9,7 +9,8 @@ export default async (req, res) => {
     req.on('end', async () => {
         try {
             const agendamento = JSON.parse(body)
-            await handleCriarAgendamento(req, res, agendamento)
+            const result = await criarAgendamento(agendamento)
+            return res.status(201).json({ message: 'Agendamento criado com sucesso', result })
         } catch (error) {
             if (!res.headersSent) {
                 res.writeHead(500, {
