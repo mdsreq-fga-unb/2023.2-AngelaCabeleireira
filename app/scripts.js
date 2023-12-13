@@ -1,3 +1,4 @@
+import indisponiveis from './client/findUnavailable.js'
 import { criarAgendamento } from './client/agendar.js'
 
 let today = new Date();
@@ -46,8 +47,14 @@ function clickDay(evt) {
     cellSelected = evt.currentTarget;
     cellSelected.classList.add("selected")
     // toggleHideTime();
+    let dt = new Date(currentYear, currentMonth, daySelected)
+    date = dt.toLocaleDateString("pt-BR", {
+        year:"numeric",
+        month:"2-digit",
+        day: "2-digit", 
+    })
+    console.log(date)
 }
-
 
 function showCalendar(month, year) {
 
@@ -114,8 +121,14 @@ function showCalendar(month, year) {
 
         tbl.appendChild(row); // appending each row into calendar body.
     }
-
 }
+
+// async function verificarDisponibilidade(date, time){
+//     const disp = await indisponiveis(JSON.parse(date))
+//     const horariosAgendados = disp.map(agendamento => agendamento.horario)
+//     console.log(disp)
+//     return !horariosAgendados.includes(time)
+// }
 
 function showService () {
     
@@ -158,8 +171,8 @@ function toggleHideCalendar(){
             vertical_lines[0].classList.add("hidden");
             vertical_lines[1].classList.add("hidden");
         }
-    
 }
+
 function toggleHideTime() {
     var timeBoxDiv = document.getElementById('time-body');
     if (timeBoxDiv.classList.contains("hidden") === true){
@@ -190,7 +203,6 @@ function toggleHideModal(){
     if (submit.classList.contains("hidden") === true){
         submit.classList.remove("hidden")
     } else {}
-
 }
 
 
@@ -212,27 +224,32 @@ function clickService(evt) {
         serviceSelected = evt.currentTarget;
         serviceSelected.classList.add("selected");
     }
-
-    
     
 }
 
-function showTimeBox () {
+async function showTimeBox () {
     let div = document.getElementById("time-box-body");
     div.classList.add("unselect", "time-box-div");
-    timeBoxList.forEach(element => {
+    for (let element of timeBoxList) {
         let textDiv = document.createElement("div");
-        textDiv.classList.add("unselect", "time-box-button");
+        // const indisponivel = await verificarDisponibilidade(date, element)
         let text = document.createElement("p");
-        text.innerHTML = String(element);
+        // if (indisponivel) {
+        //     text.innerHTML = "Indisponível";
+        //     textDiv.classList.add("unavailable");
+        // } else {
+            text.innerHTML = String(element);
+        // }
         text.classList.add("calendar-text"); // "time-button-text"
         textDiv.appendChild(text);
+        textDiv.classList.add("unselect", "time-box-button");
         textDiv.addEventListener('click', function (e) {
             clickTimeBox(e)
         });
-        div.appendChild(textDiv)
-    });
+        div.appendChild(textDiv);
+    }
 }
+
 
 function clickTimeBox(evt) {
     // console.log(evt.currentTarget);
@@ -252,6 +269,7 @@ function clickTimeBox(evt) {
         day: "2-digit", 
     })
     toggleHideModal();
+    console.log(date)
     document.getElementById("c2").innerText = date;
     document.getElementById("c3").innerText = timeSelected.innerText;
     // toggleHideConfirm();

@@ -17,23 +17,5 @@ window.encontrarAgendamento = function(){
     })
     .catch(error => {
         console.error('Erro ao encontrar agendamento:', error)
-    });
-}
-
-window.indisponiveis = function(){
-    const dados = {data: document.getElementById('data').value,
-                   horario: document.getElementById('horario').value}
-    fetch(`/api/indisponiveis?data=${encodeURI(dados.data)}&horario=${dados.horario}`, {
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json; charset=utf-8'
-        }
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log(data)
-    })
-    .catch(error => {
-        console.error(error)
     })
 }

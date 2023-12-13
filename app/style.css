@@ -2,6 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: "Edition", K2D; */
+  /* font-size: 20pt; */
+  letter-spacing: 1px;
+}
+
+@font-face {                                            /* TENTEI ADICIONAR A FONTE DA ANGELA MAS NAO TEM CARACTERES ESPECIAIS E NEM EH MUITO LEGIVEL */
+  font-family: "Edition";
+  src: url('./src/EDITION_.TTF') format('truetype');
+}
+
+.unavailable {
+  color: #999;
+  pointer-events: none; /* desativar eventos de clique nos horários indisponíveis */
 }
 
 /* .calendartd {
@@ -175,10 +188,9 @@ h3 {
   margin: 10px;
   text-align: center;
   font-size: 30px;
+  /* font-family: "Edition"; */
   font-family: K2D;
   color: #000;
-  text-align: center;
-  font-family: K2D;
 }
 
 .time-box-div {
@@ -272,7 +284,8 @@ tr {
 }
 
 .playfair {
-  font-family: 'Playfair';
+  /* font-family: 'Edition'; */
+  font-family: K2D;
 }
 
 .confirm {

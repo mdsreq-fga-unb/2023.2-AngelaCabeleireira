@@ -27,12 +27,12 @@ export async function findAgendamento(numero) {
 }
 
 //ENCONTRAR TODOS
-export async function indisponivel(dados) {
+export async function indisponivel(data) {
   const db = await connectToDatabase(process.env.MONGODB_URI)
   const collection = db.db('SalaoAngela').collection('Agendamentos')
 
   try {
-    const result = await collection.find(dados).toArray()
+    const result = await collection.find(data).toArray()
     return result
   } catch (error) {
     throw new Error(error.message)
