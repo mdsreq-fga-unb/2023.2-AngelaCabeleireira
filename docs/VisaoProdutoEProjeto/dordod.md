@@ -13,8 +13,9 @@ Para definir esses critérios, levamos em consideração o material disponibiliz
     <li> Revisão do PO: O requisito foi avaliado pelo nosso PO, aquele que está mais próximo do Cliente, garantindo um alinhamento do que foi planejado por ambas as partes. </li>
 </ul> </br>
 
-Abaixo, a DoR aplicada aos MVPs:
-<iframe width="1250px" height="550px" frameborder="0" src="https://docs.google.com/spreadsheets/d/1sqQmcppDq94Eyjplj4noZ8HXu6ENYhJsOlKnt8kdDMc/edit?usp=sharing"></iframe>
+DoR do MVP1:
+
+![dorMVP1](../img/dorMVP1.png)
 
 ## Definition of Done
 
@@ -37,3 +38,4 @@ Para definir esses critérios, levamos em consideração o material disponibiliz
 | :--------: | :----: | ---------------------------------------------------------------------------------- | -------------------------- |
 | 06/11/2023 |  1.0   | Adicionados Definição de Preparado e Definição de Pronto                           | Todos                      |
 | 16/11/2023 | 1.1 | Revisão e atualização de alguns critérios de DoR e DoD | Vinicius |
+| 17/11/2023 | 1.2 | Retirando o Iframe e colocando print da tabela | Guilherme |

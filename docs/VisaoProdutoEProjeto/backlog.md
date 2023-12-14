@@ -3,7 +3,10 @@
 ## Requisitos Funcionais
 Estrutura de Backlog do produto - Scaled Agile Framework (SAFe):
 
-![Estrutura_Backlog](../img/estrutura-backlog.jpg)
+<p align="center">
+    <img src="/../img/estrutura-backlog.jpg" alt="estrutura-backlog">
+</p>
+
 
 <table border=1 style='border-collapse:collapse;table-layout:fixed;'>
   <thead>
@@ -657,16 +660,133 @@ O mesmo método será aplicado para cada US: </br>
   </tr>
 </table>
 
-<!-- ### Critérios de Aceitação do MVP2
+### Critérios de Aceitação do MVP2
 
-| **[US06]** | Eu como Cliente quero poder calcular a rota da minha localização atual até o salão, para que eu possa ser atendido |
-| **[US07]** | Eu como Administradora quero poder adicionar um novo serviço, para que eu possa disponibilizar aos clientes |
-| **[US08]** | Eu como Administradora quero poder editar um serviço já existente, para que eu possa atualizar suas infomações |
-| **[US09]** | Eu como Administradora quero poder deletar um serviço já existente, para que deixe de ser uma opção para o cliente |
-| **[US10]** | Eu como Administradora quero poder editar as informações de contato do salão, para que eu possa atualizá-las para os clientes |
-| **[US12]** | Eu como Cliente quero poder dar minha própria avaliação, para que eu possa contribuir para a reputação do salão |
-| **[US13]** | Eu como Cliente quero poder enviar uma mensagem via WhatsApp para o salão, para que eu possa me comunicar com a responsável |
-| **[US14]** | Eu como Cliente quero poder enviar uma mensagem via Email para o salão, para que eu possa me comunicar com a responsável | -->
+<table style="border-collapse:collapse;border-spacing:0" class="tg">
+    <thead>
+        <tr>
+            <th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:16px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" colspan="2">MVP2 </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+<table style="border-collapse:collapse;border-spacing:0" class="tg">
+    <thead>
+        <tr>
+            <th style="border-width:1px;font-size:16px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" colspan="2">MVP2 </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border-width:1px;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">User Stories</td>
+            <td style="border-width:1px;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Critérios de aceitação</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">US08 - Como gerente, quero registrar serviços na plataforma, para que os clientes sabiam o que está disponível.</td>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de nomear um serviço novo.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O gerente deve ser capaz de inserir uma descrição ao serviço adicionado.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. O gerente deve ser capaz de definir um valor ao serviço adicionado.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US09 - Como gerente, quero editar serviços existentes, para atualizar detalhes.</td>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de alterar a descrição de um serviço existente.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. As informações editáveis devem ser o nome e o preço do serviço.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US10 - Como gerente, quero retirar serviços existentes, para que deixe de ser uma opção disponível.</td>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de remover um serviço existente da plataforma.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. A remoção de um serviço não deve afetar agendamentos já existentes desse serviço.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">US11 - Como gerente, quero registrar informações de contato do salão, para disponibilizar novas maneiras de entrar em contato com o salão.</td>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de registrar número de telefone ou e-mail para contato.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O sistema deve validar as informações inseridas.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. O sistema deve registrar o contato na área de contatos.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4. Se o endereço físico for fornecido, o sistema deve permitir a inclusão de um link para o mapa.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">US12 - Como gerente, quero remover informações de contato do salão, para remover dados incorretos.</td>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de remover informações de telefone, e-mail e endereço físico.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema deve solicitar uma confirmação do gerente antes de remover as informações de contato para evitar exclusões acidentais.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. O sistema deve realizar a remoção das informações de contato imediatamente na plataforma, sem a necessidade de reinicialização do sistema.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">US13 - Como cliente, quero visualizar uma rota da minha localização até o estabelecimento, para saber o caminho até o salão.</td>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. A plataforma deve ser integrada ao serviço Google Maps.</td>
+        </tr>
+        <tr>
+            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. A localização do salão deve ser previamente registrada na plataforma.</td>
+        </tr>
+        <tr>
+            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. A rota deve ser exibida em um mapa interativo, permitindo que o cliente amplie, reduza e interaja com a visualização.</td>
+        </tr>
+        <tr>
+            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4. Se a localização do estabelecimento for alterada, a rota exibida deve ser recalculada automaticamente.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US14 - Como cliente, quero visualizar pontos de referência próximos ao estabelecimento, para facilitar a viagem até o salão.</td>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. A plataforma deve ser integrada ao serviço Google Maps.</td>
+        </tr>
+        <tr>
+            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O mapa interativo deve exibir os pontos de referência.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">US15 - Como cliente, quero atribuir uma classificação por estrelas ao serviço do salão, para refletir minha satisfação.</td>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O usuário deve ser capaz de atribuir uma classificação de estrelas ao serviço recebido no salão.</td>
+        </tr>
+        <tr>
+            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. A plataforma deve permitir que o usuário atribua uma classificação que varie entre 1 e 5 estrelas.</td>
+        </tr>
+        <tr>
+            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. Os usuários devem ser capazes de visualizar as classificações que atribuíram anteriormente.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">US16 - Como cliente, quero escrever um comentário sobre minha experiência no salão, para compartilhar detalhes específicos do serviço.</td>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Os usuários devem ser capazes de escrever um comentário sobre sua experiência no salão.</td>
+        </tr>
+        <tr>
+            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema de comentários deve estar vinculado ao Google Maps.</td>
+        </tr>
+        <tr>
+            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. A plataforma deve integrar o sistema de comentários ao sistema de classificação por estrelas.</td>
+        </tr>
+        <tr>
+            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4. A plataforma deve permitir que o salão, responda aos comentários dos clientes para fornecer feedback.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US17 - Como cliente, quero ter a opção de manter minha avaliação anônima, para que minha opinião seja confidencial. </td>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Os clientes devem ter a opção de escolher entre uma avaliação anônima e uma avaliação identificada ao fornecer feedback sobre o serviço.</td>
+        </tr>
+        <tr>
+            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. A plataforma deve fornecer uma lista de vantagens ao utilizar a avaliação anônima.</td>
+        </tr>
+        <tr>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US18 - Como cliente, quero receber lembretes de agendamentos via WhatsApp, para não esquecer dos serviços agendados.</td>
+            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Os clientes devem receber uma mensagem de lembrete pelo WhatsApp, um dia antes do serviço agendado.</td>
+        </tr>
+        <tr>
+            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema deve fornecer uma opção de confirmar ou cancelar o agendamento através da mensagem de lembrete.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Alinhamento com os Objetivos do Projeto
 
@@ -709,7 +829,8 @@ com os objetivos do projeto
 | 24/10/2023 |  1.2   | Correção do backlog de acordo feedbacks do professor                               | Todos                      |
 | 25/10/2023 |  1.3   | Atualização com os Critérios de Priorização, MVP's e Alinhamento                   | Todos                      |
 | 26/10/2023 |  1.4   | Correção da estrutura da tabela de declaração do Backlog e das categorias dos RNFs | Vinícius                   |
-| 05/11/2023 |  1.5   | Reestruturação do Backlog, Adição dos objetivos Específicos e Alteração nos MVPs   | Guilherme                  |
+| 05/11/2023 |  1.5   | Reestruturação do Backlog, Adição dos objetivos Específicos e Alteração nos MVPs   | Guilherme de Sá                 |
 | 06/11/2023 |  1.6   | Adicionados Critérios de Aceitação do MVP1 em versão preliminar                    | Vinícius                   |
 | 11/11/2023 |  1.7   | Ajuste em histórias de usuários e na estrutura de backlog                          | Yves                       |
 | 12/11/2023 |  1.8   | Definição dos critérios de aceitação e dos testes de aceitação do MVP1             | Yves                       |
+| 13/12/2023 |  1.9   | Centralizando imagem                                                               | Guilherme de Sá            |
