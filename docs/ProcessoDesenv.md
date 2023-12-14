@@ -5,12 +5,18 @@ Abordagem de desenvolvimento **Ágil**. </br>
 Ciclo de Vida **Iterativo e Incremental**. </br>
 Utilizaremos o **RAD** como framework de gerenciamento de projeto, juntamente aos seguintes artefatos do **Scrum**: **Organização do time, Sprints e Backlog da Sprint**. </br> 
 
-![SCRAD](./img/SCRAD.png)
+<p align="center">
+    <img src="/../img/SCRAD.png" alt="SCRAD">
+</p>
 
 ## Análise pelo Framework de Gupta
 
-![Gupta1](./img/gupta1.png)
-![Gupta2](./img/gupta2.png)
+<p align="center">
+    <img src="/../img/gupta1.png" alt="gupta1">
+</p>
+<p align="center">
+    <img src="/../img/gupta2.png" alt="gupta1">
+</p>
 
 A partir dos pontos marcados:
 <ul>
@@ -43,7 +49,9 @@ O modelo Participativo é ideal para:
     <li> Interação contínua entre as partes. </li>
 </ul>
 
-![Facetas do Processo de ER](./img/FacetasProcessoER.png)
+<p align="center">
+    <img src="/../img/FacetasProcessoER.png" alt="FacetasProcessoER">
+</p>
 
 ## Histórico de Revisão
 
@@ -52,3 +60,4 @@ O modelo Participativo é ideal para:
 | 17/09/2023 | 1.0    | Definição da Abordagem, do Ciclo de Vida e do Processo a ser utilizado. Documentação no pages.                                | Todos        |
 | 27/09/2023 | 1.1    | Atualização da faceta do processo de engenharia de requisitos e adição do fluxo de trabalho do processo de desenvolvimento.   | Guilherme de Sá |
 | 22/10/2023 | 1.2    | Atualização da imagem do modelo do processo.   | Guilherme de Sá |
+| 13/12/2023 | 1.3   | Centralizando as imagens   | Guilherme de Sá |
