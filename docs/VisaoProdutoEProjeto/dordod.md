@@ -17,10 +17,6 @@ DoR do MVP1:
 
 ![dorMVP1](../img/dorMVP1.png)
 
-DoR do MVP2:
-
-![dorMVP1](../img/dorMVP1.png)
-
 ## Definition of Done
 
 Definition of Done (DoD) é uma técnica da atividade de Verificação e Validação da Engenharia de Requisitos que basicamente diz se uma tarefa, ou requisito está concluída. É um conjunto mínimo de critérios que precisam ser cumpridos antes da entrega. </br>
