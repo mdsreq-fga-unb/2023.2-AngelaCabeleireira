@@ -104,6 +104,10 @@ Escolhemos os seguintes casos de uso para fazer a especificação:
 
 ## Vídeo de entrega da Unidade 04
 
+<p align="center">
+<iframe width="960" height="540" src="https://www.youtube.com/embed/cDna-CrBPAI?si=bDb-4grKZH2dLWKW&amp;start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+
 ## Histórico de Revisão
 
 | Data       | Versão |                                                      Descrição                                                            |    Autor     |
