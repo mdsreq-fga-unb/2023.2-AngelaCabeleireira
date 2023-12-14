@@ -5,18 +5,13 @@ Abordagem de desenvolvimento **Ágil**. </br>
 Ciclo de Vida **Iterativo e Incremental**. </br>
 Utilizaremos o **RAD** como framework de gerenciamento de projeto, juntamente aos seguintes artefatos do **Scrum**: **Organização do time, Sprints e Backlog da Sprint**. </br> 
 
-<p align="center">
-    <img src="/../img/SCRAD.png" alt="SCRAD">
-</p>
+![SCRAD](./img/SCRAD.png)
+
 
 ## Análise pelo Framework de Gupta
 
-<p align="center">
-    <img src="/../img/gupta1.png" alt="gupta1">
-</p>
-<p align="center">
-    <img src="/../img/gupta2.png" alt="gupta1">
-</p>
+![gupta1](./img/gupta1.png)
+![gupta2](./img/gupta2.png)
 
 A partir dos pontos marcados:
 <ul>
@@ -49,9 +44,7 @@ O modelo Participativo é ideal para:
     <li> Interação contínua entre as partes. </li>
 </ul>
 
-<p align="center">
-    <img src="/../img/FacetasProcessoER.png" alt="FacetasProcessoER">
-</p>
+![FacetasProcessoER](./img/FacetasProcessoER.png)
 
 ## Histórico de Revisão
 

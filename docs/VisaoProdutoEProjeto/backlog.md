@@ -3,9 +3,7 @@
 ## Requisitos Funcionais
 Estrutura de Backlog do produto - Scaled Agile Framework (SAFe):
 
-<p align="center">
-    <img src="/../img/estrutura-backlog.jpg" alt="estrutura-backlog">
-</p>
+![estrutura-backlog](../img/estrutura-backlog.jpg)
 
 
 <table border=1 style='border-collapse:collapse;table-layout:fixed;'>
@@ -420,154 +418,144 @@ O mesmo método será aplicado para cada US: </br>
 
 ### Critérios de Aceitação do MVP1
 
-<table border=1 style="border-collapse:collapse;border-spacing:0;margin:0px auto">
-  <thead>
-    <tr>
-      <th style="font-size:large;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" colspan="3">MVP1</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="font-size:medium;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">User Stories</td>
-      <td style="font-size:medium;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Critérios de aceitação</td>
-      <td style="font-size:medium;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Testes de Aceitação</td>
-    </tr>
-    <tr>
-      <td style="font-size:100%;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="5">US01 - Como usuário, quero agendar um horário no salão, para receber um serviço.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O usuário deve ser capaz de selecionar o serviço desejado a partir de uma lista de serviços disponíveis.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="5">- Teste de seleção de serviço (Critério 1).<br><br>- Teste de seleção de data (Critério 2).<br><br>- Teste de seleção de horário (Critério 3).</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O usuário deve ser capaz de selecionar uma data disponível para o serviço.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. O usuário deve ser capaz de selecionar um horário disponível para a data selecionada.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">4. O sistema deve solicitar o nome do usuário.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">5. O sistema deve solicitar o número de celular do usuário.</td>
-    </tr>
-    <tr>
-      <td style="font-size:100%;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="4">US02 - Como usuário, quero retirar um agendamento, para liberar espaço na agenda do salão.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O usuário deve ter a opção de cancelar o agendamento via WhatsApp.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">- Teste de confirmação de cancelamento (Critério 3).<br><br>- Teste de atualização de agenda (Critério 4).</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O sistema deve confirmar a solicitação de cancelamento do usuário.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. Após a confirmação, o sistema deve enviar uma mensagem de confirmação imediata para o número de celular do usuário, por meio do WhatsApp, informando que o agendamento foi cancelado com sucesso.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">4. O sistema deve atualizar a agenda, liberando o horário do agendamento cancelado.</td>
-    </tr>
-    <tr>
-      <td style="font-size:100%;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="4">US03 - Como usuário, quero verificar meus agendamentos, para acompanhar os dias e horários marcados no salão.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O sistema deve fornecer uma opção para sincronizar os agendamentos com o Google Agenda do usuário.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">- Teste de informações de agendamento do Google Agenda (Critério 3).<br><br>- Teste de atualização automática do Google Agenda (Critério 4).</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. Após a sincronização, os agendamentos devem ser visíveis no Google Agenda do celular do usuário.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. Os agendamentos no Google Agenda devem possuir informações de data, hora e serviço.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">4. O sistema de agendamento deve atualizar automaticamente o Google Agenda do usuário sempre que houver mudanças no agendamento.</td>
-    </tr>
-    <tr>
-      <td style="font-size:100%;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="10">US04 - Como gerente, quero bloquear determinados dias e horários da agenda, para impossibilitar o agendamento referente.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O sistema deve garantir que apenas o gerente tenha acesso à função de bloqueio da agenda, por meio de uma área restrita.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="10">- Teste de acesso restrito (Critério 1).<br><br>- Teste de confirmação de bloqueio (Critério 6).<br><br>- Teste de cancelamento de agendamentos conflitantes (Critério 7).<br><br>- Teste de edição de bloqueio (Critério 10).<br><br>- Teste de remoção de bloqueio (Critério 11).</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O sistema deve fornecer opções de bloquear o dia inteiro ou horários específicos do dia.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. O sistema deve permitir que o gerente selecione o dia que deseja bloquear para agendamento.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">4. O sistema deve permitir que o gerente selecione os horários do dia que deseja bloquear para agendamento.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">5. Caso exista algum agendamento existente que conflite com o período a ser bloqueado, o sistema deve notificar, por meio de um Pop-up, que os agendamentos do período serão cancelados.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">6. O sistema deve confirmar o bloqueio do(s) dia(s) e horário(s) referente.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">7. Os agendamentos existentes que conflitam com os períodos bloqueados devem ser cancelados.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">8. O sistema deve garantir que os dias e horários bloqueados não estejam disponíveis para agendamento pelos usuários.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">9. Caso o agendamento do cliente seja cancelado, o cliente deve receber um aviso imediato para o número de celular, por meio do WhatsApp, detalhando qual o dia e horário foi cancelado.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">10. O gerente deve ser capaz de editar ou remover bloqueios existentes, caso necessário.</td>
-    </tr>
-    <tr>
-      <td style="font-size:100%;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="4">US05 - Como gerente, quero limitar períodos de agendamento, para ter controle do número de clientes agendados.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">1. O sistema deve garantir que apenas o gerente tenha acesso à função de limite de períodos de agendamento, por meio de uma área restrita.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">- Teste de agendamento dentro do período disponível (Critério 1).<br><br>- Teste de restrição de agendamento fora do período (Critério 3).</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema deve permitir que o gerente especifique datas de início e término para o período de agendamento.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. O sistema deve permitir o agendamento dos clientes apenas para o período de agendamento disponível.</td>
-    </tr>
-    <tr>
-      <td style="border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4. Caso o cliente, tente realizar um agendamento em um período que não esteja aberto, o sistema deve indicar ao cliente, por meio de um Pop-Up.</td>
-    </tr>
-    <tr>
-      <td style="font-size:100%;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="4">US06 - Como cliente, quero visualizar os horários disponíveis para agendamento em um dia específico, para escolher o melhor horário para o serviço.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O usuário deve ser capaz de consultar os dias e horários livres para agendamento.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">- Teste de visualização do calendário (Critério 2).<br><br>- Teste de visualização do mês seguinte (Critério 4).</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema deve apresentar uma visualização em formato de calendário mensal, dos agendamentos, apresentando as informações de horário e data.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. O sistema deve diferenciar visualmente os dias ocupados dos dias livres na visualização, por meio de cores.</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4. O sistema deve oferecer uma opção de visualizar o calendário do mês seguinte.</td>
-    </tr>
-    <tr>
-      <td style="font-size:100%;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">US07 - Como gerente, quero visualizar todos os agendamentos realizados, para ter um controle de serviços.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">1. O sistema deve garantir que apenas o gerente tenha acesso à função de visualizar todos os agendamentos, por meio de uma área restrita.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">- Teste de visualização de agendamentos (Critério 2).</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema deve apresentar todos os agendamentos confirmados realizados .</td>
-    </tr>
-    <tr>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. O sistema deve apresentar as informações de data, hora, tipo de serviço, nome cliente e número de celular do cliente.</td>
-    </tr>
-    <tr>
-      <td style="font-size:100%;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="2">US19 - Como cliente, quero receber detalhes dos serviços agendados via WhatsApp, para saber exatamente o que foi marcado.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Imediatamente após o agendamento, o sistema deve enviar uma mensagem de detalhes de agendamento para o número do cliente.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">- Teste de envio de mensagem via WhatsApp (Critério 1).</td>
-    </tr>
-    <tr>
-      <td style="border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. As informações enviadas via WhatsApp devem apresentar qual o serviço, a data e a hora agendada.</td>
-    </tr>
-    <tr>
-      <td style="font-size:100%;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">US20 - Como cliente, quero receber a opção de confirmar meus agendamentos via WhatsApp, para garantir que minhas reservas estejam confirmadas.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Imediatamente após o agendamento, o sistema deve enviar uma mensagem de confirmação de agendamento para o número do cliente.</td>
-      <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">- Teste de opção de confirmação (Critério 2).<br><br>- Teste de registro na agenda (Critério 3).</td>
-    </tr>
-    <tr>
-      <td style="border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O cliente deve ter a opção de confirmar agendamento.</td>
-    </tr>
-    <tr>
-      <td style="border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. Ao confirmar, o sistema deve registrar o agendamento na agenda do salão.</td>
-    </tr>
-  </tbody>
+<table style="border-collapse:collapse;border-spacing:0">
+    <thead>
+        <tr>
+            <th style="font-size:16px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" colspan="2">MVP1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">User Stories</td>
+            <td style="font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Critérios de aceitação</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="5">US01 - Como usuário, quero agendar um horário no salão, para receber um serviço.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O usuário deve ser capaz de selecionar o serviço desejado a partir de uma lista de serviços disponíveis.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O usuário deve ser capaz de selecionar uma data disponível para o serviço.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. O usuário deve ser capaz de selecionar um horário disponível para a data selecionada.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">4. O sistema deve solicitar o nome do usuário.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">5. O sistema deve solicitar o número de celular do usuário.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="4">US02 - Como usuário, quero retirar um agendamento, para liberar espaço na agenda do salão.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O usuário deve ter a opção de cancelar o agendamento via WhatsApp.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O sistema deve confirmar a solicitação de cancelamento do usuário.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. Após a confirmação, o sistema deve enviar uma mensagem de confirmação imediata para o número de celular do usuário, por meio do WhatsApp, informando que o agendamento foi cancelado com sucesso.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">4. O sistema deve atualizar a agenda, liberando o horário do agendamento cancelado.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="4">US03 - Como usuário, quero verificar meus agendamentos, para acompanhar os dias e horários marcados no salão.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O sistema deve fornecer uma opção para sincronizar os agendamentos com o Google Agenda do usuário.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. Após a sincronização, os agendamentos devem ser visíveis no Google Agenda do celular do usuário.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. Os agendamentos no Google Agenda devem possuir informações de data, hora e serviço.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">4. O sistema de agendamento deve atualizar automaticamente o Google Agenda do usuário sempre que houver mudanças no agendamento.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="10">US04 - Como gerente, quero bloquear determinados dias e horários da agenda, para impossibilitar o agendamento referente.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O sistema deve garantir que apenas o gerente tenha acesso à função de bloqueio da agenda, por meio de uma área restrita.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O sistema deve fornecer opções de bloquear o dia inteiro ou horários específicos do dia.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. O sistema deve permitir que o gerente selecione o dia que deseja bloquear para agendamento.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">4. O sistema deve permitir que o gerente selecione os horários do dia que deseja bloquear para agendamento.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">5. Caso exista algum agendamento existente que conflite com o período a ser bloqueado, o sistema deve notificar, por meio de um Pop-up, que os agendamentos do período serão cancelados.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">6. O sistema deve confirmar o bloqueio do(s) dia(s) e horário(s) referente.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">7. Os agendamentos existentes que conflitam com os períodos bloqueados devem ser cancelados.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">8. O sistema deve garantir que os dias e horários bloqueados não estejam disponíveis para agendamento pelos usuários.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">9. Caso o agendamento do cliente seja cancelado, o cliente deve receber um aviso imediato para o número de celular, por meio do WhatsApp, detalhando qual o dia e horário foi cancelado.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">10. O gerente deve ser capaz de editar ou remover bloqueios existentes, caso necessário.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="4">US05 - Como gerente, quero limitar períodos de agendamento, para ter controle do número de clientes agendados.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O sistema deve garantir que apenas o gerente tenha acesso à função de limite de períodos de agendamento, por meio de uma área restrita.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O sistema deve permitir que o gerente especifique datas de início e término para o período de agendamento.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. O sistema deve permitir o agendamento dos clientes apenas para o período de agendamento disponível.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">4. Caso o cliente, tente realizar um agendamento em um período que não esteja aberto, o sistema deve indicar ao cliente, por meio de um Pop-Up.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="4">US06 - Como cliente, quero visualizar os horários disponíveis para agendamento em um dia específico, para escolher o melhor horário para o serviço.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O usuário deve ser capaz de consultar os dias e horários livres para agendamento.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O sistema deve apresentar uma visualização em formato de calendário mensal, dos agendamentos, apresentando as informações de horário e data.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. O sistema deve diferenciar visualmente os dias ocupados dos dias livres na visualização, por meio de cores.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">4. O sistema deve oferecer uma opção de visualizar o calendário do mês seguinte.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">US07 - Como gerente, quero visualizar todos os agendamentos realizados, para ter um controle de serviços.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O sistema deve garantir que apenas o gerente tenha acesso à função de visualizar todos os agendamentos, por meio de uma área restrita.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O sistema deve apresentar todos os agendamentos confirmados realizados.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. O sistema deve apresentar as informações de data, hora, tipo de serviço, nome cliente e número de celular do cliente.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="2">US19 - Como cliente, quero receber detalhes dos serviços agendados via WhatsApp, para saber exatamente o que foi marcado.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Imediatamente após o agendamento, o sistema deve enviar uma mensagem de detalhes de agendamento para o número do cliente.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. As informações enviadas via WhatsApp devem apresentar qual o serviço, a data e a hora agendada.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">US20 - Como cliente, quero receber a opção de confirmar meus agendamentos via WhatsApp, para garantir que minhas reservas estejam confirmadas.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Imediatamente após o agendamento, o sistema deve enviar uma mensagem de confirmação de agendamento para o número do cliente.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O cliente deve ter a opção de confirmar agendamento.</td>
+        </tr>
+        <tr>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. Ao confirmar, o sistema deve registrar o agendamento na agenda do salão.</td>
+        </tr>
+    </tbody>
 </table>
 
 ### MVP2
@@ -662,128 +650,120 @@ O mesmo método será aplicado para cada US: </br>
 
 ### Critérios de Aceitação do MVP2
 
-<table style="border-collapse:collapse;border-spacing:0" class="tg">
+<table style="border-collapse:collapse;border-spacing:0">
     <thead>
         <tr>
-            <th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:16px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" colspan="2">MVP2 </th>
+            <th style="font-size:16px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" colspan="2">MVP2 </th>
         </tr>
     </thead>
     <tbody>
         <tr>
-<table style="border-collapse:collapse;border-spacing:0" class="tg">
-    <thead>
-        <tr>
-            <th style="border-width:1px;font-size:16px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" colspan="2">MVP2 </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="border-width:1px;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">User Stories</td>
-            <td style="border-width:1px;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Critérios de aceitação</td>
+            <td style="font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">User Stories</td>
+            <td style="font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Critérios de aceitação</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">US08 - Como gerente, quero registrar serviços na plataforma, para que os clientes sabiam o que está disponível.</td>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de nomear um serviço novo.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">US08 - Como gerente, quero registrar serviços na plataforma, para que os clientes sabiam o que está disponível.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de nomear um serviço novo.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O gerente deve ser capaz de inserir uma descrição ao serviço adicionado.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O gerente deve ser capaz de inserir uma descrição ao serviço adicionado.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. O gerente deve ser capaz de definir um valor ao serviço adicionado.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">3. O gerente deve ser capaz de definir um valor ao serviço adicionado.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US09 - Como gerente, quero editar serviços existentes, para atualizar detalhes.</td>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de alterar a descrição de um serviço existente.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US09 - Como gerente, quero editar serviços existentes, para atualizar detalhes.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de alterar a descrição de um serviço existente.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. As informações editáveis devem ser o nome e o preço do serviço.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. As informações editáveis devem ser o nome e o preço do serviço.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US10 - Como gerente, quero retirar serviços existentes, para que deixe de ser uma opção disponível.</td>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de remover um serviço existente da plataforma.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US10 - Como gerente, quero retirar serviços existentes, para que deixe de ser uma opção disponível.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de remover um serviço existente da plataforma.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. A remoção de um serviço não deve afetar agendamentos já existentes desse serviço.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. A remoção de um serviço não deve afetar agendamentos já existentes desse serviço.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">US11 - Como gerente, quero registrar informações de contato do salão, para disponibilizar novas maneiras de entrar em contato com o salão.</td>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de registrar número de telefone ou e-mail para contato.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">US11 - Como gerente, quero registrar informações de contato do salão, para disponibilizar novas maneiras de entrar em contato com o salão.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de registrar número de telefone ou e-mail para contato.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O sistema deve validar as informações inseridas.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">2. O sistema deve validar as informações inseridas.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. O sistema deve registrar o contato na área de contatos.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. O sistema deve registrar o contato na área de contatos.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4. Se o endereço físico for fornecido, o sistema deve permitir a inclusão de um link para o mapa.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4. Se o endereço físico for fornecido, o sistema deve permitir a inclusão de um link para o mapa.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">US12 - Como gerente, quero remover informações de contato do salão, para remover dados incorretos.</td>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de remover informações de telefone, e-mail e endereço físico.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">US12 - Como gerente, quero remover informações de contato do salão, para remover dados incorretos.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O gerente deve ser capaz de remover informações de telefone, e-mail e endereço físico.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema deve solicitar uma confirmação do gerente antes de remover as informações de contato para evitar exclusões acidentais.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema deve solicitar uma confirmação do gerente antes de remover as informações de contato para evitar exclusões acidentais.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. O sistema deve realizar a remoção das informações de contato imediatamente na plataforma, sem a necessidade de reinicialização do sistema.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. O sistema deve realizar a remoção das informações de contato imediatamente na plataforma, sem a necessidade de reinicialização do sistema.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">US13 - Como cliente, quero visualizar uma rota da minha localização até o estabelecimento, para saber o caminho até o salão.</td>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. A plataforma deve ser integrada ao serviço Google Maps.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">US13 - Como cliente, quero visualizar uma rota da minha localização até o estabelecimento, para saber o caminho até o salão.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. A plataforma deve ser integrada ao serviço Google Maps.</td>
         </tr>
         <tr>
-            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. A localização do salão deve ser previamente registrada na plataforma.</td>
+            <td style="border-style:solid;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. A localização do salão deve ser previamente registrada na plataforma.</td>
         </tr>
         <tr>
-            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. A rota deve ser exibida em um mapa interativo, permitindo que o cliente amplie, reduza e interaja com a visualização.</td>
+            <td style="border-style:solid;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. A rota deve ser exibida em um mapa interativo, permitindo que o cliente amplie, reduza e interaja com a visualização.</td>
         </tr>
         <tr>
-            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4. Se a localização do estabelecimento for alterada, a rota exibida deve ser recalculada automaticamente.</td>
+            <td style="border-style:solid;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4. Se a localização do estabelecimento for alterada, a rota exibida deve ser recalculada automaticamente.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US14 - Como cliente, quero visualizar pontos de referência próximos ao estabelecimento, para facilitar a viagem até o salão.</td>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. A plataforma deve ser integrada ao serviço Google Maps.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US14 - Como cliente, quero visualizar pontos de referência próximos ao estabelecimento, para facilitar a viagem até o salão.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. A plataforma deve ser integrada ao serviço Google Maps.</td>
         </tr>
         <tr>
-            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O mapa interativo deve exibir os pontos de referência.</td>
+            <td style="border-style:solid;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O mapa interativo deve exibir os pontos de referência.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">US15 - Como cliente, quero atribuir uma classificação por estrelas ao serviço do salão, para refletir minha satisfação.</td>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O usuário deve ser capaz de atribuir uma classificação de estrelas ao serviço recebido no salão.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="3">US15 - Como cliente, quero atribuir uma classificação por estrelas ao serviço do salão, para refletir minha satisfação.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. O usuário deve ser capaz de atribuir uma classificação de estrelas ao serviço recebido no salão.</td>
         </tr>
         <tr>
-            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. A plataforma deve permitir que o usuário atribua uma classificação que varie entre 1 e 5 estrelas.</td>
+            <td style="border-style:solid;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. A plataforma deve permitir que o usuário atribua uma classificação que varie entre 1 e 5 estrelas.</td>
         </tr>
         <tr>
-            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. Os usuários devem ser capazes de visualizar as classificações que atribuíram anteriormente.</td>
+            <td style="border-style:solid;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. Os usuários devem ser capazes de visualizar as classificações que atribuíram anteriormente.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">US16 - Como cliente, quero escrever um comentário sobre minha experiência no salão, para compartilhar detalhes específicos do serviço.</td>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Os usuários devem ser capazes de escrever um comentário sobre sua experiência no salão.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="4">US16 - Como cliente, quero escrever um comentário sobre minha experiência no salão, para compartilhar detalhes específicos do serviço.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Os usuários devem ser capazes de escrever um comentário sobre sua experiência no salão.</td>
         </tr>
         <tr>
-            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema de comentários deve estar vinculado ao Google Maps.</td>
+            <td style="border-style:solid;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema de comentários deve estar vinculado ao Google Maps.</td>
         </tr>
         <tr>
-            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. A plataforma deve integrar o sistema de comentários ao sistema de classificação por estrelas.</td>
+            <td style="border-style:solid;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. A plataforma deve integrar o sistema de comentários ao sistema de classificação por estrelas.</td>
         </tr>
         <tr>
-            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4. A plataforma deve permitir que o salão, responda aos comentários dos clientes para fornecer feedback.</td>
+            <td style="border-style:solid;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">4. A plataforma deve permitir que o salão, responda aos comentários dos clientes para fornecer feedback.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US17 - Como cliente, quero ter a opção de manter minha avaliação anônima, para que minha opinião seja confidencial. </td>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Os clientes devem ter a opção de escolher entre uma avaliação anônima e uma avaliação identificada ao fornecer feedback sobre o serviço.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US17 - Como cliente, quero ter a opção de manter minha avaliação anônima, para que minha opinião seja confidencial. </td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Os clientes devem ter a opção de escolher entre uma avaliação anônima e uma avaliação identificada ao fornecer feedback sobre o serviço.</td>
         </tr>
         <tr>
-            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. A plataforma deve fornecer uma lista de vantagens ao utilizar a avaliação anônima.</td>
+            <td style="border-style:solid;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. A plataforma deve fornecer uma lista de vantagens ao utilizar a avaliação anônima.</td>
         </tr>
         <tr>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US18 - Como cliente, quero receber lembretes de agendamentos via WhatsApp, para não esquecer dos serviços agendados.</td>
-            <td style="border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Os clientes devem receber uma mensagem de lembrete pelo WhatsApp, um dia antes do serviço agendado.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal" rowspan="2">US18 - Como cliente, quero receber lembretes de agendamentos via WhatsApp, para não esquecer dos serviços agendados.</td>
+            <td style="font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:middle;word-break:normal">1. Os clientes devem receber uma mensagem de lembrete pelo WhatsApp, um dia antes do serviço agendado.</td>
         </tr>
         <tr>
-            <td style="border-color:black;border-style:solid;border-width:1px;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema deve fornecer uma opção de confirmar ou cancelar o agendamento através da mensagem de lembrete.</td>
+            <td style="border-style:solid;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. O sistema deve fornecer uma opção de confirmar ou cancelar o agendamento através da mensagem de lembrete.</td>
         </tr>
     </tbody>
 </table>
@@ -807,8 +787,10 @@ Objetivos Secundários:
 <li>OS03 - Aumentar a taxa de retorno de clientes regulares em 15% nos próximos seis meses após a implantação.</li>
 <li>OS04 - Possibilitar a avaliação, o contato com o salão e a rota até o salão, por meio do site.</li>
 </br>
+
 Na tabela a seguir é apresentado quais USs de cada MVP estão alinhadas
 com os objetivos do projeto
+
 
 | Objetivo | Nome                                         | US's                                     |
 | :------: | -------------------------------------------- | ---------------------------------------- |
