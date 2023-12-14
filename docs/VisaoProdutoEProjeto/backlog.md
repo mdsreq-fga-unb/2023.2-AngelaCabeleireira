@@ -4,8 +4,9 @@
 Estrutura de Backlog do produto - Scaled Agile Framework (SAFe):
 
 <p align="center">
-    <img src="/../img/estrutura-backlog.jpg" alt="estrutura-backlog">
+    <img src="../img/estrutura-backlog.jpg" alt="estrutura-backlog">
 </p>
+![estrutura-backlog](../img/estrutura-backlog.jpg)
 
 
 <table border=1 style='border-collapse:collapse;table-layout:fixed;'>
