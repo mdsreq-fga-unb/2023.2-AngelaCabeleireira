@@ -3,9 +3,6 @@
 ## Requisitos Funcionais
 Estrutura de Backlog do produto - Scaled Agile Framework (SAFe):
 
-<p align="center">
-    <img src="../img/estrutura-backlog.jpg" alt="estrutura-backlog">
-</p>
 ![estrutura-backlog](../img/estrutura-backlog.jpg)
 
 
@@ -808,8 +805,10 @@ Objetivos Secundários:
 <li>OS03 - Aumentar a taxa de retorno de clientes regulares em 15% nos próximos seis meses após a implantação.</li>
 <li>OS04 - Possibilitar a avaliação, o contato com o salão e a rota até o salão, por meio do site.</li>
 </br>
+
 Na tabela a seguir é apresentado quais USs de cada MVP estão alinhadas
 com os objetivos do projeto
+
 
 | Objetivo | Nome                                         | US's                                     |
 | :------: | -------------------------------------------- | ---------------------------------------- |

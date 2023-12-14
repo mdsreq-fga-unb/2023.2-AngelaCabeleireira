@@ -4,70 +4,33 @@ Essa planilha é atualizada constantemente à medida que o projeto vai mudando d
 
 Legenda utilizada na tabela:
 
-<p align="center">
-    <img src="/../img/legendaListaTarefas.png" alt="legendaListaTarefas">
-</p>
+![legendaListaTarefas](../img/legendaListaTarefas.png)
 
 A seguir a lista das tarefas de cada quinzena: </br>
 
-<p align="center">
-    <img src="/../img/tarefas1.png" alt="tarefas1">
-</p>
-<p align="center">
-    <img src="/../img/tarefas2.png" alt="tarefas2">
-</p>
-<p align="center">
-    <img src="/../img/tarefas3.png" alt="tarefas3">
-</p>
-<p align="center">
-    <img src="/../img/tarefas4.png" alt="tarefas4">
-</p>
-<p align="center">
-    <img src="/../img/tarefas5.png" alt="tarefas5">
-</p>
-<p align="center">
-    <img src="/../img/tarefas6.png" alt="tarefas6">
-</p>
-<p align="center">
-    <img src="/../img/tarefas7.png" alt="tarefas7">
-</p>
-<p align="center">
-    <img src="/../img/tarefas8.png" alt="tarefas8">
-</p>
-<p align="center">
-    <img src="/../img/tarefas9.png" alt="tarefas9">
-</p>
-<p align="center">
-    <img src="/../img/tarefas10.png" alt="tarefas10">
-</p>
-<p align="center">
-    <img src="/../img/tarefas11.png" alt="tarefas11">
-</p>
-<p align="center">
-    <img src="/../img/tarefas12.png" alt="tarefas12">
-</p>
-<p align="center">
-    <img src="/../img/tarefas13.png" alt="tarefas13">
-</p>
-<p align="center">
-    <img src="/../img/tarefas14.png" alt="tarefas14">
-</p>
-<p align="center">
-    <img src="/../img/tarefas15.png" alt="tarefas15">
-</p>
+![tarefas1](../img/tarefas1.png)
+![tarefas2](../img/tarefas2.png)
+![tarefas3](../img/tarefas3.png)
+![tarefas4](../img/tarefas4.png)
+![tarefas5](../img/tarefas5.png)
+![tarefas6](../img/tarefas6.png)
+![tarefas7](../img/tarefas7.png)
+![tarefas8](../img/tarefas8.png)
+![tarefas9](../img/tarefas9.png)
+![tarefas10](../img/tarefas10.png)
+![tarefas11](../img/tarefas11.png)
+![tarefas12](../img/tarefas12.png)
+![tarefas13](../img/tarefas13.png)
+![tarefas14](../img/tarefas14.png)
+![tarefas15](../img/tarefas15.png)
 
 ## Relatório de Riscos do Projeto
 Um relatório de riscos destacando três eventos significativos ao longo do projeto, avaliando seu impacto em termos de grau de risco, que é categorizado como ALTO, MÉDIO ou BAIXO, conforme a legenda abaixo.
 
-<p align="center">
-    <img src="/../img/legendaRiscos.png" alt="legendaRiscos">
-</p>
-<p align="center">
-    <img src="/../img/riscos1.png" alt="riscos1">
-</p>
-<p align="center">
-    <img src="/../img/riscos2.png" alt="riscos2">
-</p>
+![legendaRiscos](../img/legendaRiscos.png)
+![riscos1](../img/riscos1.png)
+![riscos2](../img/riscos2.png)
+
 
 ## Relatório de FeedBack da Cliente
 Esta seção tem o propósito de documentar e analisar o feedback do cliente, obtido
@@ -109,9 +72,8 @@ propósito de obter uma visão geral do site e compreender as expectativas do cl
 feedback do cliente foi, em geral, positivo; no entanto, foram destacadas algumas áreas de
 melhoria e pontos que poderiam ser aprimorados e adaptados.</br>
 
-<p align="center">
-    <img src="/../img/primeiraRep.png" alt="1rep">
-</p>
+![1rep](../img/primeiraRep.png)
+
 
 
 Os pontos positivos deste modelo estão relacionados a facilidade de visualização e
@@ -129,10 +91,9 @@ Levando em consideração o feedback da primeira entrega, além das cores, fonte
 determinados no documento de identidade visual da marca, esta representação busca formar
 especificamente o sistema de agendamento do site.</br>
 
-<p align="center">
-    <img src="/../img/p1.png" alt="p1">
-    <img src="/../img/p2.png" alt="p2">
-</p>
+![p1](../img/p1.png)
+![p2](../img/p2.png)
+
 
 A proposta deste modelo foi muito bem recebida pelo cliente, resultando em uma aprovação
 total. Desta forma, a equipe de desenvolvimento deve proceder com a implementação deste
