@@ -2,98 +2,38 @@
 
 ## Slide apresentado sobre o processo ScrumXP
 
-<p align="center">
-    <img src="/../img/Apresentação de protótipo.png" alt="Apresentação de protótipo">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (1).png" alt="Apresentação de protótipo (1)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (2).png" alt="Apresentação de protótipo (2)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (3).png" alt="Apresentação de protótipo (3)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (4).png" alt="Apresentação de protótipo (4)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (5).png" alt="Apresentação de protótipo (5)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (6).png" alt="Apresentação de protótipo (6)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (7).png" alt="Apresentação de protótipo (7)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (8).png" alt="Apresentação de protótipo (8)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (9).png" alt="Apresentação de protótipo (9)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (10).png" alt="Apresentação de protótipo (10)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (11).png" alt="Apresentação de protótipo (11)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (12).png" alt="Apresentação de protótipo (12)">
-</p>
-<p align="center">
-    <img src="/../img/Apresentação de protótipo (13).png" alt="Apresentação de protótipo (13)">
-</p>
-
+![Apresentação de protótipo 1](../img/Apresentação de protótipo.png)
+![Apresentação de protótipo 1](../img/Apresentação de protótipo (1).png)
+![Apresentação de protótipo 2](../img/Apresentação de protótipo (2).png)
+![Apresentação de protótipo 3](../img/Apresentação de protótipo (3).png)
+![Apresentação de protótipo 4](../img/Apresentação de protótipo (4).png)
+![Apresentação de protótipo 5](../img/Apresentação de protótipo (5).png)
+![Apresentação de protótipo 6](../img/Apresentação de protótipo (6).png)
+![Apresentação de protótipo 7](../img/Apresentação de protótipo (7).png)
+![Apresentação de protótipo 8](../img/Apresentação de protótipo (8).png)
+![Apresentação de protótipo 9](../img/Apresentação de protótipo (9).png)
+![Apresentação de protótipo 10](../img/Apresentação de protótipo (10).png)
+![Apresentação de protótipo 11](../img/Apresentação de protótipo (11).png)
+![Apresentação de protótipo 12](../img/Apresentação de protótipo (12).png)
+![Apresentação de protótipo 13](../img/Apresentação de protótipo (13).png)
 
 ## Slide apresentado sobre a abordagem, ciclo de vida e processo de desenvolvimento do projeto
 
-<p align="center">
-    <img src="/../img/Análise do Produto.png" alt="Análise do Produto">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (1).png" alt="Análise do Produto (1)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (2).png" alt="Análise do Produto (2)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (3).png" alt="Análise do Produto (3)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (4).png" alt="Análise do Produto (4)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (5).png" alt="Análise do Produto (5)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (6).png" alt="Análise do Produto (6)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (7).png" alt="Análise do Produto (7)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (8).png" alt="Análise do Produto (8)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (9).png" alt="Análise do Produto (9)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (10).png" alt="Análise do Produto (10)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (11).png" alt="Análise do Produto (11)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (12).png" alt="Análise do Produto (12)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (13).png" alt="Análise do Produto (13)">
-</p>
-<p align="center">
-    <img src="/../img/Análise do Produto (14).png" alt="Análise do Produto (14)">
-</p>
-
+![Análise do Produto](../img/Análise do Produto.png)
+![Análise do Produto (1)](../img/Análise do Produto (1).png)
+![Análise do Produto (2)](../img/Análise do Produto (2).png)
+![Análise do Produto (3)](../img/Análise do Produto (3).png)
+![Análise do Produto (4)](../img/Análise do Produto (4).png)
+![Análise do Produto (5)](../img/Análise do Produto (5).png)
+![Análise do Produto (6)](../img/Análise do Produto (6).png)
+![Análise do Produto (7)](../img/Análise do Produto (7).png)
+![Análise do Produto (8)](../img/Análise do Produto (8).png)
+![Análise do Produto (9)](../img/Análise do Produto (9).png)
+![Análise do Produto (10)](../img/Análise do Produto (10).png)
+![Análise do Produto (11)](../img/Análise do Produto (11).png)
+![Análise do Produto (12)](../img/Análise do Produto (12).png)
+![Análise do Produto (13)](../img/Análise do Produto (13).png)
+![Análise do Produto (14)](../img/Análise do Produto (14).png)
 
 ## Vídeo de entrega da Unidade 01
 
