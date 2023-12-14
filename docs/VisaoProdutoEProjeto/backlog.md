@@ -3,7 +3,10 @@
 ## Requisitos Funcionais
 Estrutura de Backlog do produto - Scaled Agile Framework (SAFe):
 
-![Estrutura_Backlog](../img/estrutura-backlog.jpg)
+<p align="center">
+    <img src="/../img/estrutura-backlog.jpg" alt="estrutura-backlog">
+</p>
+
 
 <table border=1 style='border-collapse:collapse;table-layout:fixed;'>
   <thead>
@@ -709,7 +712,8 @@ com os objetivos do projeto
 | 24/10/2023 |  1.2   | Correção do backlog de acordo feedbacks do professor                               | Todos                      |
 | 25/10/2023 |  1.3   | Atualização com os Critérios de Priorização, MVP's e Alinhamento                   | Todos                      |
 | 26/10/2023 |  1.4   | Correção da estrutura da tabela de declaração do Backlog e das categorias dos RNFs | Vinícius                   |
-| 05/11/2023 |  1.5   | Reestruturação do Backlog, Adição dos objetivos Específicos e Alteração nos MVPs   | Guilherme                  |
+| 05/11/2023 |  1.5   | Reestruturação do Backlog, Adição dos objetivos Específicos e Alteração nos MVPs   | Guilherme de Sá                 |
 | 06/11/2023 |  1.6   | Adicionados Critérios de Aceitação do MVP1 em versão preliminar                    | Vinícius                   |
 | 11/11/2023 |  1.7   | Ajuste em histórias de usuários e na estrutura de backlog                          | Yves                       |
 | 12/11/2023 |  1.8   | Definição dos critérios de aceitação e dos testes de aceitação do MVP1             | Yves                       |
+| 13/12/2023 |  1.9   | Centralizando imagem                                                               | Guilherme de Sá            |
