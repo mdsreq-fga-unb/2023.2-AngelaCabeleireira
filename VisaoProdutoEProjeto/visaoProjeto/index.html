@@ -1,0 +1,1325 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto AngelaCabeleireira, por estudantes da disciplina Requisitos de Software, Engenharia de Software, UnB.">
+      
+      
+        <meta name="author" content="PentagonoCabeludo">
+      
+      
+      
+        <link rel="prev" href="../visaoProduto/">
+      
+      
+        <link rel="next" href="../../ProcessoDesenv/">
+      
+      
+      <link rel="icon" href="../../img/icon.svg">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Visão do Projeto - AngelaCabeleireira</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#visao-geral-do-projeto" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="AngelaCabeleireira" class="md-header__button md-logo" aria-label="AngelaCabeleireira" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AngelaCabeleireira
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Visão do Projeto
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="red"  aria-label="Modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2c-1.05 0-2.05.16-3 .46 4.06 1.27 7 5.04 7 9.54 0 4.5-2.94 8.27-7 9.54.95.3 1.95.46 3 .46a10 10 0 0 0 10-10A10 10 0 0 0 9 2Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mdsreq-fga-unb/2023.2-AngelaCabeleireira/tree/main" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AngelaCabeleireira
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Sobre
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../visaoProduto/" class="md-tabs__link">
+        
+  
+    
+  
+  Visão do Produto
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Visão do Projeto
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ProcessoDesenv/" class="md-tabs__link">
+        
+  
+    
+  
+  Processo de Desenvolvimento de Software
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../backlog/" class="md-tabs__link">
+        
+  
+    
+  
+  Backlog do Produto
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../dordod/" class="md-tabs__link">
+        
+  
+    
+  
+  DoR e DoD
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Relatorios/relatorios/" class="md-tabs__link">
+          
+  
+  Documentos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../LicoesAprendidas/" class="md-tabs__link">
+        
+  
+    
+  
+  Lições Aprendidas
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Entregas/unidade01/" class="md-tabs__link">
+          
+  
+  Entregas
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="AngelaCabeleireira" class="md-nav__button md-logo" aria-label="AngelaCabeleireira" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    AngelaCabeleireira
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mdsreq-fga-unb/2023.2-AngelaCabeleireira/tree/main" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AngelaCabeleireira
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visaoProduto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Visão do Projeto
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Visão do Projeto
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#papeis-do-projeto-e-suas-atribuicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Papéis do projeto e suas atribuições
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atividades-das-sprints" class="md-nav__link">
+    <span class="md-ellipsis">
+      Atividades das Sprints
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matriz-de-comunicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Matriz de Comunicação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gerenciamento-de-riscos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gerenciamento de Riscos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-replanejamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critérios de Replanejamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#padroes-de-codificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padrões de codificação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Revisão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ProcessoDesenv/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Processo de Desenvolvimento de Software
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dordod/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DoR e DoD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Documentos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Relatorios/relatorios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relatórios
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Relatorios/identidadeVisual/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Identidade Visual
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LicoesAprendidas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lições Aprendidas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Entregas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Entregas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entregas/unidade01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unidade 01
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entregas/unidade02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unidade 02
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entregas/unidade03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unidade 03
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entregas/unidade04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unidade 04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="visao-geral-do-projeto">Visão Geral do Projeto</h1>
+<p>O time irá utilizar uma mistura do método RAD com a estrutura e organização do time Scrum.</p>
+<h2 id="papeis-do-projeto-e-suas-atribuicoes">Papéis do projeto e suas atribuições</h2>
+<table style="border-collapse:collapse;border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Papel</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Atribuições</span></th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Responsável</span></th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Participantes</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Time de desenvolvimento</span></td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Codificar o produto, codificar testes unitários, realizar refatoração e realizar a atividade de representação, e de organização e atualização de requisitos.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Luis</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Arthur, Daniel, Guilherme, Luis, Vinicius, Yves</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Dono do Produto</span></td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Atualizar o escopo do produto, organizar o escopo das sprints, validar as entregas, realizando as seguintes atividades de requisitos: elicitação e descoberta, e de declaração dos requisitos.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Yves</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Angela, Yves</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal"><span style="font-weight:bold">Scrum Master</span></td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Gerenciar o time, no que diz respeito aos rituais presentes no framework, tais como planejamento do backlog da sprint, retrospectiva, review, além de realizar as seguintes atividades de requisitos: Análise e consenso, e verificação e validação dos requisitos.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Guilherme</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Arthur, Daniel, Guilherme, Luis, Vinicius, Yves</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal"><span style="font-weight:bold">Cliente</span></td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Dar feedback quanto ao protótipo e avaliação do produto.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Angela</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Angela</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="atividades-das-sprints">Atividades das Sprints</h2>
+<table style="border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Iteração</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Produto (Entrega)</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Data Início</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Data Fim</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 1</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Definição do problema e possível solução</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">05/09/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">18/09/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 2</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Definição de abordagem, ciclo de Vida, e processo</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">19/09/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">02/10/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 3</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Definição do Processo de Engenharia de Requisitos, atrelado ao Processo de Software</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">03/10/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">09/10/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 4</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Proposta de solução e feedback do cliente, além da lista inicial de requisitos</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">10/10/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">23/10/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 5</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Definição dos MVPs do projeto</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">24/10/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">06/11/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 6</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Desenvolvimento do primeiro MVP</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">07/11/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">20/11/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 7</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Desenvolvimento do segundo MVP</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">21/11/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">04/12/2023</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Sprint 8</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Revisão do projeto, integração do sistema e finalização</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">05/12/2023</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">13/12/2023</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="matriz-de-comunicacao">Matriz de Comunicação</h2>
+<table style="border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Descrição</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Papéis Envolvidos</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Periodicidade</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Produtos Gerados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Definição dos próximos objetivos, Sprint Backlog e acompanhamento do progresso do produto</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Time de Desenvolvimento</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Quinzenal</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Relatório de situação de projeto</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Acompanhamento dos riscos, compromissos e ações pendentes</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Time de Desenvolvimento</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Quinzenal</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Relatório de riscos e pendências</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Comunicação assíncrona entre membros via WhatsApp e Discord</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Time de Desenvolvimento</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Conforme necessidade</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">N/A</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Reunião com cliente para validação via WhatsApp e entrega de protótipo via e-mail e via WhatsApp</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Dono do Produto e Cliente</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Quinzenal</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Relatório de Feedbacks</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="gerenciamento-de-riscos">Gerenciamento de Riscos</h2>
+<table style="border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Risco</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Nível de Impacto</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Prevenção de Risco</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Gerenciamento de Risco</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Trancamento da matéria por algum membro da equipe</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">ALTO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Manter comunicação constante entre os membros, buscando identificar dificuldades individuais.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Redistribuir as atividades do antigo membro, para que nenhuma atividade permaneça incompleta.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Não entrega do Backlog Da Sprint</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">ALTO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Realizar o bom planejamento das histórias de usuário que serão trabalhadas na Sprint. Caso algum membro já tenha finalizado sua tarefa, o mesmo deve ser direcionado pelo Scrum Master, a auxiliar nas tarefas de outro membro determinado.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Redistribuir as Histórias de Usuário não entregues para a próxima Sprint, de forma que não atrapalhe o desenvolvimento desta Sprint seguinte.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Produtividade insuficiente em semana de prova</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">MÉDIO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">O planejamento das Sprints deve considerar as responsabilidades pessoais de cada membro. O trabalho das tarefas de cada membro deve ser planejado, tendo em mente as data das provas.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">As atividades do membro daquela semana serão reduzidos, mas o trabalho deve ser compensado após o término das provas.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Não participar das reuniões</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">BAIXO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">As reuniões devem ser realizadas em datas e horários fixos, caso algum imprevisto ocorra, o membro deve avisar a equipe.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Caso um membro não possa participar, a reunião deve ser gravada. Dessa forma, o membro faltante pode acompanhar as atividades da equipe.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Os riscos foram avaliados de acordo com seu nível de impacto:</p>
+<table style="border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Risco</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Nível de Impacto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">ALTO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Influência significativa no projeto, exigirão atenção imediata e um grande esforço do time para obter uma solução rápida.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">MÉDIO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Influência moderada no projeto, exigirão um maior esforço da equipe em sua contenção, mas ainda podem ser gerenciados.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">BAIXO</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Influência pequena no projeto, podendo ser facilmente resolvidos ou contornados.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="criterios-de-replanejamento">Critérios de Replanejamento</h2>
+<p>O produto será replanejado caso entenda-se que o escopo está inadequado, isto é, grande ou pequeno demais para o tempo da matéria e tamanho da equipe.</p>
+<p>O projeto poderá ser replanejado caso haja:</p>
+<ul>
+    <li> Abandono de membros da equipe </li>
+    <li> Constante ausência de determinados membros da equipe </li>
+    <li> Dificuldade de uso das ferramentas de desenvolvimento predefinidas </li>
+</ul>
+
+<p>A seguir uma tabela mostrando quando exatamente ocorre e o passo a passo do que fazer:</p>
+<table style="border-spacing:0;margin:0px auto">
+  <thead>
+    <tr>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Critério de Replanejamento</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Quando Ocorre</th>
+      <th style="border-style:solid;border-width:1px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:top;word-break:normal">Passo a Passo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">Abandono de membros da equipe</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">Um ou mais membros trancam a matéria.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">1. Avisar ao professor imediatamente.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. Replanejar as Sprints em relação às entregas.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. Redistribuir tarefas.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">Constante ausência de determinado membro da equipe</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="3">Um ou mais membros deixam de participar das discussões, ir às aulas e impossibilitam contato não respondendo a mensagens privadas.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">1. Avisar ao professor imediatamente.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. Replanejar as Sprints em relação às entregas.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">3. Redistribuir tarefas.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="2">Dificuldade de uso das ferramentas de desenvolvimento definidas</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="2">Um ou mais membros não conseguem avançar na evolução das Histórias de Usuário, por conta da dificuldade no uso de alguma ferramenta específica.</td>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">1. O membro deve buscar ajuda ao resto da equipe.</td>
+    </tr>
+    <tr>
+      <td style="border-style:solid;border-width:1px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">2. Se o impacto for muito grande, as tarefas da Sprint devem ser redistribuídas.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="padroes-de-codificacao">Padrões de codificação</h2>
+<p>Os padrões a serem seguidos serão algumas convenções já utilizadas nas tecnologias e linguagens de programação definidas pela equipe (clique no item para ver a fonte): </br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML" target="_blank"> <strong>HTML</strong> </a>: </br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML#attributes" target="_blank">- Atributos entre aspas duplas</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML#case" target="blank">- Lowercase (tudo minúsculo) para nomes de elementos e atributos.</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/HTML#class_and_id_names" target="blank">- Nomes de classes/ID com múltiplas palavras em kebab-case (separação por hífen).</a></p>
+<p>Exemplo: <code>&lt;img src="images/image.png" alt="exemplo-SS-em-requisitos" class="exemplo-kebab-case"&gt;</code></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS" target="_blank"> <strong>CSS</strong> </a>: </br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#css_comments" target="blank">- Comentários para explicar o que/onde está sendo aplicada a estilização, em português.</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#double_quotes_around_values" target="blank">- Aspas duplas para valores (semelhante ao definido para HTML).</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS#longhand_vs._shorthand_rules" target="blank">- Separar propriedades por linha ao invés de juntá-las em uma linha só.</a></p>
+<p>Exemplo:</p>
+<pre><code>/* Formato dos comentários */
+background-image: url(&quot;../valores/entre-aspas-duplas.png&quot;);
+
+/* Fonte sans-serif em negrito tamanho 18 */
+h2 {
+font-weight: bold;
+font-size: 18pt;
+font-family: sans-serif;
+}
+</code></pre>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript" target="_blank"> <strong>JavaScript</strong> </a>: </br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript#comments" target="blank">- Comentários single line, explicativos e em português para partes não-óbvias do código (funções cujos nomes não são significativos, funções complicadas e/ou grandes).</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript#functions" target="blank">- Nomear funções em camelCase de forma descritiva.</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript#objects" target="blank">- Definir Classes em PascalCase (camelCase porém com a primeira letra maiúscula) e Objetos em camelCase.</a></p>
+<p>Exemplo:</p>
+<pre><code>// Comentário single line descritivo:
+// Retorna status code 200:
+function status(request, response) {
+  response.status(200).send({ requisitos: &quot;SS Pentágono Cabeludo&quot; });
+}
+
+// Nome em camelCase:
+function agendaHorario() {
+  console.log(&quot;Horario agendado!&quot;);
+}
+
+// Classes e objetos: 
+const pentagonoCabeludo = new Equipe(5, &quot;Requisitos&quot;, &quot;SS&quot;);
+
+const pentagonoCabeludo = {
+  membros: 5,
+  disciplina: &quot;Requisitos&quot;,
+  mencao: &quot;SS&quot;,
+};
+
+</code></pre>
+<h2 id="historico-de-revisao">Histórico de Revisão</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">27/09/2023</td>
+<td style="text-align: center;">1.0</td>
+<td>Definição da organização, planejamento das sprints, matriz de comunicação, gerenciamento de riscos e critérios de replanejamento do projeto.</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td style="text-align: center;">22/10/2023</td>
+<td style="text-align: center;">1.1</td>
+<td>Alteração na parte do Gerenciamento de Riscos e Critérios de Replanejamento.</td>
+<td>Guilherme de Sá</td>
+</tr>
+<tr>
+<td style="text-align: center;">26/10/2023</td>
+<td style="text-align: center;">1.2</td>
+<td>Revisão e alteração na data das sprints finais de acordo com o calendário da disciplina.</td>
+<td>Vinícius</td>
+</tr>
+<tr>
+<td style="text-align: center;">06/11/2023</td>
+<td style="text-align: center;">1.3</td>
+<td>Adicionado novo membro da equipe nos planejamentos.</td>
+<td>Vinícius</td>
+</tr>
+<tr>
+<td style="text-align: center;">06/11/2023</td>
+<td style="text-align: center;">1.4</td>
+<td>Revisão da matriz de comunicação e ajustes na estrutura de documento.</td>
+<td>Yves</td>
+</tr>
+<tr>
+<td style="text-align: center;">20/11/2023</td>
+<td style="text-align: center;">1.5</td>
+<td>Definição de padrões de codificação para atender à Definition of Done.</td>
+<td>Vinicius</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/mdsreq-fga-unb/2023.2-AngelaCabeleireira/tree/main" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tooltips", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.suggest", "toc.integrate"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>

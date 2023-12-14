@@ -1,0 +1,1022 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto AngelaCabeleireira, por estudantes da disciplina Requisitos de Software, Engenharia de Software, UnB.">
+      
+      
+        <meta name="author" content="PentagonoCabeludo">
+      
+      
+      
+        <link rel="prev" href="../VisaoProdutoEProjeto/visaoProjeto/">
+      
+      
+        <link rel="next" href="../VisaoProdutoEProjeto/backlog/">
+      
+      
+      <link rel="icon" href="../img/icon.svg">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Processo de Desenvolvimento de Software - AngelaCabeleireira</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#processo-de-desenvolvimento-de-software" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="AngelaCabeleireira" class="md-header__button md-logo" aria-label="AngelaCabeleireira" data-md-component="logo">
+      
+  <img src="../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AngelaCabeleireira
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Processo de Desenvolvimento de Software
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="red"  aria-label="Modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2c-1.05 0-2.05.16-3 .46 4.06 1.27 7 5.04 7 9.54 0 4.5-2.94 8.27-7 9.54.95.3 1.95.46 3 .46a10 10 0 0 0 10-10A10 10 0 0 0 9 2Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mdsreq-fga-unb/2023.2-AngelaCabeleireira/tree/main" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AngelaCabeleireira
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Sobre
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../VisaoProdutoEProjeto/visaoProduto/" class="md-tabs__link">
+        
+  
+    
+  
+  Visão do Produto
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../VisaoProdutoEProjeto/visaoProjeto/" class="md-tabs__link">
+        
+  
+    
+  
+  Visão do Projeto
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Processo de Desenvolvimento de Software
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../VisaoProdutoEProjeto/backlog/" class="md-tabs__link">
+        
+  
+    
+  
+  Backlog do Produto
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../VisaoProdutoEProjeto/dordod/" class="md-tabs__link">
+        
+  
+    
+  
+  DoR e DoD
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Relatorios/relatorios/" class="md-tabs__link">
+          
+  
+  Documentos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../LicoesAprendidas/" class="md-tabs__link">
+        
+  
+    
+  
+  Lições Aprendidas
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Entregas/unidade01/" class="md-tabs__link">
+          
+  
+  Entregas
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="AngelaCabeleireira" class="md-nav__button md-logo" aria-label="AngelaCabeleireira" data-md-component="logo">
+      
+  <img src="../img/logo.png" alt="logo">
+
+    </a>
+    AngelaCabeleireira
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mdsreq-fga-unb/2023.2-AngelaCabeleireira/tree/main" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AngelaCabeleireira
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../VisaoProdutoEProjeto/visaoProduto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../VisaoProdutoEProjeto/visaoProjeto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão do Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Processo de Desenvolvimento de Software
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Processo de Desenvolvimento de Software
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#analise-pelo-framework-de-gupta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Análise pelo Framework de Gupta
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fluxo de trabalho
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#facetas-do-processo-de-er" class="md-nav__link">
+    <span class="md-ellipsis">
+      Facetas do Processo de ER
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-revisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Revisão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../VisaoProdutoEProjeto/backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../VisaoProdutoEProjeto/dordod/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DoR e DoD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Documentos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Relatorios/relatorios/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relatórios
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Relatorios/identidadeVisual/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Identidade Visual
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LicoesAprendidas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lições Aprendidas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Entregas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Entregas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entregas/unidade01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unidade 01
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entregas/unidade02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unidade 02
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entregas/unidade03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unidade 03
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entregas/unidade04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unidade 04
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="processo-de-desenvolvimento-de-software">Processo de Desenvolvimento de Software</h1>
+<p>Após análise em equipe, guiados pelo Framework de Gupta, escolhemos, à priori: </br>
+Abordagem de desenvolvimento <strong>Ágil</strong>. </br>
+Ciclo de Vida <strong>Iterativo e Incremental</strong>. </br>
+Utilizaremos o <strong>RAD</strong> como framework de gerenciamento de projeto, juntamente aos seguintes artefatos do <strong>Scrum</strong>: <strong>Organização do time, Sprints e Backlog da Sprint</strong>. </br> </p>
+<p><img alt="SCRAD" src="../img/SCRAD.png" /></p>
+<h2 id="analise-pelo-framework-de-gupta">Análise pelo Framework de Gupta</h2>
+<p><img alt="gupta1" src="../img/gupta1.png" />
+<img alt="gupta2" src="../img/gupta2.png" /></p>
+<p>A partir dos pontos marcados:</p>
+<ul>
+    <li> RAD – 12 </li>
+    <li> Evolutivo – 8 </li>
+    <li> Iterativo – 9 </li>
+    <li> Prototype – 9 </li>
+    <li> Waterfall – 9 </li>
+    <li> Spiral – 8 </li>
+</ul>
+
+<h2 id="fluxo-de-trabalho">Fluxo de trabalho</h2>
+<p>Neste processo, as ferramentas de comunicação serão o Discord e o Whatsapp para reuniões e mensagens rápidas e e-mail para mensagens mais formais, por exemplo, com o professor responsável pela matéria de requisitos de software.
+O ambiente de programação é à preferência do desenvolvedor, portanto que apsse nos testes de forma autêntica e legítima.
+Outras ferramentas a serem utilizadas podem incluir o diagrams.net para o desenvolvimento de diagramas, o GitHub para atividades de desenvolvimento e o Codepen, para o desenvolvimento Web.</p>
+<body>
+<div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2023-09-28T00:33:41.784Z\&quot; agent=\&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0\&quot; etag=\&quot;JOF102O3eVPEdqt5rvpz\&quot; version=\&quot;21.8.2\&quot; type=\&quot;device\&quot;&gt;&lt;diagram name=\&quot;Página-1\&quot; id=\&quot;iyDe8_bb17neBRKtMWpz\&quot;&gt;&lt;mxGraphModel dx=\&quot;2786\&quot; dy=\&quot;1608\&quot; grid=\&quot;1\&quot; gridSize=\&quot;10\&quot; guides=\&quot;1\&quot; tooltips=\&quot;1\&quot; connect=\&quot;1\&quot; arrows=\&quot;1\&quot; fold=\&quot;1\&quot; page=\&quot;1\&quot; pageScale=\&quot;1\&quot; pageWidth=\&quot;1600\&quot; pageHeight=\&quot;1400\&quot; math=\&quot;0\&quot; shadow=\&quot;0\&quot;&gt;&lt;root&gt;&lt;mxCell id=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;1\&quot; parent=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-77\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; parent=\&quot;1\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;361\&quot; y=\&quot;415\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-71\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; parent=\&quot;1\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;241\&quot; y=\&quot;415\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-78\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; parent=\&quot;1\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;561\&quot; y=\&quot;415\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-79\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;\&quot; parent=\&quot;1\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;140\&quot; y=\&quot;470\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-81\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;\&quot; parent=\&quot;1\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;301\&quot; y=\&quot;440\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-83\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;\&quot; parent=\&quot;1\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;461\&quot; y=\&quot;440\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-85\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;\&quot; parent=\&quot;1\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;621\&quot; y=\&quot;440\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-101\&quot; value=\&quot;INICIAÇÃO\&quot; style=\&quot;swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;115\&quot; width=\&quot;720\&quot; height=\&quot;440\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; value=\&quot;Atividades de requisitos\&quot; style=\&quot;swimlane;startSize=20;html=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-101\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry y=\&quot;20\&quot; width=\&quot;360\&quot; height=\&quot;420\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-135\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-116\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-123\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-116\&quot; value=\&quot;Elicitação e descoberta\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;200\&quot; y=\&quot;60\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-136\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-123\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-124\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-123\&quot; value=\&quot;Análise e consenso\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;200\&quot; y=\&quot;160\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-137\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-124\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-125\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-124\&quot; value=\&quot;Verificação e validação\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;200\&quot; y=\&quot;260\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-125\&quot; value=\&quot;Declaração\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;200\&quot; y=\&quot;340\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-143\&quot; value=\&quot;Geração do Backlog de produto\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;39.999999999999545\&quot; y=\&quot;340\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-148\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-125\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-143\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-142\&quot; value=\&quot;Revisão do problema\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;39.999999999999545\&quot; y=\&quot;260\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-147\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-124\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-142\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-141\&quot; value=\&quot;Identificação de problemas\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;39.999999999999545\&quot; y=\&quot;190\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-146\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-123\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-141\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-140\&quot; value=\&quot;Comunicação oral&amp;lt;br&amp;gt;entre as partes\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;39.999999999999545\&quot; y=\&quot;130\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-145\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-123\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-140\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-139\&quot; value=\&quot;Entrevista\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;39.999999999999545\&quot; y=\&quot;60\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-144\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-104\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-116\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-139\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; value=\&quot;Processo\&quot; style=\&quot;swimlane;startSize=20;html=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-101\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;360\&quot; y=\&quot;20\&quot; width=\&quot;360\&quot; height=\&quot;420\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-68\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-117\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-112\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-117\&quot; value=\&quot;Identificação do problema\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;200\&quot; y=\&quot;60\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-72\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-112\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-71\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-112\&quot; value=\&quot;Definição da solução\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;200\&quot; y=\&quot;140\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-118\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-113\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-117\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-113\&quot; value=\&quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Product Owner\&quot; style=\&quot;shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;75\&quot; y=\&quot;45\&quot; width=\&quot;50\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-114\&quot; value=\&quot;Reunião com o cliente\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;220\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-83\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-115\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-149\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-115\&quot; value=\&quot;Backlog do produto\&quot; style=\&quot;whiteSpace=wrap;html=1;shape=mxgraph.basic.document\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;67.37\&quot; y=\&quot;307.5\&quot; width=\&quot;65.25\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-73\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-71\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-114\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-71\&quot; value=\&quot;Definição do produto\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;140\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-78\&quot; value=\&quot;&amp;lt;br&amp;gt;Cliente\&quot; style=\&quot;shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;\&quot; vertex=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot;&gt;&lt;mxGeometry x=\&quot;235\&quot; y=\&quot;205\&quot; width=\&quot;50\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-79\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-114\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-78\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-80\&quot; value=\&quot;Validação\&quot; style=\&quot;edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\&quot; vertex=\&quot;1\&quot; connectable=\&quot;0\&quot; parent=\&quot;ZM4Gqm6ygzUISWmwPOkk-79\&quot;&gt;&lt;mxGeometry x=\&quot;-0.2368\&quot; y=\&quot;3\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;5\&quot; y=\&quot;3\&quot; as=\&quot;offset\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-149\&quot; value=\&quot;Fim da iniciação\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;222.5\&quot; y=\&quot;305\&quot; width=\&quot;75\&quot; height=\&quot;75\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-84\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-114\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-115\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-235\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-152\&quot; target=\&quot;VbnypxqdxSzLKb9kgyLd-1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;Array as=\&quot;points\&quot;&gt;&lt;mxPoint x=\&quot;1200\&quot; y=\&quot;675\&quot;/&gt;&lt;mxPoint x=\&quot;400\&quot; y=\&quot;675\&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-152\&quot; value=\&quot;PLANEJAMENTO\&quot; style=\&quot;swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;840\&quot; y=\&quot;45\&quot; width=\&quot;720\&quot; height=\&quot;580\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; value=\&quot;Atividades de requisitos\&quot; style=\&quot;swimlane;startSize=20;html=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-152\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry y=\&quot;20\&quot; width=\&quot;360\&quot; height=\&quot;560\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-49\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; source=\&quot;VbnypxqdxSzLKb9kgyLd-47\&quot; target=\&quot;VbnypxqdxSzLKb9kgyLd-48\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-47\&quot; value=\&quot;Revisão do Backlog de produto\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;29.98\&quot; y=\&quot;100\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-55\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; source=\&quot;VbnypxqdxSzLKb9kgyLd-48\&quot; target=\&quot;VbnypxqdxSzLKb9kgyLd-54\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-48\&quot; value=\&quot;Organização e atualização\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;189.98000000000044\&quot; y=\&quot;100\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-53\&quot; value=\&quot;Geração do Backlog da Sprint\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;29.98\&quot; y=\&quot;180\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-59\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; source=\&quot;VbnypxqdxSzLKb9kgyLd-54\&quot; target=\&quot;VbnypxqdxSzLKb9kgyLd-57\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-54\&quot; value=\&quot;Declaração\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;189.98000000000044\&quot; y=\&quot;180\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-52\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; source=\&quot;VbnypxqdxSzLKb9kgyLd-53\&quot; target=\&quot;VbnypxqdxSzLKb9kgyLd-54\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-56\&quot; value=\&quot;Criação do protótipo\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;29.98\&quot; y=\&quot;260\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-144\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; source=\&quot;VbnypxqdxSzLKb9kgyLd-57\&quot; target=\&quot;VbnypxqdxSzLKb9kgyLd-68\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-57\&quot; value=\&quot;Representação\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;189.98000000000044\&quot; y=\&quot;260\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-58\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; source=\&quot;VbnypxqdxSzLKb9kgyLd-56\&quot; target=\&quot;VbnypxqdxSzLKb9kgyLd-57\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-67\&quot; value=\&quot;Feedback do cliente\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;29.98\&quot; y=\&quot;340\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-228\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; source=\&quot;VbnypxqdxSzLKb9kgyLd-68\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-145\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-68\&quot; value=\&quot;Análise e consenso\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;189.98000000000044\&quot; y=\&quot;340\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-71\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; source=\&quot;VbnypxqdxSzLKb9kgyLd-68\&quot; target=\&quot;VbnypxqdxSzLKb9kgyLd-67\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-229\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-145\&quot; target=\&quot;VbnypxqdxSzLKb9kgyLd-48\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;Array as=\&quot;points\&quot;&gt;&lt;mxPoint x=\&quot;329.98\&quot; y=\&quot;440\&quot;/&gt;&lt;mxPoint x=\&quot;329.98\&quot; y=\&quot;80\&quot;/&gt;&lt;mxPoint x=\&quot;249.98\&quot; y=\&quot;80\&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-145\&quot; value=\&quot;Elicitação e descoberta\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot;&gt;&lt;mxGeometry x=\&quot;189.98000000000044\&quot; y=\&quot;420\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-146\&quot; value=\&quot;Feedback negativo do cliente\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; vertex=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot;&gt;&lt;mxGeometry x=\&quot;29.98\&quot; y=\&quot;420\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-147\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-145\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-146\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot; value=\&quot;Processo\&quot; style=\&quot;swimlane;startSize=20;html=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-152\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;360\&quot; y=\&quot;20\&quot; width=\&quot;360\&quot; height=\&quot;560\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-86\&quot; value=\&quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Product Owner\&quot; style=\&quot;shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;\&quot; vertex=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot;&gt;&lt;mxGeometry x=\&quot;70\&quot; y=\&quot;40\&quot; width=\&quot;50\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-85\&quot; value=\&quot;Revisão do Backlog de produto\&quot; style=\&quot;whiteSpace=wrap;html=1;shape=mxgraph.basic.document\&quot; vertex=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot;&gt;&lt;mxGeometry x=\&quot;230\&quot; y=\&quot;40\&quot; width=\&quot;70\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-87\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-86\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-85\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-91\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-88\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-89\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-88\&quot; value=\&quot;Backlog da Sprint\&quot; style=\&quot;whiteSpace=wrap;html=1;shape=mxgraph.basic.document\&quot; vertex=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot;&gt;&lt;mxGeometry x=\&quot;230\&quot; y=\&quot;150\&quot; width=\&quot;70\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-93\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-89\&quot; target=\&quot;VbnypxqdxSzLKb9kgyLd-18\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-89\&quot; value=\&quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Devs\&quot; style=\&quot;shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;\&quot; vertex=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot;&gt;&lt;mxGeometry x=\&quot;240\&quot; y=\&quot;260\&quot; width=\&quot;50\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-18\&quot; value=\&quot;Prototipação\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;205\&quot; y=\&quot;365\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-94\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-86\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-88\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-97\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-95\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-86\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-98\&quot; value=\&quot;Não aprovação\&quot; style=\&quot;edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\&quot; vertex=\&quot;1\&quot; connectable=\&quot;0\&quot; parent=\&quot;ZM4Gqm6ygzUISWmwPOkk-97\&quot;&gt;&lt;mxGeometry x=\&quot;0.2345\&quot; y=\&quot;-2\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;-2\&quot; y=\&quot;18\&quot; as=\&quot;offset\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-102\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-95\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-99\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;Array as=\&quot;points\&quot;&gt;&lt;mxPoint x=\&quot;95\&quot; y=\&quot;490\&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-103\&quot; value=\&quot;Aprovação\&quot; style=\&quot;edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\&quot; vertex=\&quot;1\&quot; connectable=\&quot;0\&quot; parent=\&quot;ZM4Gqm6ygzUISWmwPOkk-102\&quot;&gt;&lt;mxGeometry x=\&quot;0.0641\&quot; y=\&quot;1\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;14\&quot; y=\&quot;1\&quot; as=\&quot;offset\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-95\&quot; value=\&quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Cliente\&quot; style=\&quot;shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;\&quot; vertex=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot;&gt;&lt;mxGeometry x=\&quot;70\&quot; y=\&quot;350\&quot; width=\&quot;50\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-96\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.9;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot; source=\&quot;VbnypxqdxSzLKb9kgyLd-18\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-95\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-99\&quot; value=\&quot;Fim do planejamento\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;\&quot; vertex=\&quot;1\&quot; parent=\&quot;d5KTNiEJihlgiSSUe4ih-169\&quot;&gt;&lt;mxGeometry x=\&quot;225\&quot; y=\&quot;450\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-1\&quot; value=\&quot;EXECUÇÃO\&quot; style=\&quot;swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;735\&quot; width=\&quot;720\&quot; height=\&quot;620\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot; value=\&quot;Atividades de requisitos\&quot; style=\&quot;swimlane;startSize=20;html=1;\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-1\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry y=\&quot;20\&quot; width=\&quot;360\&quot; height=\&quot;600\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-131\&quot; value=\&quot;Resultado da Sprint\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;201.25\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-227\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-133\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-140\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-133\&quot; value=\&quot;Representação\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot;&gt;&lt;mxGeometry x=\&quot;200.00000000000045\&quot; y=\&quot;201.25\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-134\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-131\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-133\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-139\&quot; value=\&quot;Feedback do cliente\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;276.25\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-232\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-140\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-231\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-140\&quot; value=\&quot;Análise e consenso\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot;&gt;&lt;mxGeometry x=\&quot;200.00000000000045\&quot; y=\&quot;276.25\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-141\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-140\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-139\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-231\&quot; value=\&quot;Organização e atualização\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot;&gt;&lt;mxGeometry x=\&quot;200.00000000000045\&quot; y=\&quot;358.75\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-234\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-233\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-231\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-233\&quot; value=\&quot;Revisão da sprint\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-2\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;358.75\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; value=\&quot;Processo\&quot; style=\&quot;swimlane;startSize=20;html=1;\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-1\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;360\&quot; y=\&quot;20\&quot; width=\&quot;360\&quot; height=\&quot;600\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-109\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-4\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-12\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-4\&quot; value=\&quot;Atividades da Sprint\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot;&gt;&lt;mxGeometry x=\&quot;200\&quot; y=\&quot;147.5\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-112\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-12\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-14\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-12\&quot; value=\&quot;Desenvolvimento\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;147.5\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-115\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-14\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-18\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-14\&quot; value=\&quot;Teste\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;237.5\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-119\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-18\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-118\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-18\&quot; value=\&quot;Produto da Sprint\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;327.5\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-110\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-104\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-12\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-111\&quot; value=\&quot;Suporte\&quot; style=\&quot;edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\&quot; vertex=\&quot;1\&quot; connectable=\&quot;0\&quot; parent=\&quot;ZM4Gqm6ygzUISWmwPOkk-110\&quot;&gt;&lt;mxGeometry x=\&quot;-0.3\&quot; y=\&quot;-2\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;3\&quot; y=\&quot;4\&quot; as=\&quot;offset\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-104\&quot; value=\&quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Scrum Master\&quot; style=\&quot;shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot;&gt;&lt;mxGeometry x=\&quot;75\&quot; y=\&quot;27.5\&quot; width=\&quot;50\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-108\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-105\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-4\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-105\&quot; value=\&quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Devs\&quot; style=\&quot;shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot;&gt;&lt;mxGeometry x=\&quot;235\&quot; y=\&quot;27.5\&quot; width=\&quot;50\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-106\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 4;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-104\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-105\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-107\&quot; value=\&quot;Suporte\&quot; style=\&quot;edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\&quot; vertex=\&quot;1\&quot; connectable=\&quot;0\&quot; parent=\&quot;ZM4Gqm6ygzUISWmwPOkk-106\&quot;&gt;&lt;mxGeometry x=\&quot;-0.1893\&quot; y=\&quot;-1\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;9\&quot; y=\&quot;-1\&quot; as=\&quot;offset\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-116\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-113\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-18\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;Array as=\&quot;points\&quot;&gt;&lt;mxPoint x=\&quot;260\&quot; y=\&quot;347.5\&quot;/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-117\&quot; value=\&quot;Feedback\&quot; style=\&quot;edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\&quot; vertex=\&quot;1\&quot; connectable=\&quot;0\&quot; parent=\&quot;ZM4Gqm6ygzUISWmwPOkk-116\&quot;&gt;&lt;mxGeometry x=\&quot;0.271\&quot; y=\&quot;-2\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint y=\&quot;1\&quot; as=\&quot;offset\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-113\&quot; value=\&quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Cliente\&quot; style=\&quot;shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot;&gt;&lt;mxGeometry x=\&quot;235\&quot; y=\&quot;222.5\&quot; width=\&quot;50\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-122\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-118\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-121\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-118\&quot; value=\&quot;Implementação\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;417.5\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-143\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-121\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-142\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-121\&quot; value=\&quot;Revisão da Sprint\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot;&gt;&lt;mxGeometry x=\&quot;200\&quot; y=\&quot;417.5\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-142\&quot; value=\&quot;Fim da Sprint\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot;&gt;&lt;mxGeometry x=\&quot;140\&quot; y=\&quot;492.5\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-7\&quot; value=\&quot;Finalização\&quot; style=\&quot;swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;840.0000000000005\&quot; y=\&quot;750\&quot; width=\&quot;720\&quot; height=\&quot;590\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot; value=\&quot;Atividades de requisitos\&quot; style=\&quot;swimlane;startSize=20;html=1;\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-7\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry y=\&quot;20\&quot; width=\&quot;360\&quot; height=\&quot;570\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-213\&quot; value=\&quot;Apresentação do sistema\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot;&gt;&lt;mxGeometry x=\&quot;39.999999999999545\&quot; y=\&quot;185\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-215\&quot; value=\&quot;Representação\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot;&gt;&lt;mxGeometry x=\&quot;200\&quot; y=\&quot;185\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-216\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-213\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-215\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-217\&quot; value=\&quot;Feedback do cliente\&quot; style=\&quot;verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;labelPosition=center;align=center;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot;&gt;&lt;mxGeometry x=\&quot;39.999999999999545\&quot; y=\&quot;305\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-219\&quot; value=\&quot;Análise e consenso\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot;&gt;&lt;mxGeometry x=\&quot;200\&quot; y=\&quot;265\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-214\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-215\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-219\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-220\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-217\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-219\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-222\&quot; value=\&quot;Organização e atualização\&quot; style=\&quot;shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot;&gt;&lt;mxGeometry x=\&quot;200\&quot; y=\&quot;345\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-218\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-219\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-222\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-230\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-222\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-217\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot; value=\&quot;Processo\&quot; style=\&quot;swimlane;startSize=20;html=1;\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-7\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;360\&quot; y=\&quot;20\&quot; width=\&quot;360\&quot; height=\&quot;570\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-195\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-150\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-159\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-196\&quot; value=\&quot;Necessidade de&amp;lt;br&amp;gt;ajustes\&quot; style=\&quot;edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\&quot; vertex=\&quot;1\&quot; connectable=\&quot;0\&quot; parent=\&quot;ZM4Gqm6ygzUISWmwPOkk-195\&quot;&gt;&lt;mxGeometry x=\&quot;-0.1879\&quot; y=\&quot;1\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint as=\&quot;offset\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-150\&quot; value=\&quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Product&amp;lt;br&amp;gt;Owner\&quot; style=\&quot;shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot;&gt;&lt;mxGeometry x=\&quot;72.5\&quot; y=\&quot;42.5\&quot; width=\&quot;50\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-198\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-159\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-181\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-159\&quot; value=\&quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Devs\&quot; style=\&quot;shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot;&gt;&lt;mxGeometry x=\&quot;72.5\&quot; y=\&quot;187.5\&quot; width=\&quot;50\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-199\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-181\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-197\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-181\&quot; value=\&quot;Ajustes finais\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot;&gt;&lt;mxGeometry x=\&quot;37.499999999999545\&quot; y=\&quot;297.5\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-192\&quot; value=\&quot;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Cliente\&quot; style=\&quot;shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot;&gt;&lt;mxGeometry x=\&quot;237.49999999999955\&quot; y=\&quot;42.5\&quot; width=\&quot;50\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-193\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-150\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-192\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-194\&quot; value=\&quot;Validação&amp;lt;br&amp;gt;do sistema\&quot; style=\&quot;edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\&quot; vertex=\&quot;1\&quot; connectable=\&quot;0\&quot; parent=\&quot;ZM4Gqm6ygzUISWmwPOkk-193\&quot;&gt;&lt;mxGeometry x=\&quot;-0.1008\&quot; y=\&quot;1\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;3\&quot; y=\&quot;2\&quot; as=\&quot;offset\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-202\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-197\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-200\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-197\&quot; value=\&quot;Teste\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot;&gt;&lt;mxGeometry x=\&quot;37.499999999999545\&quot; y=\&quot;377.5\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-201\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-200\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-192\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-207\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-200\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-204\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-200\&quot; value=\&quot;Sistema ajustado\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot;&gt;&lt;mxGeometry x=\&quot;202.49999999999955\&quot; y=\&quot;377.5\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-205\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot; source=\&quot;ZM4Gqm6ygzUISWmwPOkk-204\&quot; target=\&quot;ZM4Gqm6ygzUISWmwPOkk-184\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-204\&quot; value=\&quot;Sistema aprovado\&quot; style=\&quot;whiteSpace=wrap;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot;&gt;&lt;mxGeometry x=\&quot;202.49999999999955\&quot; y=\&quot;467.5\&quot; width=\&quot;120\&quot; height=\&quot;40\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-184\&quot; value=\&quot;Fim do projeto\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;\&quot; vertex=\&quot;1\&quot; parent=\&quot;VbnypxqdxSzLKb9kgyLd-9\&quot;&gt;&lt;mxGeometry x=\&quot;57.499999999999545\&quot; y=\&quot;447.5\&quot; width=\&quot;80\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-66\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;d5KTNiEJihlgiSSUe4ih-102\&quot; target=\&quot;d5KTNiEJihlgiSSUe4ih-153\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;ZM4Gqm6ygzUISWmwPOkk-148\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;VbnypxqdxSzLKb9kgyLd-3\&quot; target=\&quot;VbnypxqdxSzLKb9kgyLd-8\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;&lt;/diagram&gt;&lt;/mxfile&gt;&quot;,&quot;toolbar&quot;:&quot;pages zoom layers lightbox&quot;,&quot;page&quot;:0}"></div>
+<script type="text/javascript" src="https://app.diagrams.net/js/viewer-static.min.js"></script>
+</body>
+
+<h2 id="facetas-do-processo-de-er">Facetas do Processo de ER</h2>
+<p>Identificamos nosso processo de Engenharia de Requisitos como pertencente ao campo <strong>Processo Participativo</strong>.
+O modelo Participativo é ideal para:</p>
+<ul>
+    <li> Quando o Cliente e o Fornecedor colaboram estreitamente, forte envolvimento das partes envolvidas; </li>
+    <li> Backlog do produto com histórias de usuário e protótipos; </li>
+    <li> Interação contínua entre as partes. </li>
+</ul>
+
+<p><img alt="FacetasProcessoER" src="../img/FacetasProcessoER.png" /></p>
+<h2 id="historico-de-revisao">Histórico de Revisão</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">17/09/2023</td>
+<td style="text-align: center;">1.0</td>
+<td>Definição da Abordagem, do Ciclo de Vida e do Processo a ser utilizado. Documentação no pages.</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td style="text-align: center;">27/09/2023</td>
+<td style="text-align: center;">1.1</td>
+<td>Atualização da faceta do processo de engenharia de requisitos e adição do fluxo de trabalho do processo de desenvolvimento.</td>
+<td>Guilherme de Sá</td>
+</tr>
+<tr>
+<td style="text-align: center;">22/10/2023</td>
+<td style="text-align: center;">1.2</td>
+<td>Atualização da imagem do modelo do processo.</td>
+<td>Guilherme de Sá</td>
+</tr>
+<tr>
+<td style="text-align: center;">13/12/2023</td>
+<td style="text-align: center;">1.3</td>
+<td>Centralizando as imagens</td>
+<td>Guilherme de Sá</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/mdsreq-fga-unb/2023.2-AngelaCabeleireira/tree/main" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.tooltips", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.suggest", "toc.integrate"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
