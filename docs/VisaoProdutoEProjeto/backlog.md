@@ -663,7 +663,7 @@ O mesmo método será aplicado para cada US: </br>
 
 ### Critérios de Aceitação do MVP2
 
-<table style="border-collapse:collapse;border-spacing:0" class="tg">
+<table border=1 style="border-collapse:collapse;border-spacing:0;margin:0px auto>
     <thead>
         <tr>
             <th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:16px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" colspan="2">MVP2 </th>
