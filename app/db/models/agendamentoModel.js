@@ -14,12 +14,13 @@ export async function criarAgendamento(dadosAgendamento) {
 }
 
 //ENCONTRAR UM
-export async function findAgendamento(numero) {
+export async function findAgendamento(data) {
   const db = await connectToDatabase(process.env.MONGODB_URI)
   const collection = db.db('SalaoAngela').collection('Agendamentos')
 
   try {
-    const result = await collection.findOne({ celular: numero })
+    const filter = { data: data };
+    const result = await collection.find(filter).toArray();
     return result
   } catch (error) {
     throw new Error(error.message)
@@ -27,7 +28,7 @@ export async function findAgendamento(numero) {
 }
 
 //ENCONTRAR TODOS
-export async function indisponivel(data) {
+export async function encontrarTodos(data) {
   const db = await connectToDatabase(process.env.MONGODB_URI)
   const collection = db.db('SalaoAngela').collection('Agendamentos')
 

@@ -1,4 +1,4 @@
-import indisponiveis from './client/findUnavailable.js'
+// import indisponiveis from './client/encontrarTodos.js'
 import { criarAgendamento } from './client/agendar.js'
 
 let today = new Date();
@@ -18,6 +18,7 @@ showCalendar(currentMonth, currentYear);
 showService();
 showTimeBox();
 var cellSelected, serviceSelected, daySelected, monthSelected, yearSelected, timeSelected=0, date;
+
 
 function next() {
     if (currentYear === 2024 && currentMonth === 11) return;
@@ -47,13 +48,16 @@ function clickDay(evt) {
     cellSelected = evt.currentTarget;
     cellSelected.classList.add("selected")
     // toggleHideTime();
-    let dt = new Date(currentYear, currentMonth, daySelected)
-    date = dt.toLocaleDateString("pt-BR", {
-        year:"numeric",
-        month:"2-digit",
-        day: "2-digit", 
-    })
-    console.log(date)
+    // let dt = new Date(currentYear, currentMonth, daySelected)
+    // date = dt.toLocaleDateString("pt-BR", {
+    //     year:"numeric",
+    //     month:"2-digit",
+    //     day: "2-digit", 
+    // })
+    //console.log(date)
+    // var agendamento = { servico: serviceSelected.innerText,
+    //     data: date }
+    // console.log(indisponiveis(agendamento))
 }
 
 function showCalendar(month, year) {
@@ -115,7 +119,6 @@ function showCalendar(month, year) {
                 row.appendChild(cell);
                 date++;
             }
-
 
         }
 
